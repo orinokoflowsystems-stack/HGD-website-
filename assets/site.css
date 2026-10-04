@@ -30,7 +30,7 @@ p{margin:0 0 1em;max-width:68ch}
 .brand:hover{color:#fff}
 .brand svg{width:40px;height:40px;flex:none}
 .brand b{display:block;font-variation-settings:var(--wide);font-weight:800;font-size:1.05rem;line-height:1.05;letter-spacing:.005em}
-.brand small{display:block;color:var(--gold);font-size:.78rem;font-variation-settings:var(--cond);letter-spacing:.02em}
+.brand small{display:block;color:var(--gold);font-size:.78rem;line-height:1.25;margin-top:.15rem;font-variation-settings:var(--cond);letter-spacing:.02em}
 .nav{display:flex;gap:1.35rem;align-items:center}
 .nav a{color:#DDE6EF;text-decoration:none;font-size:.97rem}
 .nav a:hover,.nav a[aria-current]{color:var(--gold)}
