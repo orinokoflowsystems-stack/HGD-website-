@@ -1,0 +1,1460 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Glass Partition Designer | Handy Glass &amp; Door</title>
+<meta name="description" content="Design an office or interior glass partition on a photo of your space and get an estimated price. Handy Glass &amp; Door, Central Florida.">
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://hgdslidingdoor-repair.com/office-glass-partitions">
+<meta name="theme-color" content="#0A1F37">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<script>
+(function(){var q=new URLSearchParams(location.search);if(q.get("embed")==="1"||window.top!==window)document.documentElement.classList.add("embedded");
+var l=q.get("lang");if(l==="es"||l==="en"){try{localStorage.setItem("hgd-gp-lang",l)}catch(e){}}})();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* HGD website copy of the Glass Partitions app (public, no Claude runtime). */
+/* Layout: drafting-table app — elevation drawing on top, spec sheet beside/below, four tabs (Designs · My space · Configurator · Quote), ES/EN toggle */
+:root{
+  --bg:#F4F7FA; --paper:#FFFFFF; --ink:#16232F; --muted:#546576; --line:#D8E1E8;
+  --accent:#0F2B4C; --accent-ink:#FFFFFF; --accent-soft:#F3E7C9; --wall:#E4EDF3; --dim:#24466D; --gold:#C99A3B;
+  --display:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --body:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--body);padding-inline:16px;padding-block:20px 48px}
+.wrap{max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px}
+.brand small{display:block;font:500 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+h1{font:700 clamp(28px,6vw,40px)/1.05 var(--display);margin:0;letter-spacing:-.01em;text-wrap:balance}
+h2{font:600 20px/1.2 var(--display);margin:0;text-wrap:balance}
+h3{font:600 16px/1.25 var(--display);margin:0}
+.tabs{display:flex;gap:4px;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:4px}
+.tabs button{flex:1;border:0;background:transparent;color:var(--muted);font:600 14px var(--body);padding:9px 14px;border-radius:7px;cursor:pointer;white-space:nowrap}
+.tabs button[aria-selected="true"]{background:var(--accent);color:var(--accent-ink)}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.lede{color:var(--muted);max-width:62ch;margin:0}
+/* gallery */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.card .thumb{background:var(--wall);border-bottom:1px solid var(--line)}
+.card .thumb svg{display:block;width:100%;height:auto}
+.card .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.space{font:500 11px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:500 12px/1 var(--body);padding:5px 8px;border-radius:999px;background:var(--accent-soft);color:var(--ink)}
+.card .foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:auto;padding-top:6px}
+.from{font:500 13px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.btn{border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);font:600 14px var(--body);padding:9px 14px;border-radius:8px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+/* configurator */
+.config{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:820px){.config{grid-template-columns:1fr}}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.drawing{background:var(--wall);border-radius:8px;overflow-x:auto}
+.drawing svg{display:block;width:100%;min-width:320px;height:auto}
+.legend{font:400 12px var(--mono);color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+fieldset{border:0;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+legend,label.lab{font:500 11px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:0;margin-bottom:2px}
+.opts{display:flex;flex-wrap:wrap;gap:6px}
+.opts input{position:absolute;opacity:0;pointer-events:none}
+.opts label{border:1px solid var(--line);border-radius:8px;padding:7px 11px;font-size:14px;cursor:pointer;background:var(--paper)}
+.opts input:checked+label{border-color:var(--accent);background:var(--accent-soft);font-weight:600}
+.opts input:focus-visible+label{outline:2px solid var(--accent);outline-offset:2px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.num{display:flex;flex-direction:column;gap:6px}
+input[type=number],input[type=text],input[type=tel],input[type=email],select,textarea{width:100%;font:15px var(--body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 10px}
+input[type=number]{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.toggle{display:flex;align-items:center;gap:10px;font-size:14px;cursor:pointer}
+.toggle input{width:18px;height:18px;accent-color:var(--accent)}
+.spec{width:100%;border-collapse:collapse;font-size:14px}
+.spec td{padding:7px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.spec td:last-child{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.price{display:flex;flex-direction:column;gap:4px;padding-top:4px}
+.price .big{font:700 28px/1.1 var(--display);font-variant-numeric:tabular-nums}
+.price small{color:var(--muted);font-size:12px}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+/* quote */
+.quote{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:820px){.quote{grid-template-columns:1fr}}
+form{display:flex;flex-direction:column;gap:12px}
+.field{display:flex;flex-direction:column;gap:6px}
+pre.summary{white-space:pre-wrap;font:13px/1.55 var(--mono);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px;margin:0;overflow-x:auto}
+.contact{font:500 15px var(--mono);user-select:all}
+.note{font-size:13px;color:var(--muted);margin:0}
+.toast{font-size:13px;color:var(--accent);min-height:1.2em;margin:0}
+.err{color:#b3261e;font-size:13px;margin:0}
+.tabs{overflow-x:auto;max-width:100%}
+.stage{position:relative;background:var(--wall);border-radius:8px;min-height:240px;overflow:hidden;touch-action:none}
+.stage img{display:block;width:100%;height:auto}
+.stage .empty{position:absolute;inset:0;display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:center;text-align:center;padding:24px;color:var(--muted);font-size:14px}
+.stage .empty strong{color:var(--ink);font:600 16px/1.3 var(--display);max-width:30ch}
+.ov{position:absolute;cursor:grab;outline:1.5px dashed rgba(255,255,255,.9);box-shadow:0 0 0 1px rgba(0,0,0,.35)}
+.ov:active{cursor:grabbing}
+.ov svg{display:block;width:100%;height:100%}
+input[type=range]{width:100%;accent-color:var(--accent)}
+label.btn{display:inline-flex;align-items:center}
+.rec{display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--line);padding-top:14px}
+.rec ul{margin:0;padding-left:18px;font-size:14px;color:var(--ink)}
+.docwrap{border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--bg)}
+@media (prefers-reduced-motion:no-preference){.tabs button{transition:background .15s}}
+
+.headr{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:flex-end;min-width:0;max-width:100%}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--paper)}
+.lang button{border:0;background:transparent;color:var(--muted);font:600 12px/1 var(--mono);letter-spacing:.08em;padding:7px 11px;border-radius:999px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.stack{display:flex;flex-direction:column;gap:14px}
+.ov{left:0;top:0;transform-origin:0 0;outline:none;box-shadow:none;cursor:move}
+.ov::after{content:"";position:absolute;inset:0;outline:1.5px dashed rgba(255,255,255,.85)}
+.hdl{position:absolute;width:26px;height:26px;margin:-13px 0 0 -13px;border-radius:50%;border:2px solid #fff;background:var(--accent);box-shadow:0 1px 4px rgba(0,0,0,.45);cursor:grab;padding:0;touch-action:none;z-index:2}
+.hdl:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.stage.has{min-height:0}
+.framectl{display:flex;flex-direction:column;gap:8px}
+.projbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.projbar select,.projbar input{width:auto;min-width:0;flex:1 1 180px;max-width:320px;padding:7px 9px}
+.badge{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:5px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.badge[data-mode="cloud"]{border-color:var(--accent);color:var(--accent)}
+button.badge{background:transparent;cursor:pointer}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.btn.sm{padding:6px 10px;font-size:13px}
+.btn.danger{background:#b3261e;border-color:#b3261e;color:#fff}
+.viewbar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px}
+.viewbar .legend{flex:1 1 auto}
+.seg{display:flex;border:1px solid var(--line);border-radius:8px;padding:3px;gap:2px}
+.seg button{border:0;background:transparent;color:var(--muted);font:600 13px var(--body);padding:6px 10px;border-radius:6px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent-soft);color:var(--ink)}
+#cov{pointer-events:none}
+#cstage{touch-action:auto}
+#cov::after{display:none}
+.segtabs{display:flex;flex-wrap:wrap;gap:6px}
+.segb{display:inline-flex;align-items:baseline;gap:6px;border:1px solid var(--line);background:var(--paper);color:var(--ink);font:600 13px var(--body);padding:7px 11px;border-radius:8px;cursor:pointer}
+.segb small{font:400 11px var(--mono);color:var(--muted)}
+.segb[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.segb.add{border-style:dashed;color:var(--accent)}
+.segb.rm{color:#b3261e;border-color:transparent;background:transparent}
+.ovs{position:absolute;inset:0;pointer-events:none}
+.ov.other{pointer-events:auto;cursor:pointer;opacity:.8}
+#cstage .ov.other{pointer-events:none}
+.ov.other::after{outline:1px dashed rgba(255,255,255,.6)}
+.segtags{position:absolute;inset:0;pointer-events:none;z-index:3}
+.segtag{position:absolute;transform:translate(6px,6px);font:700 12px/1 var(--mono);background:rgba(20,32,31,.75);color:#fff;padding:4px 6px;border-radius:4px}
+.segtag.on{background:var(--accent);color:var(--accent-ink)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.lab{font:500 11px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.tabs button[aria-selected="true"]{box-shadow:inset 0 -3px 0 var(--gold)}
+.embedded body,html.embedded body{padding-block:8px 24px}
+html.embedded header .brand{display:none}
+html.embedded header{justify-content:flex-end}
+#projbar{display:none!important}
+.sendrow{display:flex;flex-wrap:wrap;gap:8px}
+.btn.wa{background:#1F7A4D;border-color:#1F7A4D;color:#fff}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#0A1F37}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <small>Handy Glass &amp; Door · Central Florida</small>
+      <h1>Glass Partitions</h1>
+    </div>
+    <div class="headr">
+      <div class="lang" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <nav class="tabs" role="tablist" data-i18n-aria="tabsAria">
+        <button role="tab" id="t-gal" aria-selected="true" data-tab="gal" data-i18n="tabGal"></button>
+        <button role="tab" id="t-spc" aria-selected="false" data-tab="spc" data-i18n="tabSpc"></button>
+        <button role="tab" id="t-cfg" aria-selected="false" data-tab="cfg" data-i18n="tabCfg"></button>
+        <button role="tab" id="t-quo" aria-selected="false" data-tab="quo" data-i18n="tabQuo"></button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="projbar" id="projbar" hidden>
+    <label class="lab" for="projSel" data-i18n="project"></label>
+    <select id="projSel"></select>
+    <input id="projName" type="text" maxlength="60" hidden data-i18n-aria="rename">
+    <div class="actions" id="projBtns">
+      <button class="btn ghost sm" type="button" id="projRename" data-i18n="rename"></button>
+      <button class="btn ghost sm" type="button" id="projNew" data-i18n="newProject"></button>
+      <button class="btn ghost sm" type="button" id="projDel" data-i18n="delete"></button>
+    </div>
+    <div class="actions" id="projConfirm" hidden>
+      <span class="note" data-i18n="confirmDel"></span>
+      <button class="btn sm danger" type="button" id="projDelYes" data-i18n="yesDelete"></button>
+      <button class="btn ghost sm" type="button" id="projDelNo" data-i18n="cancel"></button>
+    </div>
+    <button type="button" class="badge" id="syncBadge"></button>
+    <span class="note" id="projSaved" aria-live="polite"></span>
+  </div>
+
+  <!-- MY SPACE -->
+  <section id="spc" role="tabpanel" aria-labelledby="t-spc" hidden>
+    <div class="config">
+      <div class="panel">
+        <div class="legend"><span data-i18n="photoLegend"></span><span data-i18n="dragHint"></span></div>
+        <div class="stage" id="stage">
+          <img id="photo" alt="" hidden>
+          <div class="ov" id="ov" hidden></div>
+          <div id="handles" hidden>
+            <button type="button" class="hdl" data-c="0" aria-label="TL"></button>
+            <button type="button" class="hdl" data-c="1" aria-label="TR"></button>
+            <button type="button" class="hdl" data-c="2" aria-label="BL"></button>
+            <button type="button" class="hdl" data-c="3" aria-label="BR"></button>
+          </div>
+          <div class="empty" id="stageEmpty">
+            <strong data-i18n="emptyTitle"></strong>
+            <span data-i18n="emptyBody"></span>
+          </div>
+        </div>
+        <div class="actions">
+          <label class="btn" for="cam" tabindex="0" id="camLbl" data-i18n="takePhoto"></label>
+          <input id="cam" type="file" accept="image/*" capture="environment" hidden>
+          <label class="btn ghost" for="gal-file" tabindex="0" id="galLbl" data-i18n="uploadPhoto"></label>
+          <input id="gal-file" type="file" accept="image/*" hidden>
+        </div>
+        <div id="boxCtl" hidden class="framectl">
+          <div class="segtabs" role="group" data-i18n-aria="sSegs"></div>
+          <p class="note" data-i18n="segHelp"></p>
+          <p class="note" data-i18n="frameHelp"></p>
+          <div class="actions"><button class="btn ghost" id="frameReset" type="button" data-i18n="frameReset"></button></div>
+          <p class="note mono" id="frameInfo"></p>
+        </div>
+      </div>
+
+      <aside class="panel">
+        <h2 data-i18n="bySpaceTitle"></h2>
+        <fieldset><legend data-i18n="spaceType"></legend><div class="opts" id="o-space"></div></fieldset>
+        <fieldset><legend data-i18n="privacy"></legend><div class="opts" id="o-priv"></div></fieldset>
+        <fieldset><legend data-i18n="style"></legend><div class="opts" id="o-style"></div></fieldset>
+        <div class="row2">
+          <div class="num"><label class="lab" for="sw" data-i18n="approxW"></label><input id="sw" type="number" min="6" max="40" step="0.5" data-i18n-ph="auto"></div>
+          <div class="num"><label class="lab" for="sh" data-i18n="approxH"></label><input id="sh" type="number" min="7" max="12" step="0.5" data-i18n-ph="auto"></div>
+        </div>
+        <div class="actions">
+          <button class="btn" id="aiBtn" hidden data-i18n="aiBtn"></button>
+          <button class="btn ghost" id="ruleBtn" data-i18n="ruleBtn"></button>
+          <button class="btn ghost" id="aiStop" hidden data-i18n="stop"></button>
+        </div>
+        <p class="toast" id="spcMsg" aria-live="polite"></p>
+        <div id="rec" hidden class="rec">
+          <span class="space" id="recSpace"></span>
+          <h3 id="recName"></h3>
+          <ul id="recWhy"></ul>
+          <table class="spec"><tbody id="recSpec"></tbody></table>
+          <p class="note" id="recNote"></p>
+          <div class="actions"><button class="btn" id="useRec" data-i18n="useInCfg"></button><button class="btn ghost" id="quoteRec" data-i18n="makeEstimate"></button></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gal" role="tabpanel" aria-labelledby="t-gal" class="stack">
+    <p class="lede" data-i18n="lede"></p>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <!-- CONFIGURATOR -->
+  <section id="cfg" role="tabpanel" aria-labelledby="t-cfg" hidden>
+    <div class="config">
+      <div class="panel">
+        <div class="viewbar">
+          <div class="legend"><span id="cfgLegend" data-i18n="elevation"></span><span id="cfgLegend2" data-i18n="scaleNote"></span></div>
+          <div class="seg" id="viewSeg" hidden>
+            <button type="button" data-view="photo" aria-pressed="true" data-i18n="viewPhoto"></button>
+            <button type="button" data-view="plan" aria-pressed="false" data-i18n="viewPlan"></button>
+          </div>
+        </div>
+        <div class="drawing" id="drawing"></div>
+        <div class="stage has" id="cstage" hidden><img id="cphoto" alt=""><div class="ov" id="cov"></div></div>
+        <div class="actions" id="cstageAct" hidden><button class="btn ghost sm" type="button" id="adjFrame" data-i18n="adjustFrame"></button></div>
+        <div class="segtabs" role="group" data-i18n-aria="sSegs"></div>
+        <fieldset><legend data-i18n="system"></legend><div class="opts" id="o-system"></div></fieldset>
+        <fieldset><legend data-i18n="glass"></legend><div class="opts" id="o-glass"></div></fieldset>
+        <fieldset><legend data-i18n="finish"></legend><div class="opts" id="o-finish"></div></fieldset>
+        <fieldset><legend data-i18n="door"></legend><div class="opts" id="o-door"></div></fieldset>
+        <fieldset id="fs-doorpos"><legend data-i18n="doorPos"></legend><div class="opts" id="o-doorpos"></div></fieldset>
+        <div class="row2">
+          <div class="num"><label class="lab" for="w" data-i18n="widthFt"></label><input id="w" type="number" min="6" max="40" step="0.5"></div>
+          <div class="num"><label class="lab" for="h" data-i18n="heightFt"></label><input id="h" type="number" min="7" max="12" step="0.5"></div>
+        </div>
+        <label class="toggle"><input id="band" type="checkbox"> <span data-i18n="bandToggle"></span></label>
+      </div>
+
+      <aside class="panel">
+        <h2 id="specName"></h2>
+        <table class="spec"><tbody id="spec"></tbody></table>
+        <div class="price">
+          <span class="lab" data-i18n="installedEst"></span>
+          <span class="big" id="price">—</span>
+          <small data-i18n="priceNote"></small>
+        </div>
+        <div class="actions">
+          <button class="btn" id="toQuote" data-i18n="requestQuote"></button>
+          <button class="btn ghost" id="reset" data-i18n="reset"></button>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section id="quo" role="tabpanel" aria-labelledby="t-quo" hidden>
+    <div class="quote">
+      <div class="panel">
+        <h2 data-i18n="projectData"></h2>
+        <form id="qform" novalidate>
+          <div class="field"><label class="lab" for="q-name" data-i18n="fName"></label><input id="q-name" type="text" autocomplete="name" required></div>
+          <div class="row2">
+            <div class="field"><label class="lab" for="q-phone" data-i18n="fPhone"></label><input id="q-phone" type="tel" autocomplete="tel" required></div>
+            <div class="field"><label class="lab" for="q-email" data-i18n="fEmail"></label><input id="q-email" type="email" autocomplete="email"></div>
+          </div>
+          <div class="field"><label class="lab" for="q-city" data-i18n="fCity"></label><input id="q-city" type="text" data-i18n-ph="cityPh"></div>
+          <div class="field"><label class="lab" for="q-space" data-i18n="fSpace"></label><select id="q-space"></select></div>
+          <div class="field"><label class="lab" for="q-notes" data-i18n="fNotes"></label><textarea id="q-notes" rows="3" data-i18n-ph="notesPh"></textarea></div>
+          <p class="err" id="qerr" hidden></p>
+          <button class="btn" type="submit" data-i18n="makeEstimate"></button>
+        </form>
+      </div>
+      <div class="panel">
+        <h2 data-i18n="estimate"></h2>
+        <div id="docPreview" class="docwrap"><p class="note" style="padding:16px" data-i18n="docEmpty"></p></div>
+        <div class="actions" id="docActions" hidden>
+          <button class="btn" id="dlPdf" data-i18n="dlPdf"></button>
+          <button class="btn" id="dlHtml" data-i18n="dlHtml"></button>
+          <button class="btn ghost" id="copy" data-i18n="copyText"></button>
+        </div>
+        <div class="sendrow" id="sendRow" hidden>
+          <a class="btn wa" id="sendWa" target="_blank" rel="noopener" data-i18n="sendWa"></a>
+          <a class="btn gold" id="sendSms" target="_blank" data-i18n="sendSms"></a>
+        </div>
+        <p class="note" id="sendHint" hidden data-i18n="sendHint"></p>
+        <p class="toast" id="toast" aria-live="polite"></p>
+        <p class="note" data-i18n="sendTo"></p>
+        <span class="contact">(407) 561-9844</span>
+        <span class="contact" style="font-size:13px">hgdslidingdoor-repair.com</span>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+// ================= i18n =================
+const I18N={
+es:{
+  tabsAria:"Secciones",tabGal:"Diseños",tabSpc:"Mi espacio",tabCfg:"Configurador",tabQuo:"Cotizar",
+  lede:"Divisiones de vidrio templado para oficinas, comercios y hogares. Elige un diseño por espacio, o toma una foto en «Mi espacio» para ver la propuesta sobre tu pared. Luego ajústalo con tus medidas reales.",
+  customize:"Personalizar",from:"desde",
+  photoLegend:"FOTO DEL ESPACIO",dragHint:"ARRASTRA EL VIDRIO PARA UBICARLO",
+  emptyTitle:"Toma una foto de la pared o el área donde va la división",emptyBody:"De frente, con el piso y el techo visibles. La foto no se sube a ningún servidor: se queda en tu teléfono.",
+  takePhoto:"Tomar foto",takeAnother:"Tomar otra foto",uploadPhoto:"Subir de galería",boxW:"Ancho en la foto",boxH:"Alto en la foto",
+  bySpaceTitle:"Diseño según el espacio",spaceType:"Tipo de espacio",privacy:"Privacidad",style:"Estilo",
+  approxW:"Ancho aprox. (pies)",approxH:"Alto aprox. (pies)",auto:"Auto",
+  aiBtn:"Analizar foto con IA",ruleBtn:"Sugerir diseño",stop:"Detener",useInCfg:"Ver en configurador",makeEstimate:"Crear estimado",
+  photoAlt:"Foto del espacio del cliente",
+  notImage:"Ese archivo no es una imagen. Usa una foto JPG o PNG.",
+  photoReadyAi:"Foto lista. Elige el tipo de espacio y pulsa «Analizar foto con IA».",photoReadyRule:"Foto lista. Elige el tipo de espacio y pulsa «Sugerir diseño».",
+  ruleApplied:"Diseño aplicado sobre tu foto. Arrástralo y ajusta el tamaño.",ruleNoPhoto:"Toma una foto para ver el diseño sobre tu espacio.",
+  needPhoto:"Primero toma o sube una foto del espacio.",analyzing:"Analizando la foto… (puede tardar hasta un minuto)",aiDone:"Listo. Ajusta la posición del vidrio si hace falta.",
+  srcRule:"Sugerencia según el espacio",srcAi:"Diseño por IA según tu foto",
+  ruleNote:"Medidas de referencia. Confírmalas con cinta métrica antes de cotizar.",aiNoteDefault:"Medidas estimadas desde la foto. Confírmalas en sitio.",aiNameDefault:"Diseño para tu espacio",
+  whyBase:"Base: {n}, la solución típica para {s}.",whyIndustrial:"Estilo industrial: cuadrícula negra tipo ventana de fábrica.",whyWarm:"Estilo cálido: herrajes en bronce/dorado.",
+  whyModern:"Estilo moderno: vidrio sin marco y líneas mínimas.",whyCorporate:"Estilo corporativo: perfil anodizado discreto.",
+  whyHighFluted:"Privacidad alta con vidrio acanalado: deja pasar luz y difumina siluetas.",whyHighFrosted:"Privacidad alta: vidrio esmerilado completo.",
+  whyMidBand:"Banda esmerilada a la altura de los ojos: privacidad sentada, luz arriba y abajo.",whyLow:"Privacidad baja: vidrio extra claro para máxima transparencia.",
+  aiErr:{not_granted:"No se permitió usar Claude en esta página. Usa «Sugerir diseño».",rate_limited:"Demasiadas solicitudes seguidas. Espera un momento e inténtalo de nuevo.",
+    image_rejected:"No se pudo leer la foto. Prueba con otra imagen JPG o PNG.",invalid_json:"La respuesta llegó incompleta. Pulsa «Analizar foto con IA» otra vez.",
+    refused:"No se pudo analizar esta foto. Prueba con otra toma del espacio.",session_expired:"Tu sesión expiró. Vuelve a iniciar sesión en Claude.",other:"El análisis falló. Inténtalo de nuevo o usa «Sugerir diseño»."},
+  elevation:"ELEVACIÓN FRONTAL",scaleNote:"ESC. AJUSTADA · VISTA INTERIOR",system:"Sistema",glass:"Vidrio (templado 10 mm)",finish:"Acabado de perfilería / herrajes",door:"Puerta",
+  widthFt:"Ancho (pies)",heightFt:"Alto (pies)",bandToggle:"Banda de privacidad esmerilada (3′6″ a 5′6″ del piso)",
+  installedEst:"Estimado instalado",priceNote:"Rango orientativo con material, herrajes e instalación. El precio final se confirma tras medición en sitio.",
+  requestQuote:"Solicitar cotización",reset:"Restablecer",custom:"Diseño personalizado",adjusted:" (ajustado)",
+  sSystem:"Sistema",sGlass:"Vidrio",sFinish:"Acabado",sDoor:"Puerta",sBand:"Banda de privacidad",sSize:"Medidas",sArea:"Área",sPanels:"Paneles",sEst:"Estimado",yes:"Sí",no:"No",mm10:" · 10 mm",
+  projectData:"Datos del proyecto",fName:"Nombre o empresa",fPhone:"Teléfono",fEmail:"Correo",fCity:"Ciudad",cityPh:"Orlando, Kissimmee, Winter Park…",fSpace:"Tipo de espacio",fNotes:"Notas",
+  notesPh:"Piso, acceso, fecha deseada, fotos que puedas enviar…",needContact:"Agrega tu nombre y un teléfono para que podamos contactarte.",
+  estimate:"Estimado",docEmpty:"Completa los datos y pulsa «Crear estimado». Aquí verás el documento con el plano del diseño, el desglose y el total.",
+  dlPdf:"Descargar PDF",dlHtml:"Descargar HTML",copyText:"Copiar como texto",sendTo:"Envíalo por texto, WhatsApp o correo a Handy Glass & Door:",
+  dlUnavailable:"La descarga no está disponible en esta vista.",saved:"{f} listo.",declined:"Descarga cancelada.",pending:"Ya hay una descarga pendiente; confírmala primero.",saveFail:"No se pudo guardar el archivo. Intenta de nuevo.",
+  pdfNoLib:"El generador de PDF no cargó. Revisa tu conexión y recarga la página.",pdfMaking:"Generando PDF…",pdfFail:"No se pudo generar el PDF.",
+  copied:"Estimado copiado como texto.",selected:"Texto seleccionado. Cópialo manualmente.",
+  // document
+  dTitle:"ESTIMADO",dNo:"No.",dDate:"Fecha",dValid:"Válido hasta",dFor:"Preparado para",dDesign:"Diseño propuesto",dBreak:"Desglose",dDesc:"Descripción",dQty:"Cantidad",dAmt:"Importe",
+  dTotal:"Total estimado",dRange:"Rango tras medición",dNotes:"Notas del cliente",dTerms:"Condiciones",dSign:"Firma de aceptación",dVis:"Visualización en tu espacio",
+  dVisNote:"Simulación aproximada sobre la foto del cliente; proporciones finales según medición en sitio.",dVisAlt:"Diseño propuesto sobre la foto del espacio",
+  dSub:"Glass Partitions",dClient:"Cliente",dSpaceL:"Espacio",dPhone:"Teléfono",dEmail:"Correo",dCity:"Ciudad",
+  liSystem:"Sistema {x} · vidrio templado 10 mm",liGlass:"Vidrio {x}",liFinish:"Acabado {x}",liDoor:"Puerta {x} con herrajes",liBand:"Banda de privacidad esmerilada (3′6″ a 5′6″)",liBandQ:"{n} ft lineales",liMin:"Ajuste a mínimo de proyecto",
+  terms:["Precio incluye material, herrajes, entrega e instalación en Central Florida.","Estimado sujeto a medición en sitio; el monto final puede variar ±12% según condiciones del piso, techo y acceso.","Anticipo de 50% para fabricación; saldo al completar la instalación.","Vidrio templado de seguridad. Tiempo de fabricación típico: 2 a 4 semanas.","Validez del estimado: 30 días."],
+  frameHelp:"Arrastra los 4 puntos a las esquinas reales: techo y piso, a cada lado de donde irá la división. El diseño se ajusta a la perspectiva de tu foto.",frameReset:"Restablecer marco",
+  frameInfo:"Proporción del marco {r} · con alto de {h} → ancho ≈ {w}",doorPos:"Posición de la puerta",sDoorPos:"Ubicación puerta",
+  whyFrame:"Medidas adaptadas a tu foto: ≈ {w} de ancho con {h} de alto; {n} paneles.",whyDoorPos:"Puerta ubicada a la {p} según el acceso del espacio.",
+  detected:"Detectado en la foto: {s} · privacidad {pr} · estilo {st}.",posWord:{left:"izquierda",center:"centro",right:"derecha"},
+  project:"Proyecto",rename:"Renombrar",newProject:"Nuevo proyecto",delete:"Eliminar",confirmDel:"¿Eliminar este proyecto y su foto?",yesDelete:"Sí, eliminar",cancel:"Cancelar",
+  savedAt:"Guardado {t}",storageOff:"Este navegador no permite guardar proyectos; se perderán al cerrar la página.",projDefault:"Proyecto {n} · {d}",
+  viewPhoto:"En la foto",viewPlan:"Plano",adjustFrame:"Ajustar marco en la foto",photoLegend2:"VISTA EN EL ESPACIO",photoLegendR:"CAMBIA LAS OPCIONES Y SE ACTUALIZA",
+  autoApplied:"Diseño aplicado al configurador y guardado en el proyecto.",
+  savedCloud:"Guardado en la nube {t}",savedLocal:"Guardado en este dispositivo {t}",cloudFail:"No se pudo guardar en la nube. Revisa tu conexión; se reintentará con el próximo cambio.",
+  uploading:"Subiendo foto a la nube…",uploadFail:"La foto no se pudo subir; este proyecto queda solo en este dispositivo (⚠).",migrated:"{n} proyecto(s) de este dispositivo movidos a la nube.",
+  remoteUpdated:"Actualizado desde otro dispositivo.",syncCloud:"Nube",syncLocal:"Solo este dispositivo",
+  seg:"Tramo",rmSeg:"Quitar tramo",sSegs:"Tramos",selected2:"seleccionado",liJoint:"Unión de esquina entre tramos (poste y perfil de conexión)",
+  segHelp:"¿La división da vuelta en una columna o hay dos aberturas en ángulo? Agrega un tramo por cada plano y ajusta sus 4 esquinas. La IA los detecta sola.",
+  renamed:"Nombre guardado.",deletedMsg:"Proyecto «{n}» eliminado.",syncing:"Sincronizando…",synced:"Nube al día · {n} proyecto(s) · {t}",
+  localInfo:"Los proyectos se guardan solo en este dispositivo (la nube no está disponible en esta vista).",needProject:"Toma o sube una foto para crear un proyecto",
+  sendWa:"Enviar por WhatsApp",sendSms:"Enviar por texto",sendHint:"El mensaje lleva el resumen del estimado. Para incluir la foto con el diseño, descarga el PDF y adjúntalo en la conversación.",
+  fileWord:"Estimado",docLang:"es"
+},
+en:{
+  tabsAria:"Sections",tabGal:"Designs",tabSpc:"My space",tabCfg:"Configurator",tabQuo:"Quote",
+  lede:"Tempered glass partitions for offices, businesses and homes. Pick a design by space, or take a photo in “My space” to see the proposal on your wall. Then fine-tune it with your real measurements.",
+  customize:"Customize",from:"from",
+  photoLegend:"PHOTO OF THE SPACE",dragHint:"DRAG THE GLASS TO PLACE IT",
+  emptyTitle:"Take a photo of the wall or area where the partition goes",emptyBody:"Shoot it straight on, with floor and ceiling visible. The photo is not uploaded anywhere: it stays on your phone.",
+  takePhoto:"Take photo",takeAnother:"Take another photo",uploadPhoto:"Upload from gallery",boxW:"Width in photo",boxH:"Height in photo",
+  bySpaceTitle:"Design by space",spaceType:"Type of space",privacy:"Privacy",style:"Style",
+  approxW:"Approx. width (ft)",approxH:"Approx. height (ft)",auto:"Auto",
+  aiBtn:"Analyze photo with AI",ruleBtn:"Suggest design",stop:"Stop",useInCfg:"Open in configurator",makeEstimate:"Create estimate",
+  photoAlt:"Photo of the client's space",
+  notImage:"That file isn't an image. Use a JPG or PNG photo.",
+  photoReadyAi:"Photo ready. Pick the type of space and tap “Analyze photo with AI”.",photoReadyRule:"Photo ready. Pick the type of space and tap “Suggest design”.",
+  ruleApplied:"Design placed on your photo. Drag it and adjust the size.",ruleNoPhoto:"Take a photo to see the design in your space.",
+  needPhoto:"Take or upload a photo of the space first.",analyzing:"Analyzing the photo… (this can take up to a minute)",aiDone:"Done. Adjust the glass position if needed.",
+  srcRule:"Suggestion for this space",srcAi:"AI design from your photo",
+  ruleNote:"Reference measurements. Confirm them with a tape measure before quoting.",aiNoteDefault:"Measurements estimated from the photo. Confirm them on site.",aiNameDefault:"Design for your space",
+  whyBase:"Starting point: {n}, the typical solution for a {s}.",whyIndustrial:"Industrial style: black factory-window grid.",whyWarm:"Warm style: bronze/gold hardware.",
+  whyModern:"Modern style: frameless glass and minimal lines.",whyCorporate:"Corporate style: understated anodized frame.",
+  whyHighFluted:"High privacy with fluted glass: lets light through and blurs silhouettes.",whyHighFrosted:"High privacy: fully frosted glass.",
+  whyMidBand:"Frosted band at eye level: seated privacy, light above and below.",whyLow:"Low privacy: low-iron glass for maximum transparency.",
+  aiErr:{not_granted:"Claude wasn't allowed on this page. Use “Suggest design”.",rate_limited:"Too many requests in a row. Wait a moment and try again.",
+    image_rejected:"The photo couldn't be read. Try another JPG or PNG.",invalid_json:"The answer came back incomplete. Tap “Analyze photo with AI” again.",
+    refused:"This photo couldn't be analyzed. Try another shot of the space.",session_expired:"Your session expired. Sign in to Claude again.",other:"The analysis failed. Try again or use “Suggest design”."},
+  elevation:"FRONT ELEVATION",scaleNote:"SCALED TO FIT · INTERIOR VIEW",system:"System",glass:"Glass (10 mm tempered)",finish:"Frame / hardware finish",door:"Door",
+  widthFt:"Width (ft)",heightFt:"Height (ft)",bandToggle:"Frosted privacy band (3′6″ to 5′6″ above the floor)",
+  installedEst:"Installed estimate",priceNote:"Ballpark range including materials, hardware and installation. Final price is confirmed after an on-site measurement.",
+  requestQuote:"Request a quote",reset:"Reset",custom:"Custom design",adjusted:" (adjusted)",
+  sSystem:"System",sGlass:"Glass",sFinish:"Finish",sDoor:"Door",sBand:"Privacy band",sSize:"Size",sArea:"Area",sPanels:"Panels",sEst:"Estimate",yes:"Yes",no:"No",mm10:" · 10 mm",
+  projectData:"Project details",fName:"Name or company",fPhone:"Phone",fEmail:"Email",fCity:"City",cityPh:"Orlando, Kissimmee, Winter Park…",fSpace:"Type of space",fNotes:"Notes",
+  notesPh:"Floor, access, preferred date, photos you can send…",needContact:"Add your name and a phone number so we can reach you.",
+  estimate:"Estimate",docEmpty:"Fill in the details and tap “Create estimate”. The document will show here with the drawing, line items and total.",
+  dlPdf:"Download PDF",dlHtml:"Download HTML",copyText:"Copy as text",sendTo:"Send it by text, WhatsApp or email to Handy Glass & Door:",
+  dlUnavailable:"Downloads aren't available in this view.",saved:"{f} ready.",declined:"Download canceled.",pending:"A download is already waiting; confirm it first.",saveFail:"The file couldn't be saved. Try again.",
+  pdfNoLib:"The PDF generator didn't load. Check your connection and reload the page.",pdfMaking:"Building PDF…",pdfFail:"The PDF couldn't be created.",
+  copied:"Estimate copied as text.",selected:"Text selected. Copy it manually.",
+  dTitle:"ESTIMATE",dNo:"No.",dDate:"Date",dValid:"Valid until",dFor:"Prepared for",dDesign:"Proposed design",dBreak:"Breakdown",dDesc:"Description",dQty:"Quantity",dAmt:"Amount",
+  dTotal:"Estimated total",dRange:"Range after measurement",dNotes:"Client notes",dTerms:"Terms",dSign:"Acceptance signature",dVis:"Visualization in your space",
+  dVisNote:"Approximate simulation on the client's photo; final proportions per on-site measurement.",dVisAlt:"Proposed design on the photo of the space",
+  dSub:"Glass Partitions",dClient:"Client",dSpaceL:"Space",dPhone:"Phone",dEmail:"Email",dCity:"City",
+  liSystem:"{x} system · 10 mm tempered glass",liGlass:"{x} glass",liFinish:"{x} finish",liDoor:"{x} door with hardware",liBand:"Frosted privacy band (3′6″ to 5′6″)",liBandQ:"{n} linear ft",liMin:"Project minimum adjustment",
+  terms:["Price includes materials, hardware, delivery and installation in Central Florida.","Estimate subject to on-site measurement; the final amount may vary ±12% depending on floor, ceiling and access conditions.","50% deposit to start fabrication; balance due on completion of installation.","Tempered safety glass. Typical fabrication time: 2 to 4 weeks.","Estimate valid for 30 days."],
+  frameHelp:"Drag the 4 points to the real corners: ceiling and floor on each side of where the partition goes. The design follows your photo's perspective.",frameReset:"Reset frame",
+  frameInfo:"Frame ratio {r} · at {h} tall → width ≈ {w}",doorPos:"Door position",sDoorPos:"Door location",
+  whyFrame:"Sized to your photo: ≈ {w} wide at {h} tall; {n} panels.",whyDoorPos:"Door placed on the {p} to match the space's access.",
+  detected:"Detected in the photo: {s} · {pr} privacy · {st} style.",posWord:{left:"left",center:"center",right:"right"},
+  project:"Project",rename:"Rename",newProject:"New project",delete:"Delete",confirmDel:"Delete this project and its photo?",yesDelete:"Yes, delete",cancel:"Cancel",
+  savedAt:"Saved {t}",storageOff:"This browser can't save projects; they'll be lost when the page closes.",projDefault:"Project {n} · {d}",
+  viewPhoto:"In the photo",viewPlan:"Drawing",adjustFrame:"Adjust frame on the photo",photoLegend2:"VIEW IN THE SPACE",photoLegendR:"CHANGE OPTIONS TO UPDATE",
+  autoApplied:"Design applied to the configurator and saved to the project.",
+  savedCloud:"Saved to cloud {t}",savedLocal:"Saved on this device {t}",cloudFail:"Couldn't save to the cloud. Check your connection; it will retry on the next change.",
+  uploading:"Uploading photo to the cloud…",uploadFail:"The photo couldn't be uploaded; this project stays on this device only (⚠).",migrated:"{n} project(s) from this device moved to the cloud.",
+  remoteUpdated:"Updated from another device.",syncCloud:"Cloud",syncLocal:"This device only",
+  seg:"Section",rmSeg:"Remove section",sSegs:"Sections",selected2:"selected",liJoint:"Corner joint between sections (post and connector profile)",
+  segHelp:"Does the partition turn at a column, or are there two openings at an angle? Add one section per plane and set its 4 corners. The AI detects them on its own.",
+  renamed:"Name saved.",deletedMsg:"Project “{n}” deleted.",syncing:"Syncing…",synced:"Cloud up to date · {n} project(s) · {t}",
+  localInfo:"Projects are saved on this device only (the cloud isn't available in this view).",needProject:"Take or upload a photo to create a project",
+  sendWa:"Send on WhatsApp",sendSms:"Send by text",sendHint:"The message includes the estimate summary. To include the photo with the design, download the PDF and attach it in the chat.",
+  fileWord:"Estimate",docLang:"en"
+}};
+let lang="es";
+try{const l=localStorage.getItem("hgd-gp-lang");if(l==="en"||l==="es")lang=l;else if((navigator.language||"").toLowerCase().startsWith("en"))lang="en"}catch(e){}
+function t(k,p){let s=I18N[lang][k];if(s===undefined)s=I18N.es[k];if(typeof s==="string"&&p)s=s.replace(/\{(\w+)\}/g,(m,x)=>p[x]??"");return s}
+const L=o=>o[lang]||o.es;
+
+// ================= data =================
+const SYSTEMS={
+  frameless:{label:{es:"Sin marco",en:"Frameless"},rate:85,mod:4},
+  framed:{label:{es:"Perfil delgado",en:"Slim frame"},rate:65,mod:5},
+  loft:{label:{es:"Loft industrial",en:"Industrial loft"},rate:110,mod:4},
+  modular:{label:{es:"Modular desmontable",en:"Demountable modular"},rate:95,mod:4}
+};
+const GLASS={
+  clear:{label:{es:"Claro",en:"Clear"},add:0,fill:"rgba(150,205,212,.38)"},
+  lowiron:{label:{es:"Extra claro (low-iron)",en:"Low-iron (extra clear)"},add:12,fill:"rgba(205,238,238,.30)"},
+  frosted:{label:{es:"Esmerilado",en:"Frosted"},add:10,fill:"rgba(236,242,242,.88)"},
+  fluted:{label:{es:"Acanalado (fluted)",en:"Fluted"},add:22,fill:"url(#flute)"},
+  bronze:{label:{es:"Bronce",en:"Bronze tint"},add:14,fill:"rgba(150,108,66,.38)"},
+  grey:{label:{es:"Gris humo",en:"Smoke grey"},add:14,fill:"rgba(80,92,98,.40)"}
+};
+const FINISH={
+  black:{label:{es:"Negro mate",en:"Matte black"},mult:1.08,color:"#1d2122"},
+  silver:{label:{es:"Aluminio anodizado",en:"Anodized aluminum"},mult:1,color:"#9aa4a9"},
+  bronze:{label:{es:"Bronce / dorado",en:"Bronze / gold"},mult:1.12,color:"#8a6a45"}
+};
+const DOOR={
+  none:{label:{es:"Sin puerta",en:"No door"},cost:0,w:0},
+  swing:{label:{es:"Batiente sencilla",en:"Single swing"},cost:1450,w:3},
+  sliding:{label:{es:"Corrediza",en:"Sliding"},cost:1600,w:3},
+  double:{label:{es:"Batiente doble",en:"Double swing"},cost:3200,w:6}
+};
+// Pricing (Central Florida market check, Oct 2026)
+const BAND_LF=18, MIN_PROJECT=2500;
+const DOORPOS={left:{label:{es:"Izquierda",en:"Left"}},center:{label:{es:"Centro",en:"Center"}},right:{label:{es:"Derecha",en:"Right"}}};
+const PRESETS=[
+  {id:"exec",space:{es:"Oficina ejecutiva",en:"Executive office"},name:{es:"Privado transparente",en:"Transparent private office"},
+   desc:{es:"Fachada sin marco con puerta batiente y banda esmerilada a la altura de la vista. Luz natural sin perder privacidad.",en:"Frameless front with a swing door and a frosted band at eye level. Natural light without losing privacy."},
+   cfg:{system:"frameless",glass:"clear",finish:"black",door:"swing",w:14,h:9,band:true}},
+  {id:"conf",space:{es:"Sala de conferencias",en:"Conference room"},name:{es:"Sala de juntas",en:"Boardroom"},
+   desc:{es:"Perfil delgado con vidrio extra claro y puerta doble para el paso de equipos y grupos.",en:"Slim frame with low-iron glass and a double door for groups and equipment."},
+   cfg:{system:"framed",glass:"lowiron",finish:"silver",door:"double",w:20,h:9,band:true}},
+  {id:"loft",space:{es:"Residencial",en:"Residential"},name:{es:"Loft industrial",en:"Industrial loft"},
+   desc:{es:"Cuadrícula negra estilo ventana de fábrica y puerta corrediza. Separa estudio o cocina sin cerrar el espacio.",en:"Black factory-window grid with a sliding door. Separates a study or kitchen without closing off the space."},
+   cfg:{system:"loft",glass:"clear",finish:"black",door:"sliding",w:10,h:8,band:false}},
+  {id:"lobby",space:{es:"Recepción / lobby",en:"Reception / lobby"},name:{es:"Pantalla acanalada",en:"Fluted screen"},
+   desc:{es:"Vidrio acanalado con herrajes dorados detrás del mostrador. Filtra la vista y deja pasar la luz.",en:"Fluted glass with gold hardware behind the front desk. Blurs the view and lets the light through."},
+   cfg:{system:"frameless",glass:"fluted",finish:"bronze",door:"none",w:12,h:9,band:false}},
+  {id:"clinic",space:{es:"Consultorio / clínica",en:"Medical office"},name:{es:"Consultorio privado",en:"Private exam room"},
+   desc:{es:"Vidrio esmerilado completo en perfil anodizado. Privacidad para pacientes y fácil limpieza.",en:"Fully frosted glass in an anodized frame. Patient privacy and easy cleaning."},
+   cfg:{system:"framed",glass:"frosted",finish:"silver",door:"swing",w:10,h:8,band:false}},
+  {id:"cowork",space:{es:"Coworking",en:"Coworking"},name:{es:"Cabina modular",en:"Modular booth"},
+   desc:{es:"Sistema desmontable con travesaño superior y vidrio gris humo. Se reubica si cambia la distribución.",en:"Demountable system with a top transom and smoke-grey glass. Moves when the floor plan changes."},
+   cfg:{system:"modular",glass:"grey",finish:"black",door:"swing",w:16,h:10,band:false}}
+];
+const QSPACES={office:{es:"Oficina privada",en:"Private office"},conf:{es:"Sala de conferencias",en:"Conference room"},lobby:{es:"Recepción / lobby",en:"Reception / lobby"},
+  clinic:{es:"Consultorio / clínica",en:"Medical office / clinic"},cowork:{es:"Coworking",en:"Coworking"},home:{es:"Residencial (sala, estudio, loft)",en:"Residential (living room, study, loft)"},other:{es:"Otro",en:"Other"}};
+const SPACES={
+  office:{label:{es:"Oficina privada",en:"Private office"},preset:"exec"},conf:{label:{es:"Sala de juntas",en:"Meeting room"},preset:"conf"},
+  lobby:{label:{es:"Recepción",en:"Reception"},preset:"lobby"},clinic:{label:{es:"Consultorio",en:"Medical office"},preset:"clinic"},
+  cowork:{label:{es:"Coworking",en:"Coworking"},preset:"cowork"},home:{label:{es:"Residencial",en:"Residential"},preset:"loft"}
+};
+const PRIV={low:{label:{es:"Baja · ver todo",en:"Low · see through"}},mid:{label:{es:"Media · a la vista",en:"Medium · eye level"}},high:{label:{es:"Alta · total",en:"High · full"}}};
+const STYLE={modern:{label:{es:"Moderno",en:"Modern"}},industrial:{label:{es:"Industrial",en:"Industrial"}},warm:{label:{es:"Cálido / elegante",en:"Warm / elegant"}},corporate:{label:{es:"Corporativo",en:"Corporate"}}};
+
+const DEFAULT={doorPos:"center",...PRESETS[0].cfg};
+// name source: {type:"preset",id} | {type:"rule",space,style} | {type:"text",text} | {type:"custom"}; plus adj flag
+let cfg={...DEFAULT}, cfgSrc={type:"preset",id:"exec",adj:false};
+try{const s=JSON.parse(localStorage.getItem("hgd-gp2")||"null");if(s&&s.cfg){cfg={...DEFAULT,...s.cfg};if(s.src)cfgSrc=s.src}}catch(e){}
+function srcName(s){
+  let n= s.type==="preset"?L(PRESETS.find(p=>p.id===s.id).name)
+    : s.type==="rule"?`${L(SPACES[s.space].label)} · ${L(STYLE[s.style].label).split(" ")[0]}`
+    : s.type==="text"?s.text : t("custom");
+  return n+(s.adj?t("adjusted"):"");
+}
+
+function ftin(v){const f=Math.floor(v+1e-9);const i=Math.round((v-f)*12);return `${f}′-${i}″`}
+function fmt(n){return "$"+(Math.round(n/50)*50).toLocaleString("en-US")}
+function clamp(v,a,b){return Math.min(b,Math.max(a,v))}
+function esc(s){return String(s).replace(/[&<>"]/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]))}
+
+function estimateRaw(c){
+  const area=c.w*c.h, s=SYSTEMS[c.system], g=GLASS[c.glass], f=FINISH[c.finish], d=DOOR[c.door];
+  return area*(s.rate+g.add)*f.mult + d.cost + (c.band&&c.glass!=="frosted"?c.w*BAND_LF:0);
+}
+function estimate(c){const base=Math.max(estimateRaw(c),MIN_PROJECT);return {area:c.w*c.h,base,low:base*.88,high:base*1.12}}
+function projectCost(cs){const base=Math.max(cs.reduce((x,c)=>x+estimateRaw(c),0)+JOINT*(cs.length-1),MIN_PROJECT);return {base,low:base*.88,high:base*1.12}}
+function panelsOf(c){
+  const dw=Math.min(DOOR[c.door].w, c.w-2);
+  const rest=c.w-dw, mod=SYSTEMS[c.system].mod;
+  const list=[];
+  const pos=c.doorPos||"center";
+  if(dw&&pos!=="center"){const n=Math.max(1,Math.ceil(rest/mod)),pw=rest/n;const side=[];for(let i=0;i<n;i++)side.push({w:pw});if(pos==="left")list.push({w:dw,door:true},...side);else list.push(...side,{w:dw,door:true})}
+  else if(dw){const side=Math.max(1,Math.ceil((rest/2)/mod)),pw=(rest/2)/side;for(let i=0;i<side;i++)list.push({w:pw});list.push({w:dw,door:true});for(let i=0;i<side;i++)list.push({w:pw})}
+  else{const n=Math.max(2,Math.ceil(rest/mod));for(let i=0;i<n;i++)list.push({w:rest/n})}
+  return list;
+}
+
+function render(c,opt={}){
+  let VW=620,VH=330, padL=34,padR=56,padT=22,padB=58;
+  if(opt.overlay){padL=padR=padT=padB=0;VW=c.w*40;VH=c.h*40}
+  const s=Math.min((VW-padL-padR)/c.w,(VH-padT-padB)/c.h);
+  const W=c.w*s,H=c.h*s, x0=padL+((VW-padL-padR)-W)/2, y0=padT+((VH-padT-padB)-H)/2, yF=y0+H;
+  const fc=FINISH[c.finish].color, gfill=GLASS[c.glass].fill;
+  const thick=c.system==="frameless"?0:(c.system==="loft"?5:3.5);
+  let o=`<svg viewBox="0 0 ${VW} ${VH}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(t("elevation"))}"${opt.overlay?' preserveAspectRatio="none"':""}>`;
+  o+=`<defs><pattern id="flute" width="7" height="10" patternUnits="userSpaceOnUse"><rect width="7" height="10" fill="rgba(215,232,232,.75)"/><rect width="3" height="10" fill="rgba(160,195,200,.55)"/></pattern>
+  <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--muted)" stroke-width="1" opacity=".5"/></pattern></defs>`;
+  if(!opt.overlay){
+    o+=`<rect x="0" y="${y0-8}" width="${VW}" height="8" fill="url(#hatch)"/><line x1="0" y1="${y0}" x2="${VW}" y2="${y0}" style="stroke:var(--muted)" stroke-width="1"/>`;
+    o+=`<rect x="0" y="${yF}" width="${VW}" height="9" fill="url(#hatch)"/><line x1="0" y1="${yF}" x2="${VW}" y2="${yF}" style="stroke:var(--ink)" stroke-width="1.5"/>`;
+  }
+  const panels=panelsOf(c); let x=x0;
+  const transomY = c.system==="modular" && c.h>8 ? yF-7.5*s : null;
+  panels.forEach((p,i)=>{
+    const pw=p.w*s;
+    o+=`<rect x="${x}" y="${y0}" width="${pw}" height="${H}" fill="${gfill}"/>`;
+    o+=`<line x1="${x+pw*.18}" y1="${y0+H*.12}" x2="${x+pw*.45}" y2="${y0+H*.02+8}" stroke="rgba(255,255,255,.55)" stroke-width="2"/>`;
+    if(c.band && c.glass!=="frosted"){o+=`<rect x="${x}" y="${yF-5.5*s}" width="${pw}" height="${2*s}" fill="rgba(240,245,245,.8)"/>`}
+    if(c.system==="loft"){
+      const rows=c.h>9?4:3;
+      for(let r=1;r<rows;r++){const yy=y0+H*r/rows;o+=`<rect x="${x}" y="${yy-1.5}" width="${pw}" height="3" fill="${fc}"/>`}
+      if(!p.door&&pw>40){o+=`<rect x="${x+pw/2-1.5}" y="${y0}" width="3" height="${H}" fill="${fc}"/>`}
+    }
+    if(transomY){o+=`<rect x="${x}" y="${transomY-2}" width="${pw}" height="4" fill="${fc}"/>`}
+    if(thick){o+=`<rect x="${x+thick/2}" y="${y0+thick/2}" width="${pw-thick}" height="${H-thick}" fill="none" stroke="${fc}" stroke-width="${thick}"/>`}
+    else if(i>0){o+=`<line x1="${x}" y1="${y0}" x2="${x}" y2="${yF}" stroke="rgba(120,150,155,.7)" stroke-width="1"/>`}
+    if(p.door){
+      const top=transomY?transomY:y0;
+      const dTop=Math.max(top, yF-7*s);
+      if(dTop>y0+2 && !transomY){o+=`<rect x="${x}" y="${dTop-2}" width="${pw}" height="${thick||3}" fill="${fc}"/>`}
+      const leaves=c.door==="double"?2:1, lw=pw/leaves;
+      for(let l=0;l<leaves;l++){
+        const lx=x+l*lw;
+        o+=`<rect x="${lx+2}" y="${dTop+2}" width="${lw-4}" height="${yF-dTop-4}" fill="none" stroke="${fc}" stroke-width="1.6"/>`;
+        const hingeLeft = leaves===2 ? l===0 : (c.doorPos!=="right");
+        const hx=hingeLeft?lx+2:lx+lw-2, ox=hingeLeft?lx+lw-2:lx+2;
+        if(c.door!=="sliding"){o+=`<polyline points="${ox},${dTop+2} ${hx},${(dTop+yF)/2} ${ox},${yF-2}" fill="none" style="stroke:var(--dim)" stroke-width="1" stroke-dasharray="4 3"/>`}
+        const px=hingeLeft?lx+lw-9:lx+9;
+        o+=`<rect x="${px-1.5}" y="${yF-4.2*s}" width="3" height="${1.6*s}" rx="1.5" fill="${fc}"/>`;
+      }
+      if(c.door==="sliding"){
+        o+=`<line x1="${x-pw*.6}" y1="${dTop-6}" x2="${x+pw}" y2="${dTop-6}" stroke="${fc}" stroke-width="2.5"/>`;
+        o+=`<path d="M${x+pw*.25} ${dTop+16} h${-pw*.35}" style="stroke:var(--dim)" stroke-width="1.4" fill="none"/><path d="M${x+pw*.25-pw*.35} ${dTop+16} l7 -4 v8z" style="fill:var(--dim)"/>`;
+      }
+    }
+    x+=pw;
+  });
+  if(c.system==="frameless"){o+=`<rect x="${x0}" y="${y0}" width="${W}" height="4" fill="${fc}"/><rect x="${x0}" y="${yF-4}" width="${W}" height="4" fill="${fc}"/>`}
+  if(opt.overlay)return o+"</svg>";
+  const dy=yF+30;
+  o+=`<g style="stroke:var(--dim)" stroke-width="1"><line x1="${x0}" y1="${yF+14}" x2="${x0}" y2="${dy+6}"/><line x1="${x0+W}" y1="${yF+14}" x2="${x0+W}" y2="${dy+6}"/><line x1="${x0}" y1="${dy}" x2="${x0+W}" y2="${dy}"/>
+  <line x1="${x0-4}" y1="${dy+4}" x2="${x0+4}" y2="${dy-4}"/><line x1="${x0+W-4}" y1="${dy+4}" x2="${x0+W+4}" y2="${dy-4}"/></g>`;
+  o+=`<text x="${x0+W/2}" y="${dy-6}" text-anchor="middle" style="fill:var(--dim);font:${opt.small?14:12}px var(--mono)">${ftin(c.w)}</text>`;
+  const dx=x0+W+26;
+  o+=`<g style="stroke:var(--dim)" stroke-width="1"><line x1="${x0+W+8}" y1="${y0}" x2="${dx+6}" y2="${y0}"/><line x1="${x0+W+8}" y1="${yF}" x2="${dx+6}" y2="${yF}"/><line x1="${dx}" y1="${y0}" x2="${dx}" y2="${yF}"/>
+  <line x1="${dx-4}" y1="${y0+4}" x2="${dx+4}" y2="${y0-4}"/><line x1="${dx-4}" y1="${yF+4}" x2="${dx+4}" y2="${yF-4}"/></g>`;
+  o+=`<text x="${dx+10}" y="${(y0+yF)/2}" text-anchor="middle" transform="rotate(-90 ${dx+10} ${(y0+yF)/2})" style="fill:var(--dim);font:${opt.small?14:12}px var(--mono)">${ftin(c.h)}</text>`;
+  return o+"</svg>";
+}
+function specRows(c){
+  const e=estimate(c), n=panelsOf(c).length;
+  return [[t("sSystem"),L(SYSTEMS[c.system].label)],[t("sGlass"),L(GLASS[c.glass].label)+t("mm10")],[t("sFinish"),L(FINISH[c.finish].label)],[t("sDoor"),L(DOOR[c.door].label)],...(c.door!=="none"?[[t("sDoorPos"),L(DOORPOS[c.doorPos||"center"].label)]]:[]),
+    [t("sBand"),c.band&&c.glass!=="frosted"?t("yes"):t("no")],[t("sSize"),`${ftin(c.w)} × ${ftin(c.h)}`],[t("sArea"),`${e.area.toFixed(0)} ft²`],[t("sPanels"),n]];
+}
+
+// ================= gallery =================
+const grid=document.getElementById("grid");
+function renderGallery(){
+  grid.innerHTML=PRESETS.map(p=>{
+    const e=estimate(p.cfg), c=p.cfg;
+    return `<article class="card"><div class="thumb">${render(c,{small:true})}</div><div class="body">
+    <span class="space">${L(p.space)}</span><h3>${L(p.name)}</h3><p>${L(p.desc)}</p>
+    <div class="chips"><span class="chip">${L(SYSTEMS[c.system].label)}</span><span class="chip">${L(GLASS[c.glass].label)}</span><span class="chip">${L(DOOR[c.door].label)}</span></div>
+    <div class="foot"><span class="from">${ftin(c.w)} × ${ftin(c.h)} · ${t("from")} ${fmt(e.low)}</span><button class="btn" data-preset="${p.id}">${t("customize")}</button></div></div></article>`;
+  }).join("");
+}
+grid.addEventListener("click",e=>{const b=e.target.closest("[data-preset]");if(!b)return;const p=PRESETS.find(x=>x.id===b.dataset.preset);cfg={doorPos:"center",...p.cfg};cfgSrc={type:"preset",id:p.id,adj:false};autoW=false;syncInputs();update();renderRec();showTab("cfg")});
+
+// ================= configurator =================
+const OPTS=[["o-system",SYSTEMS,"system"],["o-glass",GLASS,"glass"],["o-finish",FINISH,"finish"],["o-door",DOOR,"door"],["o-doorpos",DOORPOS,"doorPos"]];
+function buildOpts(){
+  OPTS.forEach(([id,obj,key])=>{document.getElementById(id).innerHTML=Object.entries(obj).map(([k,v])=>`<input type="radio" name="${key}" id="${key}-${k}" value="${k}"${cfg[key]===k?" checked":""}><label for="${key}-${k}">${L(v.label)}</label>`).join("")});
+}
+OPTS.forEach(([id,,key])=>document.getElementById(id).addEventListener("change",e=>{cfg[key]=e.target.value;markCustom();document.getElementById("fs-doorpos").hidden=cfg.door==="none";update()}));
+const wIn=document.getElementById("w"),hIn=document.getElementById("h"),bandIn=document.getElementById("band");
+wIn.addEventListener("input",()=>{const v=parseFloat(wIn.value);if(!isNaN(v)){cfg.w=clamp(v,6,40);autoW=false;markCustom();update()}});
+hIn.addEventListener("input",()=>{const v=parseFloat(hIn.value);if(!isNaN(v)){cfg.h=clamp(v,7,12);markCustom();update()}});
+wIn.addEventListener("change",()=>{wIn.value=cfg.w});hIn.addEventListener("change",()=>{hIn.value=cfg.h});
+bandIn.addEventListener("change",()=>{cfg.band=bandIn.checked;markCustom();update()});
+function markCustom(){if(cfgSrc.type!=="custom")cfgSrc.adj=true}
+function syncInputs(){
+  if(!cfg.doorPos)cfg.doorPos="center";
+  ["system","glass","finish","door","doorPos"].forEach(k=>{const r=document.getElementById(`${k}-${cfg[k]}`);if(r)r.checked=true});
+  document.getElementById("fs-doorpos").hidden=cfg.door==="none";
+  wIn.value=cfg.w;hIn.value=cfg.h;bandIn.checked=cfg.band;
+}
+function update(){
+  storeActive();renderSegTabs();
+  document.getElementById("drawing").innerHTML=render(cfg);
+  document.getElementById("spec").innerHTML=specRows(cfg).map(([a,b])=>`<tr><td>${a}</td><td>${b}</td></tr>`).join("");
+  const cs=allCfgs(), e=projectCost(cs);
+  if(cs.length>1)document.getElementById("spec").insertAdjacentHTML("afterbegin",`<tr><td>${t("sSegs")}</td><td>${cs.length} · ${t("seg")} ${LETTERS[act]} ${t("selected2")}</td></tr>`);
+  document.getElementById("price").textContent=`${fmt(e.low)} – ${fmt(e.high)}`;
+  document.getElementById("specName").textContent=srcName(cfgSrc);
+  try{localStorage.setItem("hgd-gp2",JSON.stringify({cfg,src:cfgSrc}))}catch(err){}
+  drawOverlay();renderRec();scheduleSave();
+}
+document.getElementById("reset").addEventListener("click",()=>{cfg={...DEFAULT};cfgSrc={type:"preset",id:"exec",adj:false};autoW=false;syncInputs();update()});
+document.getElementById("toQuote").addEventListener("click",()=>showTab("quo"));
+
+// ================= my space =================
+let sp={space:"office",priv:"mid",style:"modern"}, box={x:20,y:12,w:60,h:76}, photoFile=null, photoURL=null, rec=null, recCfg=null, autoW=false;
+const SPOPTS=[["o-space",SPACES,"space"],["o-priv",PRIV,"priv"],["o-style",STYLE,"style"]];
+function buildSpChips(){
+  SPOPTS.forEach(([id,obj,key])=>{document.getElementById(id).innerHTML=Object.entries(obj).map(([k,v])=>`<input type="radio" name="sp-${key}" id="sp-${key}-${k}" value="${k}"${sp[key]===k?" checked":""}><label for="sp-${key}-${k}">${L(v.label)}</label>`).join("")});
+}
+SPOPTS.forEach(([id,,key])=>document.getElementById(id).addEventListener("change",e=>{sp[key]=e.target.value}));
+const stage=document.getElementById("stage"),photo=document.getElementById("photo"),ov=document.getElementById("ov"),spcMsg=document.getElementById("spcMsg");
+let spcMsgKey=null;
+function setSpcMsg(k,raw){spcMsgKey=k;spcMsg.textContent=k?t(k):(raw||"")}
+function setPhoto(blob,url){
+  if(photoURL&&photoURL.startsWith("blob:"))URL.revokeObjectURL(photoURL);
+  photoFile=blob||null;photoURL=blob?URL.createObjectURL(blob):(url||null);
+  const has=!!photoURL;
+  photo.hidden=!has;stage.classList.toggle("has",has);
+  document.getElementById("stageEmpty").hidden=has;document.getElementById("boxCtl").hidden=!has;
+  ov.hidden=!has||ov.hidden;handles.hidden=!has||handles.hidden;if(!has){ov.hidden=true;handles.hidden=true}
+  document.getElementById("camLbl").textContent=t(has?"takeAnother":"takePhoto");
+  document.getElementById("viewSeg").hidden=!has;
+  if(has){photo.onload=()=>drawOverlay();photo.src=photoURL;cphoto.onload=()=>drawOverlay();cphoto.src=photoURL}
+  else{photo.removeAttribute("src");cphoto.removeAttribute("src")}
+  setCfgView(has?"photo":"plan");
+}
+async function loadPhoto(file){
+  if(!file)return;
+  if(!/^image\//.test(file.type)){setSpcMsg("notImage");return}
+  const blob=await downscale(file);
+  frame=DEF_FRAME.map(p=>[...p]);resetSegs();rec=null;autoW=false;renderRec();
+  setPhoto(blob);
+  await createProject(blob);
+  setSpcMsg(aiReady?"photoReadyAi":"photoReadyRule");
+}
+async function downscale(file){
+  const url=URL.createObjectURL(file);
+  try{const img=await loadImg(url), sc=Math.min(1,1600/Math.max(img.naturalWidth,img.naturalHeight));
+    const cv=document.createElement("canvas");cv.width=Math.round(img.naturalWidth*sc);cv.height=Math.round(img.naturalHeight*sc);cv.getContext("2d").drawImage(img,0,0,cv.width,cv.height);
+    return await new Promise(r=>cv.toBlob(b=>r(b||file),"image/jpeg",.88));
+  }catch(e){return file}finally{URL.revokeObjectURL(url)}
+}
+["cam","gal-file"].forEach(id=>document.getElementById(id).addEventListener("change",e=>{loadPhoto(e.target.files[0]);e.target.value=""}));
+["camLbl","galLbl"].forEach(id=>document.getElementById(id).addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();document.getElementById(id==="camLbl"?"cam":"gal-file").click()}}));
+// Frame = 4 corners in % of the photo: TL, TR, BL, BR (ceiling-left, ceiling-right, floor-left, floor-right)
+const DEF_FRAME=[[20,10],[80,10],[20,92],[80,92]];
+let frame=DEF_FRAME.map(p=>[...p]);
+// ---- sections (tramos): one plane per opening/angle; system, glass and finish are shared ----
+const SPEC_KEYS=["w","h","door","doorPos","band"], LETTERS="ABCD", JOINT=350;
+function specOf(c){const o={};SPEC_KEYS.forEach(k=>o[k]=c[k]);return o}
+const cpF=f=>f.map(p=>[...p]);
+let segs=[{spec:specOf(cfg),frame:cpF(frame)}], act=0;
+function storeActive(){segs[act]={spec:specOf(cfg),frame:cpF(frame)}}
+function segCfg(i){return i===act?cfg:{...cfg,...segs[i].spec}}
+function allCfgs(){storeActive();return segs.map(sg=>({...cfg,...sg.spec}))}
+function allFrames(){storeActive();return segs.map(sg=>cpF(sg.frame))}
+function resetSegs(){segs=[{spec:specOf(cfg),frame:cpF(frame)}];act=0}
+function loadActive(){Object.assign(cfg,segs[act].spec);frame=cpF(segs[act].frame)}
+function selectSeg(i){if(i===act||!segs[i])return;storeActive();act=i;loadActive();autoW=false;syncInputs();update()}
+function addSeg(){
+  if(segs.length>=4)return;storeActive();
+  const xs=frame.map(p=>p[0]),dx=Math.min(25,100-Math.max(...xs));
+  let f=frame.map(([x,y])=>[clamp(x+dx,0,100),y]);if(!convexOK(f))f=cpF(DEF_FRAME);
+  segs.push({spec:{...specOf(cfg),door:"none",w:Math.max(6,Math.round(cfg.w/2))},frame:f});
+  act=segs.length-1;loadActive();autoW=false;syncInputs();update();
+}
+function removeSeg(){if(segs.length<2)return;segs.splice(act,1);act=Math.min(act,segs.length-1);loadActive();syncInputs();update()}
+function renderSegTabs(){
+  document.querySelectorAll(".segtabs").forEach(el=>{
+    el.innerHTML=segs.map((sg,i)=>`<button type="button" class="segb" data-seg="${i}" aria-pressed="${i===act}">${t("seg")} ${LETTERS[i]}<small>${ftin((i===act?cfg:sg.spec).w)}</small></button>`).join("")
+      +(segs.length<4?`<button type="button" class="segb add" data-segadd="1">+ ${t("seg")}</button>`:"")
+      +(segs.length>1?`<button type="button" class="segb rm" data-segrm="1">${t("rmSeg")} ${LETTERS[act]}</button>`:"");
+  });
+}
+document.addEventListener("click",e=>{const b=e.target.closest(".segtabs button");if(!b)return;if(b.dataset.segadd)addSeg();else if(b.dataset.segrm)removeSeg();else selectSeg(+b.dataset.seg)});
+const fr2o=f=>(f||[]).map(q=>Array.isArray(q)?{x:+q[0],y:+q[1]}:{x:+q.x,y:+q.y}), o2fr=a=>(a||[]).map(q=>Array.isArray(q)?[+q[0],+q[1]]:[+q.x,+q.y]);
+const handles=document.getElementById("handles"), frameInfo=document.getElementById("frameInfo");
+// --- projective math (homography from 4 point pairs) ---
+function adj(m){return [m[4]*m[8]-m[5]*m[7],m[2]*m[7]-m[1]*m[8],m[1]*m[5]-m[2]*m[4],m[5]*m[6]-m[3]*m[8],m[0]*m[8]-m[2]*m[6],m[2]*m[3]-m[0]*m[5],m[3]*m[7]-m[4]*m[6],m[1]*m[6]-m[0]*m[7],m[0]*m[4]-m[1]*m[3]]}
+function mm(a,b){const c=[];for(let i=0;i<3;i++)for(let j=0;j<3;j++){let v=0;for(let k=0;k<3;k++)v+=a[3*i+k]*b[3*k+j];c.push(v)}return c}
+function mv(m,v){return [m[0]*v[0]+m[1]*v[1]+m[2]*v[2],m[3]*v[0]+m[4]*v[1]+m[5]*v[2],m[6]*v[0]+m[7]*v[1]+m[8]*v[2]]}
+function basis(p){const m=[p[0][0],p[1][0],p[2][0],p[0][1],p[1][1],p[2][1],1,1,1];const v=mv(adj(m),[p[3][0],p[3][1],1]);return mm(m,[v[0],0,0,0,v[1],0,0,0,v[2]])}
+function homography(src,dst){const h=mm(basis(dst),adj(basis(src)));return h.map(x=>x/h[8])}
+function applyH(h,x,y){const r=mv(h,[x,y,1]);return [r[0]/r[2],r[1]/r[2]]}
+const dist=(a,b)=>Math.hypot(a[0]-b[0],a[1]-b[1]);
+// width/height ratio of the framed wall as seen in the photo (averages opposite edges, in px)
+function frameRatio(){
+  const Wp=photo.naturalWidth||1, Hp=photo.naturalHeight||1;
+  const P=frame.map(([x,y])=>[x*Wp/100,y*Hp/100]);
+  const wTop=dist(P[0],P[1]), wBot=dist(P[2],P[3]), hL=dist(P[0],P[2]), hR=dist(P[1],P[3]);
+  return ((wTop+wBot)/2)/Math.max(1,(hL+hR)/2);
+}
+function convexOK(f){
+  const P=[f[0],f[1],f[3],f[2]];let sign=0;
+  for(let i=0;i<4;i++){const a=P[i],b=P[(i+1)%4],c=P[(i+2)%4];const z=(b[0]-a[0])*(c[1]-b[1])-(b[1]-a[1])*(c[0]-b[0]);if(Math.abs(z)<1e-6)return false;const sg=Math.sign(z);if(sign&&sg!==sign)return false;sign=sg}
+  return true;
+}
+const cstage=document.getElementById("cstage"), cphoto=document.getElementById("cphoto"), cov=document.getElementById("cov");
+function paint(stageEl,ovEl,c,fr=frame){
+  const r=stageEl.getBoundingClientRect(), Wp=r.width, Hp=r.height;
+  if(!Wp||!Hp)return false;
+  const bw0=400, bh0=400*c.h/c.w;
+  ovEl.hidden=false;ovEl.style.width=bw0+"px";ovEl.style.height=bh0+"px";
+  ovEl.innerHTML=render(c,{overlay:true});
+  const h=homography([[0,0],[bw0,0],[0,bh0],[bw0,bh0]],fr.map(([x,y])=>[x*Wp/100,y*Hp/100]));
+  ovEl.style.transform=`matrix3d(${h[0]},${h[3]},0,${h[6]},${h[1]},${h[4]},0,${h[7]},0,0,1,0,${h[2]},${h[5]},0,${h[8]})`;
+  return true;
+}
+function paintOthers(stageEl,activeEl,clickable){
+  let box=stageEl.querySelector(".ovs");
+  if(!box){box=document.createElement("div");box.className="ovs";stageEl.insertBefore(box,activeEl)}
+  const r=stageEl.getBoundingClientRect();if(!r.width)return;
+  const others=segs.map((sg,i)=>i).filter(i=>i!==act);
+  while(box.children.length>others.length)box.lastChild.remove();
+  while(box.children.length<others.length){const d=document.createElement("div");d.className="ov other";if(clickable)d.addEventListener("click",()=>selectSeg(+d.dataset.seg));box.appendChild(d)}
+  others.forEach((i,k)=>{const el=box.children[k];el.dataset.seg=i;el.title=t("seg")+" "+LETTERS[i];paint(stageEl,el,segCfg(i),segs[i].frame)});
+  let tags=stageEl.querySelector(".segtags");
+  if(!tags){tags=document.createElement("div");tags.className="segtags";stageEl.appendChild(tags)}
+  tags.innerHTML=segs.length>1?segs.map((sg,i)=>{const f=i===act?frame:sg.frame;const x=Math.min(f[0][0],f[2][0]),y=Math.min(f[0][1],f[1][1]);return `<span class="segtag${i===act?" on":""}" style="left:${x}%;top:${y}%">${LETTERS[i]}</span>`}).join(""):"";
+}
+function drawOverlay(){
+  if(!photoURL)return;
+  storeActive();
+  paintOthers(stage,ov,true);
+  if(!cstage.hidden)paintOthers(cstage,cov,false);
+  if(paint(stage,ov,cfg)){
+    handles.hidden=false;
+    handles.querySelectorAll(".hdl").forEach(b=>{const [x,y]=frame[+b.dataset.c];b.style.left=x+"%";b.style.top=y+"%"});
+  }
+  if(!cstage.hidden)paint(cstage,cov,cfg);
+  const ratio=frameRatio();
+  frameInfo.textContent=t("frameInfo",{r:ratio.toFixed(2),h:ftin(cfg.h),w:ftin(Math.round(cfg.h*ratio*2)/2)});
+}
+window.addEventListener("resize",()=>drawOverlay());
+document.getElementById("frameReset").addEventListener("click",()=>{frame=DEF_FRAME.map(p=>[...p]);refit()});
+let drag=null;
+function startDrag(e,mode){
+  const r=stage.getBoundingClientRect();
+  drag={mode,sx:e.clientX,sy:e.clientY,W:r.width,H:r.height,f0:frame.map(p=>[...p])};
+  try{e.currentTarget.setPointerCapture(e.pointerId)}catch(x){}
+  e.preventDefault();
+}
+function moveDrag(e){
+  if(!drag)return;
+  const dx=(e.clientX-drag.sx)/drag.W*100, dy=(e.clientY-drag.sy)/drag.H*100;
+  let nf=drag.f0.map(p=>[...p]);
+  if(drag.mode==="all"){
+    const xs=nf.map(p=>p[0]),ys=nf.map(p=>p[1]);
+    const ddx=clamp(dx,-Math.min(...xs),100-Math.max(...xs)), ddy=clamp(dy,-Math.min(...ys),100-Math.max(...ys));
+    nf=nf.map(([x,y])=>[x+ddx,y+ddy]);
+  }else{const i=drag.mode;nf[i]=[clamp(drag.f0[i][0]+dx,0,100),clamp(drag.f0[i][1]+dy,0,100)]}
+  if(convexOK(nf)){frame=nf;drawOverlay()}
+}
+function endDrag(){if(drag){drag=null;refit()}}
+ov.addEventListener("pointerdown",e=>startDrag(e,"all"));
+ov.addEventListener("pointermove",moveDrag);ov.addEventListener("pointerup",endDrag);ov.addEventListener("pointercancel",endDrag);
+handles.querySelectorAll(".hdl").forEach(b=>{
+  b.addEventListener("pointerdown",e=>startDrag(e,+b.dataset.c));
+  b.addEventListener("pointermove",moveDrag);b.addEventListener("pointerup",endDrag);b.addEventListener("pointercancel",endDrag);
+  b.addEventListener("keydown",e=>{const k={ArrowLeft:[-1,0],ArrowRight:[1,0],ArrowUp:[0,-1],ArrowDown:[0,1]}[e.key];if(!k)return;e.preventDefault();
+    const i=+b.dataset.c,nf=frame.map(p=>[...p]);nf[i]=[clamp(nf[i][0]+k[0],0,100),clamp(nf[i][1]+k[1],0,100)];if(convexOK(nf)){frame=nf;refit()}});
+});
+// A design sized from the photo re-sizes itself whenever the frame changes
+function refit(){
+  if(autoW){cfg.w=clamp(Math.round(cfg.h*frameRatio()*2)/2,6,40);fitDoor(cfg);syncInputs();update()}
+  else{drawOverlay();scheduleSave()}
+}
+// Warp a source canvas onto a quadrilateral of a destination canvas (per-pixel inverse mapping, bilinear)
+function drawWarped(ctx,srcCanvas,dst){
+  const iw=srcCanvas.width, ih=srcCanvas.height, src=srcCanvas.getContext("2d").getImageData(0,0,iw,ih).data;
+  const inv=homography(dst,[[0,0],[iw,0],[0,ih],[iw,ih]]);
+  const xs=dst.map(p=>p[0]), ys=dst.map(p=>p[1]);
+  const x0=Math.max(0,Math.floor(Math.min(...xs))), x1=Math.min(ctx.canvas.width,Math.ceil(Math.max(...xs)));
+  const y0=Math.max(0,Math.floor(Math.min(...ys))), y1=Math.min(ctx.canvas.height,Math.ceil(Math.max(...ys)));
+  const W=x1-x0, H=y1-y0; if(W<=0||H<=0)return;
+  const layer=new ImageData(W,H), out=layer.data;
+  for(let y=0;y<H;y++)for(let x=0;x<W;x++){
+    const X=x0+x+.5, Y=y0+y+.5, d=inv[6]*X+inv[7]*Y+inv[8];
+    const u=(inv[0]*X+inv[1]*Y+inv[2])/d-.5, v=(inv[3]*X+inv[4]*Y+inv[5])/d-.5;
+    if(u<-.5||v<-.5||u>iw-.5||v>ih-.5)continue;
+    const ux=Math.max(0,Math.min(iw-1,u)), vy=Math.max(0,Math.min(ih-1,v));
+    const xa=Math.floor(ux), ya=Math.floor(vy), xb=Math.min(iw-1,xa+1), yb=Math.min(ih-1,ya+1), fx=ux-xa, fy=vy-ya;
+    const o=(y*W+x)*4;
+    for(let k=0;k<4;k++){
+      const p=src[(ya*iw+xa)*4+k]*(1-fx)*(1-fy)+src[(ya*iw+xb)*4+k]*fx*(1-fy)+src[(yb*iw+xa)*4+k]*(1-fx)*fy+src[(yb*iw+xb)*4+k]*fx*fy;
+      out[o+k]=p;
+    }
+  }
+  const lc=document.createElement("canvas");lc.width=W;lc.height=H;lc.getContext("2d").putImageData(layer,0,0);
+  ctx.drawImage(lc,x0,y0);
+}
+
+
+function numOr(id,def,a,b){const v=parseFloat(document.getElementById(id).value);return isNaN(v)?def:clamp(v,a,b)}
+function ruleDesign(){
+  const p=PRESETS.find(x=>x.id===SPACES[sp.space].preset), c={...p.cfg}, why=[{k:"whyBase",preset:p.id,space:sp.space}];
+  if(sp.style==="industrial"){c.system="loft";c.finish="black";why.push({k:"whyIndustrial"})}
+  else if(sp.style==="warm"){c.finish="bronze";if(c.system==="loft")c.system="frameless";why.push({k:"whyWarm"})}
+  else if(sp.style==="modern"){if(c.system!=="modular")c.system="frameless";if(c.finish==="bronze")c.finish="black";why.push({k:"whyModern"})}
+  else {if(c.system==="loft")c.system="framed";c.finish="silver";why.push({k:"whyCorporate"})}
+  if(sp.priv==="high"){c.glass=sp.style==="warm"?"fluted":"frosted";c.band=false;why.push({k:c.glass==="fluted"?"whyHighFluted":"whyHighFrosted"})}
+  else if(sp.priv==="mid"){if(c.glass==="frosted")c.glass="clear";c.band=c.glass!=="fluted";if(c.band)why.push({k:"whyMidBand"})}
+  else {c.band=false;if(c.glass==="frosted"||c.glass==="fluted")c.glass="lowiron";why.push({k:"whyLow"})}
+  c.doorPos="center";
+  c.h=numOr("sh",sp.space==="home"?8:9,7,12);
+  const hasW=document.getElementById("sw").value!=="";
+  let autoW=false;
+  if(hasW)c.w=numOr("sw",c.w,6,40);
+  else if(photoURL){c.w=clamp(Math.round(c.h*frameRatio()*2)/2,6,40);autoW=true}
+  fitDoor(c);
+  if(photoURL||hasW)why.push({k:"whyFrame"});
+  return {type:"rule",cfg:c,src:{type:"rule",space:sp.space,style:sp.style,adj:false},why,autoW};
+}
+// keep the door sensible for the available width
+function fitDoor(c){if(c.door==="double"&&c.w<10)c.door="swing";if(c.door!=="none"&&c.w<5)c.door="none"}
+function whyText(w,r){
+  if(typeof w==="string")return w;
+  if(w.k==="whyFrame"){const c=r.cfg;return t("whyFrame",{w:ftin(c.w),h:ftin(c.h),n:panelsOf(c).length})}
+  if(w.k==="detected"&&r.det)return t("detected",{s:L(SPACES[r.det.space].label),pr:L(PRIV[r.det.priv].label).split(" ·")[0].toLowerCase(),st:L(STYLE[r.det.style].label).toLowerCase()});
+  if(w.k==="whyBase")return t("whyBase",{n:L(PRESETS.find(p=>p.id===w.preset).name).toLowerCase(),s:L(SPACES[w.space].label).toLowerCase()});
+  return t(w.k);
+}
+function showRec(r){
+  rec={type:r.type,why:r.why,note:r.note,det:r.det};
+  cfg={doorPos:"center",...r.cfg};cfgSrc={...r.src};autoW=!!r.autoW;fitDoor(cfg);
+  if(r.keepSegs)segs[act].spec=specOf(cfg);
+  const pr=projects.find(x=>x.id===curProj);
+  if(pr&&pr.nameAuto){pr.name=srcName(cfgSrc).replace(t("adjusted"),"");renderProjBar()}
+  syncInputs();update();
+}
+function renderRec(){
+  const box=document.getElementById("rec");
+  if(!rec){box.hidden=true;return}
+  const r={...rec,cfg};
+  const e=projectCost(allCfgs());
+  document.getElementById("recSpace").textContent=t(r.type==="ai"?"srcAi":"srcRule");
+  document.getElementById("recName").textContent=srcName(cfgSrc);
+  document.getElementById("recWhy").innerHTML=r.why.map(w=>`<li>${esc(whyText(w,r))}</li>`).join("");
+  document.getElementById("recSpec").innerHTML=specRows(cfg).map(([a,b])=>`<tr><td>${a}</td><td>${b}</td></tr>`).join("")+`<tr><td>${t("sEst")}</td><td>${fmt(e.low)} – ${fmt(e.high)}</td></tr>`;
+  document.getElementById("recNote").textContent=r.note!=null?r.note:t("ruleNote");
+  box.hidden=false;
+}
+document.getElementById("ruleBtn").addEventListener("click",()=>{showRec(ruleDesign());setSpcMsg(photoURL?"autoApplied":"ruleNoPhoto")});
+function applyRec(){}
+document.getElementById("useRec").addEventListener("click",()=>{applyRec();showTab("cfg")});
+document.getElementById("quoteRec").addEventListener("click",()=>{applyRec();showTab("quo")});
+
+// AI analysis (Claude, on the viewer's account)
+let sampleNS=null, aiReady=false, aiCtl=null;
+(async()=>{
+  try{sampleNS=await window.claude?.use?.("sample")}catch(e){sampleNS=null}
+  if(!sampleNS)return;
+  const lim=await sampleNS.limits().catch(()=>null);
+  if(lim&&lim.images){aiReady=true;document.getElementById("aiBtn").hidden=false;document.getElementById("cam").accept=document.getElementById("gal-file").accept=lim.images.mediaTypes.join(",")}
+})();
+function pick(v,obj,def){return Object.prototype.hasOwnProperty.call(obj,v)?v:def}
+document.getElementById("aiBtn").addEventListener("click",async()=>{
+  if(!photoFile&&photoURL){try{photoFile=await (await fetch(photoURL)).blob()}catch(e){}}
+  if(!photoFile){setSpcMsg("needPhoto");return}
+  const btn=document.getElementById("aiBtn"),stop=document.getElementById("aiStop");
+  aiCtl=new AbortController();btn.disabled=true;stop.hidden=false;setSpcMsg("analyzing");
+  const sw=document.getElementById("sw").value, sh=document.getElementById("sh").value;
+  const known=[sw&&`width ≈ ${sw} ft`,sh&&`height ≈ ${sh} ft`].filter(Boolean).join(", ");
+  const outLang=lang==="en"?"English":"Spanish";
+  const prompt=`You are the glass partition designer for Handy Glass & Door in Central Florida. The image is a photo of a client's space where they want a glass partition installed.
+Client's selections (hints; if the photo clearly shows something different, follow the photo): type of space = ${SPACES[sp.space].label.en}; desired privacy = ${PRIV[sp.priv].label.en}; style = ${STYLE[sp.style].label.en}${known?"; client-provided measurements: "+known:""}.
+The client may already have marked sections on the photo; current section corners (% of image): ${JSON.stringify(allFrames().map(f=>({tl:f[0],tr:f[1],bl:f[2],br:f[3]})))}. Use them if they look right, otherwise correct them.
+GEOMETRY MATTERS: real spaces are often not one flat wall. If the area has more than one opening, a column or post, a corner, or the enclosure turns an angle (L-shape or U-shape, "double angle"), return ONE SECTION PER PLANE, each with its own 4 corners following that plane's own perspective, its own width and height, and its own door decision. Where an opening has a dropped header/soffit or beam, the section goes from the floor to the underside of that header (not to the ceiling) and its height is the header height. Sections that meet at a column share that edge.
+Study the photo carefully: the room type and use, walls, ceiling height and type, floor, existing doors/openings and circulation path, windows and light, materials and colors, and the decor style. Then design the partition that fits THIS space: size each section to the opening you see, put a door only where people would naturally walk through (usually one door for the whole enclosure), choose glass for the privacy the use needs, and match the frame finish to the existing hardware and decor.
+Write "name", "reasons" and "note" in ${outLang}.
+Reply with ONLY a JSON object with exactly these keys:
+{"name": "short design name",
+ "system": one of ${JSON.stringify(Object.keys(SYSTEMS))} (frameless, framed = slim frame, loft = industrial grid, modular = demountable),
+ "glass": one of ${JSON.stringify(Object.keys(GLASS))},
+ "finish": one of ${JSON.stringify(Object.keys(FINISH))},
+ "band": true/false (frosted band at eye level, applies to all sections),
+ "sections": [1 to 4 objects, ordered left to right in the photo, each {
+    "label": "short name of the opening, e.g. front opening / side opening",
+    "corners": {"tl":[x,y],"tr":[x,y],"bl":[x,y],"br":[x,y]} this plane's 4 corners as % of image width/height (tl/tr top edge at ceiling or header, bl/br at the floor), following its own perspective,
+    "width_ft": number 6-40 (estimate; references: standard interior doors are 6'8" tall and 30-36" wide, residential ceilings 8-9 ft, commercial 9-10 ft; use the client's measurements if given),
+    "height_ft": number 7-12,
+    "door": one of ${JSON.stringify(Object.keys(DOOR))},
+    "doorPos": one of ["left","center","right"] }],
+ "space": one of ${JSON.stringify(Object.keys(SPACES))} (what the photo shows),
+ "privacy": one of ${JSON.stringify(Object.keys(PRIV))},
+ "style": one of ${JSON.stringify(Object.keys(STYLE))} (the existing decor style),
+ "reasons": [3 short sentences on why this design fits what the photo shows],
+ "note": "one sentence on what to measure or verify on site"}`;
+  try{
+    const r=await sampleNS.json(prompt,{images:photoFile,signal:aiCtl.signal});
+    const shared={system:pick(r.system,SYSTEMS,"frameless"),glass:pick(r.glass,GLASS,"clear"),finish:pick(r.finish,FINISH,"black"),band:!!r.band};
+    const pt=v=>Array.isArray(v)&&v.length===2&&v.every(n=>isFinite(Number(n)))?[clamp(+v[0],0,100),clamp(+v[1],0,100)]:null;
+    const secs=(Array.isArray(r.sections)?r.sections:[r]).slice(0,4).map(q=>{
+      const sc={door:pick(q.door,DOOR,"none"),doorPos:pick(q.doorPos,DOORPOS,"center"),band:shared.band,
+        w:Math.round(clamp(Number(q.width_ft)||10,6,40)*2)/2,h:Math.round(clamp(Number(q.height_ft)||8,7,12)*2)/2};
+      fitDoor(sc);
+      const k=q.corners||{}, nf=[pt(k.tl),pt(k.tr),pt(k.bl),pt(k.br)];
+      return {spec:sc,frame:nf.every(Boolean)&&convexOK(nf)?nf:null};
+    });
+    secs.forEach((q,i)=>{if(!q.frame)q.frame=i===0?cpF(frame):cpF(secs[i-1].frame).map(([x,y])=>[clamp(x+20,0,100),y])});
+    segs=secs;act=0;frame=cpF(segs[0].frame);
+    const c={...shared,...segs[0].spec};
+    sp.space=pick(r.space,SPACES,sp.space);sp.priv=pick(r.privacy,PRIV,sp.priv);sp.style=pick(r.style,STYLE,sp.style);buildSpChips();
+    const why=(Array.isArray(r.reasons)?r.reasons:[]).slice(0,4).map(String);
+    why.unshift({k:"detected"});
+    showRec({type:"ai",keepSegs:true,cfg:c,src:{type:"text",text:String(r.name||t("aiNameDefault")).slice(0,60),adj:false},why,note:String(r.note||t("aiNoteDefault")),det:{space:sp.space,priv:sp.priv,style:sp.style}});
+    setSpcMsg("autoApplied");
+  }catch(e){
+    const code=e&&e.code;
+    if(code==="cancelled"){setSpcMsg(null,"")}
+    else{const m=t("aiErr");setSpcMsg(null,m[code]||m.other)}
+    if(["not_granted","sampling_disabled","images_unavailable","capability_disabled","capability_removed","not_declared"].includes(code))btn.hidden=true;
+  }finally{btn.disabled=false;stop.hidden=true}
+});
+document.getElementById("aiStop").addEventListener("click",()=>aiCtl&&aiCtl.abort());
+
+// ================= estimate document =================
+const BIZ={name:"Handy Glass & Door LLC",phone:"(407) 561-9844",web:"hgdslidingdoor-repair.com",area:"Central Florida"};
+function money2(n){return "$"+n.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2})}
+function lineItems(cs){
+  if(!Array.isArray(cs))cs=[cs];
+  const low=x=>lang==="es"?L(x).toLowerCase():L(x);
+  const out=[];
+  cs.forEach((c,i)=>{
+    const area=c.w*c.h, s=SYSTEMS[c.system], g=GLASS[c.glass], f=FINISH[c.finish], d=DOOR[c.door];
+    const pre=cs.length>1?`${t("seg")} ${LETTERS[i]} (${ftin(c.w)} × ${ftin(c.h)}) · `:"";
+    const sys=area*s.rate; out.push({d:pre+t("liSystem",{x:low(s.label)}),q:`${area.toFixed(0)} ft² × $${s.rate}`,a:sys});
+    if(g.add)out.push({d:pre+t("liGlass",{x:low(g.label)}),q:`${area.toFixed(0)} ft² × $${g.add}`,a:area*g.add});
+    if(f.mult>1)out.push({d:pre+t("liFinish",{x:low(f.label)}),q:`+${Math.round((f.mult-1)*100)}%`,a:(sys+area*g.add)*(f.mult-1)});
+    if(d.cost)out.push({d:pre+t("liDoor",{x:low(d.label)})+` · ${L(DOORPOS[c.doorPos||"center"].label).toLowerCase()}`,q:"1",a:d.cost});
+    if(c.band&&c.glass!=="frosted")out.push({d:pre+t("liBand"),q:t("liBandQ",{n:c.w}),a:c.w*BAND_LF});
+  });
+  if(cs.length>1)out.push({d:t("liJoint"),q:String(cs.length-1),a:JOINT*(cs.length-1)});
+  const sub=out.reduce((x,y)=>x+y.a,0);
+  if(sub<MIN_PROJECT)out.push({d:t("liMin"),q:"",a:MIN_PROJECT-sub});
+  out.forEach(x=>x.a=Math.round(x.a*100)/100);
+  return out;
+}
+const PRINT={"--muted":"#7a8a89","--ink":"#14201f","--dim":"#2f6f8f","--mono":"'Courier New',monospace"};
+function printSVG(c){return render(c).replace(/var\((--[a-z]+)\)/g,(m,k)=>PRINT[k]||"#333").replace("</defs>",'</defs><rect width="620" height="330" fill="#f1f4f3"/>')}
+function loadImg(src){return new Promise((res,rej)=>{const i=new Image();i.onload=()=>res(i);i.onerror=rej;i.src=src})}
+async function svgToPng(svg,scale=2.5){
+  const img=await loadImg("data:image/svg+xml;charset=utf-8,"+encodeURIComponent(svg.replace("<svg ",'<svg width="620" height="330" ')));
+  const cv=document.createElement("canvas");cv.width=620*scale;cv.height=330*scale;const x=cv.getContext("2d");x.fillStyle="#fff";x.fillRect(0,0,cv.width,cv.height);x.drawImage(img,0,0,cv.width,cv.height);
+  return cv.toDataURL("image/png");
+}
+async function compositeJPG(cs,frs){
+  if(!photoURL)return null;
+  const img=await loadImg(photoURL), sc=Math.min(1,1400/img.naturalWidth);
+  const cv=document.createElement("canvas");cv.width=Math.round(img.naturalWidth*sc);cv.height=Math.round(img.naturalHeight*sc);
+  const x=cv.getContext("2d");x.drawImage(img,0,0,cv.width,cv.height);
+  for(let i=0;i<cs.length;i++){
+    const c=cs[i], ow=900, oh=Math.round(900*c.h/c.w);
+    const svg=render(c,{overlay:true}).replace(/var\((--[a-z]+)\)/g,(m,k)=>PRINT[k]||"#333").replace("<svg ",`<svg width="${ow}" height="${oh}" `);
+    const ovi=await loadImg("data:image/svg+xml;charset=utf-8,"+encodeURIComponent(svg));
+    const oc=document.createElement("canvas");oc.width=ow;oc.height=oh;oc.getContext("2d").drawImage(ovi,0,0,ow,oh);
+    drawWarped(x,oc,frs[i].map(([px,py])=>[px*cv.width/100,py*cv.height/100]));
+  }
+  return {src:cv.toDataURL("image/jpeg",.85),w:cv.width,h:cv.height};
+}
+const DOC_CSS=`
+.estdoc{background:#fff;color:#14201f;font:13px/1.45 "Archivo",system-ui,sans-serif;padding:28px;max-width:820px;margin:0 auto}
+.estdoc *{box-sizing:border-box}
+.estdoc .hd{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-bottom:3px solid #C99A3B;padding-bottom:14px}
+.estdoc .biz b{display:block;font:700 18px/1.2 "Archivo",Arial,sans-serif}
+.estdoc .biz span{display:block;color:#5b6b6a;font-size:12px}
+.estdoc .meta{text-align:right}
+.estdoc .meta .t{font:700 22px/1 "Archivo",Arial,sans-serif;color:#0F2B4C;letter-spacing:.04em}
+.estdoc .meta div{font:12px "IBM Plex Mono",monospace;color:#3d4b4a}
+.estdoc .lbl{font:500 10px/1 "IBM Plex Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:#5b6b6a;margin:18px 0 6px}
+.estdoc .cli{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:4px 16px}
+.estdoc .proj{font:600 15px "Archivo",Arial,sans-serif;margin:0 0 6px}
+.estdoc svg,.estdoc img.dwg{display:block;width:100%;height:auto;border:1px solid #d9e2e1;border-radius:4px}
+.estdoc .segs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+.estdoc figure{margin:0}
+.estdoc figcaption{font:600 12px "IBM Plex Mono",monospace;margin-bottom:4px}
+.estdoc .specs{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:#3d4b4a;margin-top:8px}
+.estdoc table{width:100%;border-collapse:collapse;font-size:13px}
+.estdoc th{text-align:left;font:500 10px "IBM Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase;color:#5b6b6a;border-bottom:1px solid #14201f;padding:6px 4px}
+.estdoc td{padding:8px 4px;border-bottom:1px solid #e1e8e7;vertical-align:top}
+.estdoc td.n,.estdoc th.n{text-align:right;font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap}
+.estdoc .tot td{border:0;font-weight:700;font-size:16px;padding-top:12px}
+.estdoc .rng{font-size:12px;color:#5b6b6a;text-align:right}
+.estdoc ul{margin:0;padding-left:18px;color:#3d4b4a;font-size:12px}
+.estdoc .ft{margin-top:22px;padding-top:10px;border-top:1px solid #d9e2e1;font-size:11px;color:#5b6b6a;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+@media (max-width:520px){.estdoc{padding:18px}.estdoc .meta{text-align:left}}`;
+document.head.insertAdjacentHTML("beforeend",`<style>${DOC_CSS}</style>`);
+function fmtDate(dt){return dt.toLocaleDateString(lang==="es"?"es-US":"en-US",{day:"2-digit",month:"short",year:"numeric"})}
+// resolve a stored estimate into display strings in the current language
+function view(d){
+  const lines=lineItems(d.cfgs||[d.cfg]);
+  return {...d,lines,total:lines.reduce((x,y)=>x+y.a,0),date:fmtDate(d.created),valid:fmtDate(d.validUntil),name:srcName(d.src),space:L(QSPACES[d.client.space])};
+}
+function segSpecs(c){return specRows(c).filter(([a])=>a!==t("sSystem")&&a!==t("sGlass")&&a!==t("sFinish"))}
+function drawingsHTML(cs){
+  if(cs.length===1)return printSVG(cs[0]);
+  return `<div class="segs">${cs.map((c,i)=>`<figure><figcaption>${t("seg")} ${LETTERS[i]} · ${ftin(c.w)} × ${ftin(c.h)}</figcaption>${printSVG(c)}</figure>`).join("")}</div>`;
+}
+function specsHTML(cs){
+  const c0=cs[0], shared=[[t("sSystem"),L(SYSTEMS[c0.system].label)],[t("sGlass"),L(GLASS[c0.glass].label)+t("mm10")],[t("sFinish"),L(FINISH[c0.finish].label)]];
+  if(cs.length===1)return `<div class="specs">${specRows(c0).map(([a,b])=>`<span><b>${a}:</b> ${b}</span>`).join("")}</div>`;
+  return `<div class="specs">${shared.map(([a,b])=>`<span><b>${a}:</b> ${b}</span>`).join("")}</div>`+cs.map((c,i)=>`<div class="specs"><span><b>${t("seg")} ${LETTERS[i]}</b></span>${segSpecs(c).map(([a,b])=>`<span>${a}: ${b}</span>`).join("")}</div>`).join("");
+}
+function docMarkup(d,drawing){
+  const cs=d.cfgs||[d.cfg];
+  return `<div class="estdoc" lang="${t("docLang")}">
+  <div class="hd"><div class="biz"><b>${esc(BIZ.name)}</b><span>${t("dSub")} · ${BIZ.area}</span><span>${BIZ.phone} · ${BIZ.web}</span></div>
+  <div class="meta"><div class="t">${t("dTitle")}</div><div>${t("dNo")} ${d.num}</div><div>${t("dDate")}: ${d.date}</div><div>${t("dValid")}: ${d.valid}</div></div></div>
+  <div class="lbl">${t("dFor")}</div>
+  <div class="cli"><div><b>${esc(d.client.name)}</b></div><div>${esc(d.client.phone)}</div>${d.client.email?`<div>${esc(d.client.email)}</div>`:""}<div>${esc(d.client.city||"—")}</div><div>${esc(d.space)}</div></div>
+  <div class="lbl">${t("dDesign")}</div>
+  <p class="proj">${esc(d.name)}</p>
+  ${drawing}
+  ${specsHTML(cs)}
+  ${d.photo?`<div class="lbl">${t("dVis")}</div><img class="dwg" src="${d.photo.src}" alt="${esc(t("dVisAlt"))}"><div class="specs">${t("dVisNote")}</div>`:""}
+  <div class="lbl">${t("dBreak")}</div>
+  <table><thead><tr><th>${t("dDesc")}</th><th>${t("dQty")}</th><th class="n">${t("dAmt")}</th></tr></thead><tbody>
+  ${d.lines.map(l=>`<tr><td>${esc(l.d)}</td><td>${esc(l.q)}</td><td class="n">${money2(l.a)}</td></tr>`).join("")}
+  <tr class="tot"><td colspan="2">${t("dTotal")}</td><td class="n">${money2(d.total)}</td></tr></tbody></table>
+  <div class="rng">${t("dRange")}: ${fmt(d.total*.88)} – ${fmt(d.total*1.12)}</div>
+  ${d.notes?`<div class="lbl">${t("dNotes")}</div><div>${esc(d.notes)}</div>`:""}
+  <div class="lbl">${t("dTerms")}</div><ul>${t("terms").map(x=>`<li>${x}</li>`).join("")}</ul>
+  <div class="ft"><span>${esc(BIZ.name)} · ${BIZ.phone}</span><span>${t("dSign")}: ______________________</span></div>
+  </div>`;
+}
+function docHTML(d){
+  return `<!doctype html><html lang="${t("docLang")}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${t("fileWord")} ${d.num} · Handy Glass &amp; Door</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>body{margin:0;background:#e9eeed;padding:24px 12px}@media print{body{background:#fff;padding:0}}${DOC_CSS}</style></head><body>${docMarkup(d,drawingsHTML(d.cfgs||[d.cfg]))}</body></html>`;
+}
+function docText(d){
+  return [`${t("dTitle")} ${d.num} · ${BIZ.name}`,`${t("dDate")}: ${d.date} · ${t("dValid")}: ${d.valid}`,"",
+    `${t("dClient")}: ${d.client.name}`,`${t("dPhone")}: ${d.client.phone}`+(d.client.email?`\n${t("dEmail")}: ${d.client.email}`:""),`${t("dCity")}: ${d.client.city||"—"}`,`${t("dSpaceL")}: ${d.space}`,"",
+    `${t("dDesign")}: ${d.name}`,...(d.cfgs||[d.cfg]).flatMap((c,i,all)=>[...(all.length>1?[`— ${t("seg")} ${LETTERS[i]} —`]:[]),...specRows(c).map(([a,b])=>`${a}: ${b}`)]),"",
+    ...d.lines.map(l=>`${l.d} (${l.q||"—"}): ${money2(l.a)}`),`${t("dTotal").toUpperCase()}: ${money2(d.total)}`,"",`${t("dNotes")}: ${d.notes||"—"}`].join("\n");
+}
+async function buildPDF(d){
+  const {jsPDF}=window.jspdf; const pdf=new jsPDF({unit:"pt",format:"letter"});
+  const W=612,M=40,iw=W-2*M; let y=M;
+  const teal=[15,43,76], ink=[22,35,47], mute=[84,101,118];
+  const clean=s=>String(s).replace(/′/g,"'").replace(/″/g,'"').replace(/[–—]/g,"-").replace(/[“”]/g,'"');
+  const T=(s,x,yy,o={})=>{pdf.setFont("helvetica",o.b?"bold":"normal");pdf.setFontSize(o.s||10);pdf.setTextColor(...(o.c||ink));pdf.text(clean(s),x,yy,o.r?{align:"right"}:undefined)};
+  const wrap=(s,x,width,size,color,lh)=>{pdf.setFont("helvetica","normal");pdf.setFontSize(size);pdf.setTextColor(...color);const ls=pdf.splitTextToSize(clean(s),width);pdf.text(ls,x,y);return ls.length*lh};
+  T(BIZ.name,M,y+6,{b:1,s:16});T(t("dSub")+" · "+BIZ.area,M,y+22,{c:mute,s:9});T(BIZ.phone+" · "+BIZ.web,M,y+34,{c:mute,s:9});
+  T(t("dTitle"),W-M,y+8,{b:1,s:18,c:teal,r:1});T(t("dNo")+" "+d.num,W-M,y+22,{s:9,r:1});T(t("dDate")+": "+d.date,W-M,y+33,{s:9,r:1});T(t("dValid")+": "+d.valid,W-M,y+44,{s:9,r:1});
+  y+=54;pdf.setDrawColor(201,154,59);pdf.setLineWidth(2);pdf.line(M,y,W-M,y);y+=20;
+  T(t("dFor").toUpperCase(),M,y,{s:8,c:mute});y+=14;
+  T(d.client.name,M,y,{b:1,s:11});T(d.client.phone+(d.client.email?"   ·   "+d.client.email:""),M+230,y,{s:10});y+=14;
+  T((d.client.city||"—")+"   ·   "+d.space,M,y,{s:10,c:mute});y+=22;
+  T(t("dDesign").toUpperCase(),M,y,{s:8,c:mute});y+=14;T(d.name,M,y,{b:1,s:12});y+=8;
+  const cs=d.cfgs||[d.cfg];
+  if(cs.length===1){
+    const png=await svgToPng(printSVG(cs[0])), ih=iw*330/620;
+    pdf.addImage(png,"PNG",M,y,iw,ih);pdf.setDrawColor(217,226,225);pdf.setLineWidth(.6);pdf.rect(M,y,iw,ih);y+=ih+14;
+    y+=wrap(specRows(cs[0]).map(([a,b])=>`${a}: ${b}`).join("   ·   "),M,iw,9,mute,11)+12;
+  }else{
+    const gw=(iw-12)/2, gh=gw*330/620;
+    for(let i=0;i<cs.length;i++){
+      const col=i%2, gx=M+col*(gw+12);
+      if(col===0&&i>0)y+=gh+30;
+      T(`${t("seg")} ${LETTERS[i]} · ${ftin(cs[i].w)} × ${ftin(cs[i].h)}`,gx,y+8,{s:8.5,b:1});
+      const png=await svgToPng(printSVG(cs[i]));
+      pdf.addImage(png,"PNG",gx,y+14,gw,gh);pdf.setDrawColor(217,226,225);pdf.setLineWidth(.6);pdf.rect(gx,y+14,gw,gh);
+    }
+    y+=gh+30;
+    y+=wrap([[t("sSystem"),L(SYSTEMS[cs[0].system].label)],[t("sGlass"),L(GLASS[cs[0].glass].label)],[t("sFinish"),L(FINISH[cs[0].finish].label)]].map(([a,b])=>`${a}: ${b}`).join("   ·   "),M,iw,9,mute,11)+4;
+    cs.forEach((c,i)=>{y+=wrap(`${t("seg")} ${LETTERS[i]}: `+segSpecs(c).map(([a,b])=>`${a}: ${b}`).join("  ·  "),M,iw,9,mute,11)+2});
+    y+=10;
+    if(y>520){pdf.addPage();y=M}
+  }
+  T(t("dDesc").toUpperCase(),M,y,{s:8,c:mute});T(t("dQty").toUpperCase(),M+300,y,{s:8,c:mute});T(t("dAmt").toUpperCase(),W-M,y,{s:8,c:mute,r:1});y+=5;pdf.setDrawColor(...ink);pdf.setLineWidth(.8);pdf.line(M,y,W-M,y);y+=14;
+  d.lines.forEach(l=>{const h=wrap(l.d,M,290,10,ink,12);T(l.q,M+300,y,{s:10});T(money2(l.a),W-M,y,{s:10,r:1});y+=h+4;pdf.setDrawColor(225,232,231);pdf.setLineWidth(.5);pdf.line(M,y,W-M,y);y+=13});
+  y+=4;T(t("dTotal"),M,y,{b:1,s:13});T(money2(d.total),W-M,y,{b:1,s:13,r:1});y+=14;
+  T(`${t("dRange")}: ${fmt(d.total*.88)} - ${fmt(d.total*1.12)}`,W-M,y,{s:9,c:mute,r:1});y+=18;
+  if(d.notes){T(t("dNotes").toUpperCase(),M,y,{s:8,c:mute});y+=12;y+=wrap(d.notes,M,iw,9,ink,11)+8}
+  if(y>650){pdf.addPage();y=M}
+  T(t("dTerms").toUpperCase(),M,y,{s:8,c:mute});y+=12;
+  t("terms").forEach(x=>{y+=wrap("•  "+x,M,iw,8.5,mute,10.5)+2});
+  const fy=752;
+  const foot=()=>{pdf.setDrawColor(217,226,225);pdf.setLineWidth(.6);pdf.line(M,fy-12,W-M,fy-12);T(BIZ.name+" · "+BIZ.phone,M,fy,{s:8,c:mute});T(t("dSign")+": ______________________",W-M,fy,{s:8,c:mute,r:1})};
+  foot();
+  if(d.photo){
+    pdf.addPage();y=M;
+    T(t("dVis").toUpperCase(),M,y+6,{s:8,c:mute});T(t("fileWord")+" "+d.num,W-M,y+6,{s:8,c:mute,r:1});y+=18;
+    T(d.name,M,y,{b:1,s:12});y+=12;
+    let pw=iw, ph=pw*d.photo.h/d.photo.w; if(ph>600){ph=600;pw=ph*d.photo.w/d.photo.h}
+    pdf.addImage(d.photo.src,"JPEG",M+(iw-pw)/2,y,pw,ph);y+=ph+14;
+    y+=wrap(t("dVisNote"),M,iw,8.5,mute,10.5);
+    foot();
+  }
+  return pdf.output("blob");
+}
+
+// quote form
+const form=document.getElementById("qform"),err=document.getElementById("qerr"),toast=document.getElementById("toast");
+let current=null;
+function setToast(k,p){toast.textContent=k?t(k,p):""}
+function renderQSpace(){const s=document.getElementById("q-space"),v=s.value||"office";s.innerHTML=Object.entries(QSPACES).map(([k,o])=>`<option value="${k}">${L(o)}</option>`).join("");s.value=v}
+function renderPreview(){if(current)document.getElementById("docPreview").innerHTML=docMarkup(view(current),drawingsHTML(current.cfgs||[current.cfg]))}
+form.addEventListener("submit",async e=>{
+  e.preventDefault();
+  const v=id=>document.getElementById(id).value.trim();
+  if(!v("q-name")||!v("q-phone")){err.textContent=t("needContact");err.hidden=false;return}
+  err.hidden=true;
+  const now=new Date();
+  current={num:"EST-"+now.toISOString().slice(2,10).replace(/-/g,"")+"-"+String(Math.floor(1000+Math.random()*9000)),
+    created:now,validUntil:new Date(now.getTime()+30*864e5),cfg:{...cfg},cfgs:allCfgs(),frames:allFrames(),src:{...cfgSrc},notes:v("q-notes"),
+    client:{name:v("q-name"),phone:v("q-phone"),email:v("q-email"),city:v("q-city"),space:v("q-space")},photo:null};
+  try{current.photo=await compositeJPG(current.cfgs,current.frames)}catch(x){current.photo=null}
+  renderPreview();
+  document.getElementById("docActions").hidden=false;setToast(null);
+  updateSend();
+});
+function updateSend(){
+  if(!current)return;
+  const txt=docText(view(current)).slice(0,1800), enc=encodeURIComponent(txt);
+  document.getElementById("sendWa").href="https://wa.me/14075619844?text="+enc;
+  document.getElementById("sendSms").href="sms:+14075619844?&body="+enc;
+  document.getElementById("sendRow").hidden=false;document.getElementById("sendHint").hidden=false;
+}
+function fileBase(){return `${t("fileWord")}-${current.num}-${current.client.name.replace(/[^\p{L}\p{N}]+/gu,"-").replace(/^-|-$/g,"")}`}
+async function save(filename,data){
+  try{
+    const blob=data instanceof Blob?data:new Blob([data],{type:filename.endsWith(".html")?"text/html;charset=utf-8":"application/octet-stream"});
+    const url=URL.createObjectURL(blob), a=document.createElement("a");
+    a.href=url;a.download=filename;a.rel="noopener";document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),60000);
+    setToast("saved",{f:filename});
+  }catch(e){setToast("saveFail")}
+}
+document.getElementById("dlHtml").addEventListener("click",()=>{if(current)save(fileBase()+".html",docHTML(view(current)))});
+document.getElementById("dlPdf").addEventListener("click",async()=>{
+  if(!current)return;
+  if(!window.jspdf){setToast("pdfNoLib");return}
+  setToast("pdfMaking");
+  try{const blob=await buildPDF(view(current));await save(fileBase()+".pdf",blob)}catch(e){setToast("pdfFail")}
+});
+document.getElementById("copy").addEventListener("click",()=>{
+  if(!current)return; const txt=docText(view(current));
+  navigator.clipboard.writeText(txt).then(()=>setToast("copied")).catch(()=>{
+    const r=document.createRange();r.selectNodeContents(document.getElementById("docPreview"));const s=getSelection();s.removeAllRanges();s.addRange(r);setToast("selected")});
+});
+
+// ================= projects: cloud (db + assets) with on-device fallback =================
+// Each project: {id, where:"cloud"|"local", name, nameAuto, created, updated, cfg, src, frame, sp, rec, autoW, photoId (cloud) | photo Blob (local)}
+let projects=[], curProj=null, saveTimer=null, idb=null, localOK=false, cloud=null, assetsNS=null, cloudUnsub=null, writeChain=Promise.resolve();
+const deleted=new Set();
+const DEV=Math.random().toString(36).slice(2,10);
+function idbOpen(){return new Promise(res=>{try{const r=indexedDB.open("hgd-gp",1);r.onupgradeneeded=()=>r.result.createObjectStore("projects",{keyPath:"id"});r.onsuccess=()=>{idb=r.result;res(true)};r.onerror=()=>res(false);r.onblocked=()=>res(false)}catch(e){res(false)}})}
+function idbDo(mode,fn){return new Promise((res,rej)=>{try{const tx=idb.transaction("projects",mode),q=fn(tx.objectStore("projects"));tx.oncomplete=()=>res(q&&q.result);tx.onerror=()=>rej(tx.error);tx.onabort=()=>rej(tx.error)}catch(e){rej(e)}})}
+function body(pr){const {id,where,photo,_sig,...rest}=pr;const b=JSON.parse(JSON.stringify({...rest,dev:DEV}));
+  if(b.frame)b.frame=fr2o(b.frame);if(b.segs)b.segs=b.segs.map(sg=>({spec:sg.spec,frame:fr2o(sg.frame)}));return b}
+async function persist(pr){
+  if(deleted.has(pr.id))return true;
+  if(pr.where==="cloud"&&cloud){
+    const b=body(pr);
+    writeChain=writeChain.then(()=>deleted.has(pr.id)?null:cloud.doc("projects/"+pr.id).set(b)).then(()=>true,async e=>{
+      if(e&&e.code==="unavailable"){await new Promise(r=>setTimeout(r,600+Math.random()*600));try{await cloud.doc("projects/"+pr.id).set(b);return true}catch(x){}}
+      return false});
+    return writeChain;
+  }
+  if(localOK){try{await idbDo("readwrite",st=>st.put({...pr,where:"local"}));return true}catch(e){return false}}
+  return false;
+}
+function snapshot(pr){storeActive();Object.assign(pr,{cfg:{...cfg},src:{...cfgSrc},frame:cpF(frame),segs:segs.map(sg=>({spec:{...sg.spec},frame:cpF(sg.frame)})),act,sp:{...sp},rec,autoW,updated:Date.now()})}
+function timeStr(){return new Date().toLocaleTimeString(lang==="es"?"es-US":"en-US",{hour:"numeric",minute:"2-digit"})}
+function savedMsg(pr,ok){document.getElementById("projSaved").textContent=!ok?t(pr.where==="cloud"?"cloudFail":"storageOff"):t(pr.where==="cloud"?"savedCloud":"savedLocal",{t:timeStr()})}
+function sigOf(pr){const b=body(pr);delete b.updated;delete b.dev;return JSON.stringify(b)}
+function markClean(pr){const tmp={...pr};snapshot(tmp);pr._sig=sigOf(tmp)}
+function scheduleSave(force){
+  if(!curProj)return;
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(async()=>{
+    saveTimer=null;
+    const pr=projects.find(x=>x.id===curProj);if(!pr||deleted.has(pr.id))return;
+    const prev=pr.updated;snapshot(pr);
+    const sig=sigOf(pr);
+    if(!force&&sig===pr._sig){pr.updated=prev;return}
+    pr._sig=sig;savedMsg(pr,await persist(pr));
+  },700);
+}
+function newId(){return "p"+Date.now().toString(36)+Math.random().toString(36).slice(2,6)}
+// upload a photo to the artifact's cloud storage; resolves the asset id or null
+async function uploadPhoto(blob){
+  if(!assetsNS||!cloud)return null;
+  try{return (await assetsNS.upload(blob,{type:"image/jpeg"})).id}
+  catch(e){if(e&&e.code==="store_unavailable"){await new Promise(r=>setTimeout(r,800));try{return (await assetsNS.upload(blob,{type:"image/jpeg"})).id}catch(x){}}return null}
+}
+async function createProject(blob){
+  const now=new Date();
+  const pr={id:newId(),created:now.getTime(),nameAuto:true,
+    name:t("projDefault",{n:projects.length+1,d:now.toLocaleDateString(lang==="es"?"es-US":"en-US",{day:"numeric",month:"short"})})};
+  cfg={...DEFAULT};cfgSrc={type:"custom",adj:false};resetSegs();
+  if(cloud){
+    document.getElementById("projSaved").textContent=t("uploading");
+    const pid=await uploadPhoto(blob);
+    if(pid){pr.where="cloud";pr.photoId=pid}else{pr.where="local";pr.photo=blob;document.getElementById("projSaved").textContent=t("uploadFail")}
+  }else{pr.where="local";pr.photo=blob}
+  snapshot(pr);pr._sig=sigOf(pr);projects.unshift(pr);curProj=pr.id;
+  try{localStorage.setItem("hgd-gp-cur",curProj)}catch(e){}
+  syncInputs();update();renderProjBar();
+  const ok=await persist(pr);
+  if(!(pr.where==="local"&&cloud))savedMsg(pr,ok);
+}
+function photoOf(pr){return pr.photoId?{url:"/_blob/"+pr.photoId}:pr.photo?{blob:pr.photo}:null}
+function openProject(id){
+  const pr=projects.find(x=>x.id===id);if(!pr)return;
+  curProj=id;try{localStorage.setItem("hgd-gp-cur",id)}catch(e){}
+  frame=pr.frame?o2fr(pr.frame):cpF(DEF_FRAME);
+  cfg={...DEFAULT,...pr.cfg};
+  if(Array.isArray(pr.segs)&&pr.segs.length){segs=pr.segs.map(sg=>({spec:{...sg.spec},frame:o2fr(sg.frame)}));act=clamp(pr.act||0,0,segs.length-1);loadActive()}else resetSegs();cfgSrc={...(pr.src||{type:"custom"})};sp={...sp,...(pr.sp||{})};rec=pr.rec||null;autoW=!!pr.autoW;
+  const ph=photoOf(pr);
+  markClean(pr);
+  buildSpChips();setPhoto(ph&&ph.blob,ph&&ph.url);syncInputs();update();renderProjBar();
+  document.getElementById("projSaved").textContent="";
+}
+function newProject(){
+  curProj=null;try{localStorage.removeItem("hgd-gp-cur")}catch(e){}
+  frame=DEF_FRAME.map(p=>[...p]);rec=null;autoW=false;cfg={...DEFAULT};cfgSrc={type:"preset",id:"exec",adj:false};resetSegs();
+  setPhoto(null);syncInputs();update();renderProjBar();setSpcMsg(null,"");
+  document.getElementById("projSaved").textContent="";
+  showTab("spc");
+}
+function renderProjBar(){
+  const bar=document.getElementById("projbar"), sel=document.getElementById("projSel");
+  bar.hidden=!projects.length&&!cloud;
+  sel.innerHTML=(curProj?"":`<option value="">— ${esc(t("newProject"))} —</option>`)+projects.map(p=>`<option value="${p.id}">${p.where==="local"&&cloud?"⚠ ":""}${esc(p.name)}</option>`).join("");
+  sel.value=curProj||"";
+  ["projRename","projDel"].forEach(id=>{const b=document.getElementById(id);b.disabled=!curProj;b.title=curProj?"":t("needProject")});
+  const badge=document.getElementById("syncBadge");
+  badge.textContent=t(cloud?"syncCloud":"syncLocal");badge.dataset.mode=cloud?"cloud":"local";
+}
+document.getElementById("syncBadge").addEventListener("click",async()=>{
+  const out=document.getElementById("projSaved");
+  if(!cloud){out.textContent=t("localInfo");return}
+  out.textContent=t("syncing");
+  try{
+    if(curProj&&saveTimer){clearTimeout(saveTimer);saveTimer=null;const pr=projects.find(x=>x.id===curProj);if(pr){snapshot(pr);pr._sig=sigOf(pr);await persist(pr)}}
+    await writeChain;
+    const snap=await cloud.collection("projects").orderBy("updated","desc").limit(200).get();
+    const n=snap.docs.filter(d=>!deleted.has(d.id)).length;
+    out.textContent=t("synced",{n,t:timeStr()});
+  }catch(e){out.textContent=t("cloudFail")}
+});
+document.getElementById("projSel").addEventListener("change",e=>{if(e.target.value)openProject(e.target.value)});
+document.getElementById("projNew").addEventListener("click",newProject);
+const projName=document.getElementById("projName");
+document.getElementById("projRename").addEventListener("click",()=>{
+  const pr=projects.find(x=>x.id===curProj);if(!pr)return;
+  projName.value=pr.name;projName.hidden=false;document.getElementById("projSel").hidden=true;projName.focus();projName.select();
+});
+function finishRename(commit){
+  if(projName.hidden)return;
+  const pr=projects.find(x=>x.id===curProj), v=projName.value.trim();
+  if(commit&&pr&&v&&v!==pr.name){pr.name=v.slice(0,60);pr.nameAuto=false;scheduleSave(true);document.getElementById("projSaved").textContent=t("renamed")}
+  projName.hidden=true;document.getElementById("projSel").hidden=false;renderProjBar();
+}
+projName.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();finishRename(true)}else if(e.key==="Escape")finishRename(false)});
+projName.addEventListener("blur",()=>finishRename(true));
+document.getElementById("projDel").addEventListener("click",()=>{document.getElementById("projBtns").hidden=true;document.getElementById("projConfirm").hidden=false});
+document.getElementById("projDelNo").addEventListener("click",()=>{document.getElementById("projBtns").hidden=false;document.getElementById("projConfirm").hidden=true});
+document.getElementById("projDelYes").addEventListener("click",async()=>{
+  document.getElementById("projBtns").hidden=false;document.getElementById("projConfirm").hidden=true;
+  const pr=projects.find(x=>x.id===curProj);if(!pr)return;
+  clearTimeout(saveTimer);saveTimer=null;
+  deleted.add(pr.id);
+  projects=projects.filter(x=>x.id!==pr.id);
+  const name=pr.name;
+  curProj=null;
+  if(projects.length)openProject(projects[0].id);else newProject();
+  let ok=true;
+  if(pr.where==="cloud"&&cloud){
+    writeChain=writeChain.catch(()=>{}).then(()=>cloud.doc("projects/"+pr.id).delete());
+    try{await writeChain;if(pr.photoId&&assetsNS)await assetsNS.delete(pr.photoId).catch(()=>{})}
+    catch(e){ok=false;deleted.delete(pr.id)}
+    writeChain=writeChain.catch(()=>{});
+  }else if(localOK){try{await idbDo("readwrite",st=>st.delete(pr.id))}catch(e){ok=false}}
+  document.getElementById("projSaved").textContent=ok?t("deletedMsg",{n:name}):t("cloudFail");
+});
+SPOPTS.forEach(([id])=>document.getElementById(id).addEventListener("change",()=>scheduleSave()));
+
+// live list from the cloud; reload the open project when another device changed it
+function onCloudSnap(snap){
+  const cloudList=snap.docs.filter(d=>!deleted.has(d.id)).map(d=>({id:d.id,where:"cloud",...d.data()}));
+  const local=projects.filter(p=>p.where==="local");
+  const open=projects.find(p=>p.id===curProj);
+  projects=[...cloudList.map(c=>{const mine=projects.find(p=>p.id===c.id);if(!mine)return c;
+    if(c.id===curProj)return mine; // the open project is owned by this page; remote edits reload it below
+    return (mine.updated||0)>(c.updated||0)?mine:c}),...local].sort((a,b)=>(b.updated||0)-(a.updated||0));
+  const remote=snap.docChanges().find(ch=>ch.type==="modified"&&ch.doc.id===curProj&&!ch.doc.metadata.hasPendingWrites&&ch.doc.data().dev!==DEV);
+  if(remote&&open&&!saveTimer&&(remote.doc.data().updated||0)>(open.updated||0)){const c=cloudList.find(x=>x.id===curProj);projects=projects.map(x=>x.id===curProj?c:x);openProject(curProj);document.getElementById("projSaved").textContent=t("remoteUpdated")}
+  else if(curProj&&!projects.some(p=>p.id===curProj)&&!saveTimer){if(projects.length)openProject(projects[0].id);else{curProj=null;renderProjBar()}}
+  else renderProjBar();
+}
+// move projects saved on this device into the cloud
+async function migrateLocal(){
+  const local=projects.filter(p=>p.where==="local"&&p.photo);let n=0;
+  for(const pr of local){
+    const pid=await uploadPhoto(pr.photo);if(!pid)continue;
+    const moved={...pr,where:"cloud",photoId:pid};delete moved.photo;
+    try{await cloud.doc("projects/"+pr.id).set(body(moved));}catch(e){continue}
+    try{await idbDo("readwrite",st=>st.delete(pr.id))}catch(e){}
+    projects=projects.map(p=>p.id===pr.id?moved:p);n++;
+  }
+  if(n){document.getElementById("projSaved").textContent=t("migrated",{n});if(local.some(p=>p.id===curProj))openProject(curProj)}
+}
+
+// configurator view: drawing vs photo
+let cfgView="plan";
+function setCfgView(v){
+  cfgView=photoURL?v:"plan";
+  document.getElementById("drawing").hidden=cfgView==="photo";
+  cstage.hidden=cfgView!=="photo";document.getElementById("cstageAct").hidden=cfgView!=="photo";
+  document.querySelectorAll("#viewSeg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.view===cfgView));
+  document.getElementById("cfgLegend").textContent=t(cfgView==="photo"?"photoLegend2":"elevation");
+  document.getElementById("cfgLegend2").textContent=t(cfgView==="photo"?"photoLegendR":"scaleNote");
+  if(cfgView==="photo")requestAnimationFrame(()=>drawOverlay());
+}
+document.getElementById("viewSeg").addEventListener("click",e=>{const b=e.target.closest("button");if(b)setCfgView(b.dataset.view)});
+document.getElementById("adjFrame").addEventListener("click",()=>showTab("spc"));
+
+async function initProjects(){
+  localOK=await idbOpen();
+  if(localOK){try{projects=((await idbDo("readonly",st=>st.getAll()))||[]).map(p=>({...p,where:"local"}))}catch(e){projects=[]}}
+  try{cloud=await window.claude?.use?.("db")}catch(e){cloud=null}
+  try{assetsNS=await window.claude?.use?.("assets")}catch(e){assetsNS=null}
+  if(cloud&&!assetsNS)cloud=null; // without photo storage, keep everything on this device
+  if(cloud){
+    try{
+      const snap=await cloud.collection("projects").orderBy("updated","desc").limit(200).get();
+      projects=[...snap.docs.map(d=>({id:d.id,where:"cloud",...d.data()})),...projects];
+    }catch(e){cloud=null}
+  }
+  projects.sort((a,b)=>(b.updated||0)-(a.updated||0));
+  let last=null;try{last=localStorage.getItem("hgd-gp-cur")}catch(e){}
+  if(last&&projects.some(p=>p.id===last))openProject(last);
+  renderProjBar();
+  if(cloud){
+    cloudUnsub=cloud.collection("projects").orderBy("updated","desc").limit(200).onSnapshot(onCloudSnap,()=>{});
+    if(localOK)migrateLocal();
+  }
+}
+
+// ================= tabs & language =================
+function showTab(tab){
+  if(tab==="spc"||tab==="cfg")requestAnimationFrame(()=>drawOverlay());
+  document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===tab));
+  ["gal","spc","cfg","quo"].forEach(id=>document.getElementById(id).hidden=id!==tab);
+  if(window.top!==window){try{parent.postMessage({hgdGp:"top"},"*")}catch(e){}}else window.scrollTo({top:0});
+}
+document.querySelector(".tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(b)showTab(b.dataset.tab)});
+
+function applyLang(){
+  document.documentElement.lang=lang;
+  document.querySelectorAll("[data-i18n]").forEach(el=>{el.textContent=t(el.dataset.i18n)});
+  document.querySelectorAll("[data-i18n-ph]").forEach(el=>{el.placeholder=t(el.dataset.i18nPh)});
+  document.querySelectorAll("[data-i18n-aria]").forEach(el=>{el.setAttribute("aria-label",t(el.dataset.i18nAria))});
+  document.querySelectorAll(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.lang===lang));
+  photo.alt=t("photoAlt");
+  if(photoURL)document.getElementById("camLbl").textContent=t("takeAnother");
+  if(spcMsgKey)spcMsg.textContent=t(spcMsgKey);
+  if(!err.hidden)err.textContent=t("needContact");
+  setToast(null);
+  buildOpts();buildSpChips();renderQSpace();renderGallery();syncInputs();update();
+  renderRec();
+  renderPreview();renderProjBar();setCfgView(cfgView);updateSend();
+}
+document.querySelector(".lang").addEventListener("click",e=>{
+  const b=e.target.closest("button");if(!b||b.dataset.lang===lang)return;
+  lang=b.dataset.lang;try{localStorage.setItem("hgd-gp-lang",lang)}catch(x){}
+  applyLang();
+});
+applyLang();
+initProjects();
+if(window.top!==window&&window.ResizeObserver){let last=0;new ResizeObserver(()=>{const h=Math.ceil(document.documentElement.scrollHeight);if(Math.abs(h-last)>4){last=h;try{parent.postMessage({hgdGp:"h",h},"*")}catch(e){}}}).observe(document.body)}
+</script>
+</body>
+</html>
