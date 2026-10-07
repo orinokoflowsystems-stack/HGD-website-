@@ -203,3 +203,10 @@ section{padding:clamp(3rem,7vw,5.5rem) 0}
 
 .bar a{text-align:center;line-height:1.1}
 @media (max-width:600px){.hero .actions .btn-line,.cta .actions .btn-line{flex:1 1 calc(50% - .75rem);padding-left:.6rem;padding-right:.6rem}.hero .actions .btn-gold,.cta .actions .btn-gold{flex:1 1 100%}}
+
+/* ---------- glass partition designer embed */
+.designer .wrap>p{color:var(--muted)}
+.designer-frame{border:1px solid var(--rule);border-radius:10px;overflow:hidden;background:#F4F7FA;margin-top:1.4rem}
+.designer-frame iframe{display:block;width:100%;height:1100px;border:0;scroll-margin-top:84px}
+.designer .open{margin-top:.9rem;font-size:.95rem}
+@media (max-width:700px){.designer-frame iframe{height:1300px}}
