@@ -26,7 +26,7 @@
     if(h.indexOf("tel:")===0)contact("call");
     else if(h.indexOf("sms:")===0)contact("text");
     else if(h.indexOf("wa.me/")>-1||h.indexOf("api.whatsapp.com")>-1)contact("whatsapp");
-    else if(h.indexOf("book.housecallpro.com")>-1)contact("booking");
+    else if(h.indexOf("hgd-online-booking.handyglassanddoor.chatgpt.site")>-1||h.indexOf("book.hgdslidingdoor-repair.com")>-1||h.indexOf("book.housecallpro.com")>-1)contact("booking");
   },true);
 
   document.addEventListener("submit",function(e){
