@@ -338,11 +338,13 @@ html.embedded header{justify-content:flex-end}
         <div class="sendrow" id="sendRow" hidden>
           <a class="btn wa" id="sendWa" target="_blank" rel="noopener" data-i18n="sendWa"></a>
           <a class="btn gold" id="sendSms" target="_blank" data-i18n="sendSms"></a>
+          <a class="btn" id="sendMail" data-i18n="sendMail"></a>
         </div>
         <p class="note" id="sendHint" hidden data-i18n="sendHint"></p>
         <p class="toast" id="toast" aria-live="polite"></p>
         <p class="note" data-i18n="sendTo"></p>
         <span class="contact">(407) 561-9844</span>
+        <a class="contact" style="font-size:13px" href="mailto:info@hgdslidingdoor-repair.com">info@hgdslidingdoor-repair.com</a>
         <span class="contact" style="font-size:13px">hgdslidingdoor-repair.com</span>
       </div>
     </div>
@@ -411,7 +413,7 @@ es:{
   segHelp:"¿La división da vuelta en una columna o hay dos aberturas en ángulo? Agrega un tramo por cada plano y ajusta sus 4 esquinas. La IA los detecta sola.",
   renamed:"Nombre guardado.",deletedMsg:"Proyecto «{n}» eliminado.",syncing:"Sincronizando…",synced:"Nube al día · {n} proyecto(s) · {t}",
   localInfo:"Los proyectos se guardan solo en este dispositivo (la nube no está disponible en esta vista).",needProject:"Toma o sube una foto para crear un proyecto",
-  sendWa:"Enviar por WhatsApp",sendSms:"Enviar por texto",sendHint:"El mensaje lleva el resumen del estimado. Para incluir la foto con el diseño, descarga el PDF y adjúntalo en la conversación.",
+  sendWa:"Enviar por WhatsApp",sendSms:"Enviar por texto",sendMail:"Enviar por correo",mailSubj:"Estimado de partición de vidrio",sendHint:"El mensaje lleva el resumen del estimado. Para incluir la foto con el diseño, descarga el PDF y adjúntalo en la conversación.",
   fileWord:"Estimado",docLang:"es"
 },
 en:{
@@ -471,7 +473,7 @@ en:{
   segHelp:"Does the partition turn at a column, or are there two openings at an angle? Add one section per plane and set its 4 corners. The AI detects them on its own.",
   renamed:"Name saved.",deletedMsg:"Project “{n}” deleted.",syncing:"Syncing…",synced:"Cloud up to date · {n} project(s) · {t}",
   localInfo:"Projects are saved on this device only (the cloud isn't available in this view).",needProject:"Take or upload a photo to create a project",
-  sendWa:"Send on WhatsApp",sendSms:"Send by text",sendHint:"The message includes the estimate summary. To include the photo with the design, download the PDF and attach it in the chat.",
+  sendWa:"Send on WhatsApp",sendSms:"Send by text",sendMail:"Send by email",mailSubj:"Glass partition estimate",sendHint:"The message includes the estimate summary. To include the photo with the design, download the PDF and attach it in the chat.",
   fileWord:"Estimate",docLang:"en"
 }};
 let lang="es";
@@ -998,7 +1000,7 @@ Reply with ONLY a JSON object with exactly these keys:
 document.getElementById("aiStop").addEventListener("click",()=>aiCtl&&aiCtl.abort());
 
 // ================= estimate document =================
-const BIZ={name:"Handy Glass & Door LLC",phone:"(407) 561-9844",web:"hgdslidingdoor-repair.com",area:"Central Florida"};
+const BIZ={name:"Handy Glass & Door LLC",phone:"(407) 561-9844",web:"hgdslidingdoor-repair.com",email:"info@hgdslidingdoor-repair.com",area:"Central Florida"};
 function money2(n){return "$"+n.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2})}
 function lineItems(cs){
   if(!Array.isArray(cs))cs=[cs];
@@ -1087,7 +1089,7 @@ function specsHTML(cs){
 function docMarkup(d,drawing){
   const cs=d.cfgs||[d.cfg];
   return `<div class="estdoc" lang="${t("docLang")}">
-  <div class="hd"><div class="biz"><b>${esc(BIZ.name)}</b><span>${t("dSub")} · ${BIZ.area}</span><span>${BIZ.phone} · ${BIZ.web}</span></div>
+  <div class="hd"><div class="biz"><b>${esc(BIZ.name)}</b><span>${t("dSub")} · ${BIZ.area}</span><span>${BIZ.phone} · ${BIZ.web} · ${BIZ.email}</span></div>
   <div class="meta"><div class="t">${t("dTitle")}</div><div>${t("dNo")} ${d.num}</div><div>${t("dDate")}: ${d.date}</div><div>${t("dValid")}: ${d.valid}</div></div></div>
   <div class="lbl">${t("dFor")}</div>
   <div class="cli"><div><b>${esc(d.client.name)}</b></div><div>${esc(d.client.phone)}</div>${d.client.email?`<div>${esc(d.client.email)}</div>`:""}<div>${esc(d.client.city||"—")}</div><div>${esc(d.space)}</div></div>
@@ -1124,7 +1126,7 @@ async function buildPDF(d){
   const clean=s=>String(s).replace(/′/g,"'").replace(/″/g,'"').replace(/[–—]/g,"-").replace(/[“”]/g,'"');
   const T=(s,x,yy,o={})=>{pdf.setFont("helvetica",o.b?"bold":"normal");pdf.setFontSize(o.s||10);pdf.setTextColor(...(o.c||ink));pdf.text(clean(s),x,yy,o.r?{align:"right"}:undefined)};
   const wrap=(s,x,width,size,color,lh)=>{pdf.setFont("helvetica","normal");pdf.setFontSize(size);pdf.setTextColor(...color);const ls=pdf.splitTextToSize(clean(s),width);pdf.text(ls,x,y);return ls.length*lh};
-  T(BIZ.name,M,y+6,{b:1,s:16});T(t("dSub")+" · "+BIZ.area,M,y+22,{c:mute,s:9});T(BIZ.phone+" · "+BIZ.web,M,y+34,{c:mute,s:9});
+  T(BIZ.name,M,y+6,{b:1,s:16});T(t("dSub")+" · "+BIZ.area,M,y+22,{c:mute,s:9});T(BIZ.phone+" · "+BIZ.web+" · "+BIZ.email,M,y+34,{c:mute,s:9});
   T(t("dTitle"),W-M,y+8,{b:1,s:18,c:teal,r:1});T(t("dNo")+" "+d.num,W-M,y+22,{s:9,r:1});T(t("dDate")+": "+d.date,W-M,y+33,{s:9,r:1});T(t("dValid")+": "+d.valid,W-M,y+44,{s:9,r:1});
   y+=54;pdf.setDrawColor(201,154,59);pdf.setLineWidth(2);pdf.line(M,y,W-M,y);y+=20;
   T(t("dFor").toUpperCase(),M,y,{s:8,c:mute});y+=14;
@@ -1199,6 +1201,7 @@ function updateSend(){
   const txt=docText(view(current)).slice(0,1800), enc=encodeURIComponent(txt);
   document.getElementById("sendWa").href="https://wa.me/14075619844?text="+enc;
   document.getElementById("sendSms").href="sms:+14075619844?&body="+enc;
+  document.getElementById("sendMail").href="mailto:"+BIZ.email+"?subject="+encodeURIComponent(t("mailSubj")+" "+current.num)+"&body="+enc;
   document.getElementById("sendRow").hidden=false;document.getElementById("sendHint").hidden=false;
 }
 function fileBase(){return `${t("fileWord")}-${current.num}-${current.client.name.replace(/[^\p{L}\p{N}]+/gu,"-").replace(/^-|-$/g,"")}`}
