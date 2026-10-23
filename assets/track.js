@@ -1,9 +1,9 @@
 /* Handy Glass & Door — Google tag + lead tracking.
-   Google Ads: AW-16544169892. Add a GA4 ID (G-XXXX) to GA4_ID to also send to Analytics. */
+   Google Ads: AW-16544169892. GA4: G-8XYVMDCZXR. */
 (function(){
   var ADS_ID="AW-16544169892";
   var LEAD_LABEL="AW-16544169892/V6n9CKDk0LUZEKT_79A9"; // "Enviar formulario de clientes potenciales"
-  var GA4_ID=""; // e.g. "G-ABC123XYZ"
+  var GA4_ID="G-8XYVMDCZXR";
   // Optional extra Google Ads conversion labels; fill in when created in Google Ads.
   var LABELS={call:"",whatsapp:"",text:"",booking:""};
 
