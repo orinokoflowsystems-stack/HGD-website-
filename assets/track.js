@@ -1,5 +1,5 @@
 /* Handy Glass & Door — Google tag + lead tracking.
-   Google Ads: AW-16544169892. GA4: G-8XYVMDCZXR. */
+   Google Ads: AW-16544169892 + AW-10895484557. GA4: G-8XYVMDCZXR. */
 (function(){
   var ADS_ID="AW-16544169892";
   var LEAD_LABEL="AW-16544169892/V6n9CKDk0LUZEKT_79A9"; // "Enviar formulario de clientes potenciales"
@@ -12,6 +12,7 @@
   window.gtag=window.gtag||gtag;
   gtag("js",new Date());
   gtag("config",ADS_ID);
+  gtag("config","AW-10895484557"); // 2nd Google Ads account (campaign "Search Sliding Glass Door Repair")
   if(GA4_ID)gtag("config",GA4_ID);
 
   var lang=(document.documentElement.lang||"en").slice(0,2);
