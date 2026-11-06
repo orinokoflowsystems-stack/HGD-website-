@@ -6,7 +6,7 @@
   var LEAD_LABEL_530="AW-10895484557/_hL2CNrwmZkcEI3Nr8so"; // Cuenta 530: "Submit lead form"
   var GA4_ID="G-8XYVMDCZXR";
   // Optional extra Google Ads conversion labels; fill in when created in Google Ads.
-  var LABELS={call:"",whatsapp:"AW-10895484557/V29BCI2wxbMdEI3Nr8so",text:"",booking:"AW-10895484557/iczaCLam8s0ZEI3Nr8so"}; // booking = cuenta 530 "Registro"
+  var LABELS={call:"AW-10895484557/Pt5MCJPXxbMdEI3Nr8so",whatsapp:"AW-10895484557/V29BCI2wxbMdEI3Nr8so",text:"",booking:"AW-10895484557/iczaCLam8s0ZEI3Nr8so"}; // booking = cuenta 530 "Registro"
 
   window.dataLayer=window.dataLayer||[];
   function gtag(){dataLayer.push(arguments);}
