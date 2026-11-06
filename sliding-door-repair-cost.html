@@ -87,58 +87,58 @@
 <details class="menu"><summary>Menu</summary><div class="panel"><a href="sliding-door-repair">Services</a><a href="sliding-door-repair-cost">Cost calculator</a><a href="service-areas">Service areas</a><a href="about">About us</a><a href="free-estimate">Free estimate</a><a href="https://book.hgdslidingdoor-repair.com" rel="noopener">Book online</a><a href="es/costo-reparacion-puerta-corrediza" hreflang="es" lang="es">Español</a></div></details>
 </div></header>
 <main id="main">
-<section class="hero sub"><div class="wrap"><div><nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> / Repair cost calculator</nav><h1 data-i="h1"></h1><p class="lead" data-i="lead"></p></div></div></section>
+<section class="hero sub"><div class="wrap"><div><nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> / Repair cost calculator</nav><h1 data-i="h1">How much will my sliding door repair cost?</h1><p class="lead" data-i="lead">Tell us what the door is doing. You'll see a price range for parts we can quote now, and what the technician prices on site for free.</p></div></div></section>
 <section><div class="wrap hgdcalc">
 <div class="hc-grid">
   <form class="hc-steps" id="calc" novalidate>
     <section class="step">
-      <h2><span class="n"></span><span data-i="s1"></span></h2>
-      <p class="hc-hint" data-i="s1h"></p>
+      <h2><span class="n"></span><span data-i="s1">What is the door doing?</span></h2>
+      <p class="hc-hint" data-i="s1h">Pick everything that applies.</p>
       <div class="opts" id="problems"></div>
     </section>
 
     <section class="step" id="step-panels">
-      <h2><span class="n"></span><span data-i="s2"></span></h2>
-      <p class="hc-hint" data-i="s2h"></p>
+      <h2><span class="n"></span><span data-i="s2">How many panels slide?</span></h2>
+      <p class="hc-hint" data-i="s2h">Count only the glass panels that move. A standard patio door has one.</p>
       <div class="hc-row">
         <div class="stepper">
           <button type="button" id="pminus" aria-label="−">−</button>
           <output id="panels" aria-live="polite">1</output>
           <button type="button" id="pplus" aria-label="+">+</button>
         </div>
-        <span class="hc-note" data-i="panelsNote"></span>
+        <span class="hc-note" data-i="panelsNote">Each sliding panel usually rides on 2 rollers.</span>
       </div>
     </section>
 
     <section class="step" id="step-glass" hidden>
-      <h2><span class="n"></span><span data-i="s3"></span></h2>
-      <p class="hc-hint" data-i="s3h"></p>
+      <h2><span class="n"></span><span data-i="s3">What kind of glass is it?</span></h2>
+      <p class="hc-hint" data-i="s3h">If you're not sure, look at the edge: two sheets with a gap is double pane.</p>
       <div class="opts" id="glass"></div>
     </section>
 
     <section class="step">
-      <h2><span class="n"></span><span data-i="s4"></span></h2>
+      <h2><span class="n"></span><span data-i="s4">Where is the door?</span></h2>
       <div class="hc-row">
         <select id="city" aria-label="City"></select>
       </div>
-      <p class="warn" id="outside" hidden data-i="outside"></p>
+      <p class="warn" id="outside" hidden data-i="outside">We may still be able to help. Call or send a WhatsApp and we'll confirm if we cover your area.</p>
     </section>
   </form>
 
   <aside class="ticket" id="ticket" aria-live="polite">
-    <div class="ticket-head"><span data-i="tk"></span><small data-i="tks"></small></div>
+    <div class="ticket-head"><span data-i="tk">Your estimate</span><small data-i="tks">Central Florida</small></div>
     <div class="ticket-body">
-      <p class="empty" id="empty" data-i="empty"></p>
+      <p class="empty" id="empty" data-i="empty">Choose what the door is doing to see your estimate.</p>
       <ul class="lines" id="lines"></ul>
       <div class="total" id="totalRow" hidden><span class="lbl" id="totalLbl"></span><span class="amt" id="total"></span></div>
-      <div class="free" data-i="free"></div>
+      <div class="free" data-i="free">Free on-site estimate</div>
       <div class="cta-box">
-        <a class="cbtn wa" id="wa" target="_blank" rel="noopener" data-i="wa"></a>
-        <a class="cbtn call" id="call" href="tel:+14075619844" data-i="call"></a>
+        <a class="cbtn wa" id="wa" target="_blank" rel="noopener" data-i="wa">Send to WhatsApp</a>
+        <a class="cbtn call" id="call" href="tel:+14075619844" data-i="call">Call now</a>
         <p class="phone-txt">(407) 561-9844</p>
-        <button type="button" class="cbtn ghost" id="copy" data-i="copy"></button>
+        <button type="button" class="cbtn ghost" id="copy" data-i="copy">Copy summary</button>
       </div>
-      <p class="fine" data-i="fine"></p>
+      <p class="fine" data-i="fine">Rollers and labor are shown separately. Ranges are a guide, not a final price. The technician checks the door and gives you the exact price before starting. If you say no, you pay nothing.</p>
     </div>
   </aside>
 </div>
