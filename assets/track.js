@@ -3,6 +3,7 @@
 (function(){
   var ADS_ID="AW-16544169892";
   var LEAD_LABEL="AW-16544169892/V6n9CKDk0LUZEKT_79A9"; // "Enviar formulario de clientes potenciales"
+  var LEAD_LABEL_530="AW-10895484557/_hL2CNrwmZkcEI3Nr8so"; // Cuenta 530: "Submit lead form"
   var GA4_ID="G-8XYVMDCZXR";
   // Optional extra Google Ads conversion labels; fill in when created in Google Ads.
   var LABELS={call:"",whatsapp:"",text:"",booking:""};
@@ -17,7 +18,7 @@
 
   var lang=(document.documentElement.lang||"en").slice(0,2);
   function ev(name,params){params=params||{};params.page_language=lang;params.page_path=location.pathname;window.gtag("event",name,params);}
-  function lead(kind){ev("generate_lead",{lead_type:kind});window.gtag("event","conversion",{send_to:LEAD_LABEL});}
+  function lead(kind){ev("generate_lead",{lead_type:kind});window.gtag("event","conversion",{send_to:LEAD_LABEL});window.gtag("event","conversion",{send_to:LEAD_LABEL_530,value:1.0,currency:"USD"});}
   function contact(kind){ev("contact_click",{method:kind});if(LABELS[kind])window.gtag("event","conversion",{send_to:LABELS[kind]});}
 
   document.addEventListener("click",function(e){
