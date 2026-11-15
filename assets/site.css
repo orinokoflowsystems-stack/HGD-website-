@@ -212,3 +212,14 @@ section{padding:clamp(3rem,7vw,5.5rem) 0}
 .designer .open{margin-top:.9rem;font-size:.95rem}
 @media (max-width:700px){.designer-frame iframe{height:1300px}}
 .foot .phone-tag{display:inline-block;vertical-align:middle;margin-left:.5rem;padding:.15rem .5rem;border:1px solid #C99A3B;border-radius:999px;color:#C99A3B;font-size:.75rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+
+/* ---------- recent work (city pages) */
+#recent-work .work-intro{color:var(--muted);margin-bottom:1.5rem}
+.work{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(.6rem,1.6vw,1.1rem)}
+.work figure{margin:0}
+.work a{display:block;border-radius:6px;overflow:hidden;background:var(--glass)}
+.work img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;transition:transform .3s ease}
+.work a:hover img{transform:scale(1.03)}
+.work figcaption{font-size:.88rem;line-height:1.35;color:var(--muted);margin-top:.45rem}
+@media (max-width:700px){.work{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (prefers-reduced-motion:reduce){.work img{transition:none}}

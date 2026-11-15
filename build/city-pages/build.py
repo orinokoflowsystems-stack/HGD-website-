@@ -122,11 +122,12 @@ def gallery_html(city, lang, gallery):
         figs.append(
             '<figure><a href="{full}" target="_blank" rel="noopener">'
             '<img src="{src}" srcset="{src} 640w, {full} 1280w" sizes="(max-width:700px) 50vw, 33vw" '
-            'width="{w}" height="{h}" loading="lazy" decoding="async" alt="{alt}"></a>'
+            'width="{w}" height="{h}" loading="lazy" decoding="async"{style} alt="{alt}"></a>'
             '<figcaption>{cap}</figcaption></figure>'.format(
                 src=src.replace('.webp', '-640.webp'), full=src, w=p['w'], h=p['h'],
+                style=' style="object-position:%s"' % p['focus'] if p.get('focus') else '',
                 alt=html.escape(p['alt'][lang], quote=True), cap=p['caption'][lang]))
-    return ('<section id="recent-work"><div class="wrap"><h2>%s</h2><p class="sub">%s</p>'
+    return ('<section id="recent-work"><div class="wrap"><h2>%s</h2><p class="work-intro">%s</p>'
             '<div class="work">%s</div></div></section>\n') % (g['h2'], g['intro'], ''.join(figs))
 
 

@@ -1,1 +1,121 @@
-{"per_page": 6, "photos": []}
+{
+  "per_page": 6,
+  "_how_to": "Photos live in assets/work/ as name.webp (1280px) and name-640.webp. Add the city slug(s) to 'cities' when you know where a job was: those photos then show first on that city's page. Photos with \"anywhere\": false only show on the pages of their cities.",
+  "photos": [
+    {
+      "file": "broken-tempered-glass-before-after.webp",
+      "w": 1177,
+      "h": 600,
+      "cities": [],
+      "caption": {
+        "en": "Broken tempered glass: before and after",
+        "es": "Vidrio templado roto: antes y después"
+      },
+      "alt": {
+        "en": "Sliding glass door with shattered tempered glass next to the same door after the glass was replaced",
+        "es": "Puerta corrediza con el vidrio templado estallado junto a la misma puerta con el vidrio ya cambiado"
+      }
+    },
+    {
+      "file": "old-vs-new-rollers.webp",
+      "w": 1178,
+      "h": 820,
+      "cities": [],
+      "caption": {
+        "en": "Rusted roller out (left), new roller in (right)",
+        "es": "Rodamiento oxidado que salió (izquierda) y el nuevo (derecha)"
+      },
+      "alt": {
+        "en": "A rusted sliding door roller next to a new replacement roller",
+        "es": "Un rodamiento de puerta corrediza oxidado junto a un rodamiento nuevo"
+      }
+    },
+    {
+      "file": "worn-sliding-door-track.webp",
+      "w": 960,
+      "h": 1280,
+      "cities": [],
+      "caption": {
+        "en": "A worn bottom track, the kind that makes a door drag",
+        "es": "Riel inferior gastado, de los que hacen que la puerta arrastre"
+      },
+      "alt": {
+        "en": "Close-up of a dirty, worn aluminum bottom track of a sliding glass door",
+        "es": "Primer plano de un riel inferior de aluminio sucio y gastado de una puerta corrediza"
+      }
+    },
+    {
+      "file": "broken-glass-cleanup.webp",
+      "w": 960,
+      "h": 1280,
+      "cities": [],
+      "caption": {
+        "en": "Cleaning up broken glass before the new panel goes in",
+        "es": "Limpiando el vidrio roto antes de instalar el panel nuevo"
+      },
+      "alt": {
+        "en": "Technician vacuuming broken glass from a patio floor next to a sliding door",
+        "es": "Técnico aspirando vidrio roto del piso del patio junto a una puerta corrediza"
+      }
+    },
+    {
+      "file": "multi-panel-door-panel-out.webp",
+      "w": 960,
+      "h": 1280,
+      "cities": [],
+      "caption": {
+        "en": "Large multi-panel slider with a panel out for repair",
+        "es": "Puerta grande de varios paneles, con un panel fuera para repararlo"
+      },
+      "alt": {
+        "en": "Wide multi-panel sliding glass door opening with one panel removed while the technician works",
+        "es": "Puerta corrediza ancha de varios paneles con un panel retirado mientras trabaja el técnico"
+      }
+    },
+    {
+      "file": "glass-unit-ready-to-install.webp",
+      "w": 960,
+      "h": 1280,
+      "cities": [],
+      "caption": {
+        "en": "New glass checked on site before it goes in",
+        "es": "Vidrio nuevo revisado en sitio antes de instalarlo"
+      },
+      "alt": {
+        "en": "New sliding door glass on sawhorses on a front lawn, with the service van behind",
+        "es": "Vidrio nuevo de puerta corrediza sobre caballetes en el jardín, con la camioneta de servicio detrás"
+      },
+      "focus": "50% 15%"
+    },
+    {
+      "file": "new-insulated-glass-unit.webp",
+      "w": 960,
+      "h": 1280,
+      "cities": [],
+      "caption": {
+        "en": "New glass, ready to install in the existing frame",
+        "es": "Vidrio nuevo, listo para instalar en el mismo marco"
+      },
+      "alt": {
+        "en": "New sliding door glass unit resting on sawhorses on a patio before installation",
+        "es": "Vidrio nuevo para puerta corrediza sobre caballetes en el patio antes de instalarlo"
+      },
+      "anywhere": false
+    },
+    {
+      "file": "shattered-patio-door-panel.webp",
+      "w": 960,
+      "h": 1280,
+      "cities": [],
+      "anywhere": false,
+      "caption": {
+        "en": "Shattered panel taped up and removed safely",
+        "es": "Panel estallado, encintado y retirado con seguridad"
+      },
+      "alt": {
+        "en": "Broken sliding door panel wrapped in plastic and tape, leaning beside the open door",
+        "es": "Panel roto de puerta corrediza envuelto en plástico y cinta, junto a la puerta abierta"
+      }
+    }
+  ]
+}
