@@ -1,0 +1,2733 @@
+{
+  "cities": [
+    {
+      "slug": "orlando",
+      "name": "Orlando",
+      "area_label": {
+        "en": "Orange County",
+        "es": "Orange County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Orlando, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Orange County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Orlando, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Orlando, FL — College Park, Conway, MetroWest, Baldwin Park and more. Rollers, tracks, locks and glass. Free on-site estimate. (407) 561-9844.",
+        "crumb": "Orlando",
+        "h1": "Sliding glass door repair in Orlando",
+        "lead": "Orlando has every kind of sliding door we work on: original aluminum sliders in the 1950s–70s ranch homes around College Park, Conway and Azalea Park, heavy impact glass in newer builds around MetroWest and Baldwin Park, and big multi-panel doors in lakefront homes. Most calls here are doors that got hard to push after years of use, and locks that stopped catching.",
+        "see_h2": "What we see in Orlando",
+        "see": [
+          "Older aluminum doors: we still find rollers and locks for most original models",
+          "Condos and apartments: we work around HOA rules and building access",
+          "Doors opening onto pool cages and lanais, where sand and chlorine wear rollers faster"
+        ],
+        "fix_h2": "What we fix in Orlando",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement-orlando\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement-orlando\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Orlando: what we run into",
+          "paragraphs": [
+            "Orlando&#x27;s housing goes from 1950s block homes to brand-new apartments, and the doors follow suit. In College Park, Delaney Park, Conway and Azalea Park we still see original aluminum sliders with steel rollers that have flattened over decades; most of them can be saved with new rollers and a track cap instead of a new door.",
+            "In MetroWest, Baldwin Park and the condo towers downtown, the issue is usually access: HOA rules, gate codes and elevator reservations. Tell us when you book and we plan the visit around them. In lakefront homes we work on large multi-panel doors, where one dragging panel can wear the whole track."
+          ],
+          "areas_h2": "Neighborhoods we cover in Orlando",
+          "areas": [
+            "Downtown &amp; Thornton Park",
+            "College Park",
+            "Conway &amp; Azalea Park",
+            "Baldwin Park",
+            "MetroWest",
+            "Delaney Park &amp; SoDo",
+            "Audubon Park",
+            "Pine Hills"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Can you fix the door in my Orlando condo or apartment?",
+            "a": "Yes. Let us know about HOA rules, gate codes or elevator reservations when you book, and we schedule the visit around them. Most roller and lock repairs are done the same visit."
+          },
+          {
+            "q": "My 1960s Orlando home has the original aluminum slider. Is it worth repairing?",
+            "a": "Usually yes. Most original aluminum doors only need new rollers and a track repair. We check the frame first and tell you honestly if it isn&#x27;t worth it."
+          },
+          {
+            "q": "Do you charge extra to come to Orlando?",
+            "a": "No. Orlando is in our regular service area, and the on-site estimate is free."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Orlando, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Orlando, FL — College Park, Conway, MetroWest, Baldwin Park y más. Rodamientos, rieles, cerraduras y vidrio. Estimado gratis. (407) 561-9844.",
+        "crumb": "Orlando",
+        "h1": "Reparación de puertas corredizas en Orlando",
+        "lead": "En Orlando vemos de todo: puertas de aluminio originales en las casas de los años 50 a 70 de College Park, Conway y Azalea Park, vidrio de impacto pesado en construcciones más nuevas de MetroWest y Baldwin Park, y puertas grandes de varios paneles en casas frente a lagos. La mayoría de las llamadas aquí son puertas que se pusieron pesadas con los años y seguros que dejaron de enganchar.",
+        "see_h2": "Lo que vemos en Orlando",
+        "see": [
+          "Puertas de aluminio viejas: todavía conseguimos rodamientos y cerraduras para la mayoría de los modelos originales",
+          "Condominios y apartamentos: trabajamos respetando las reglas de la HOA y el acceso al edificio",
+          "Puertas que dan a jaulas de piscina y lanais, donde la arena y el cloro gastan más los rodamientos"
+        ],
+        "fix_h2": "Lo que reparamos en Orlando",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos-orlando\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto-orlando\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Orlando: lo que encontramos",
+          "paragraphs": [
+            "En Orlando hay de todo: casas de bloque de los años 50 y apartamentos nuevos, y las puertas cambian igual. En College Park, Delaney Park, Conway y Azalea Park todavía vemos puertas de aluminio originales con rodamientos de acero aplanados por los años; casi siempre se salvan con rodamientos nuevos y una tapa de riel, sin cambiar la puerta.",
+            "En MetroWest, Baldwin Park y los condominios del centro, lo difícil suele ser el acceso: reglas del HOA, códigos de portón y reserva de ascensor. Avísanos al reservar y planificamos la visita con eso en cuenta. En casas frente al lago trabajamos puertas grandes de varios paneles, donde un panel que arrastra puede gastar todo el riel."
+          ],
+          "areas_h2": "Zonas que cubrimos en Orlando",
+          "areas": [
+            "Downtown y Thornton Park",
+            "College Park",
+            "Conway y Azalea Park",
+            "Baldwin Park",
+            "MetroWest",
+            "Delaney Park y SoDo",
+            "Audubon Park",
+            "Pine Hills"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "¿Pueden reparar la puerta en mi condominio o apartamento en Orlando?",
+            "a": "Sí. Avísanos de las reglas del HOA, códigos de portón o reserva de ascensor al reservar y organizamos la visita con eso. La mayoría de los cambios de rodamientos y cerraduras se terminan en la misma visita."
+          },
+          {
+            "q": "Mi casa de los años 60 en Orlando tiene la puerta de aluminio original. ¿Vale la pena repararla?",
+            "a": "Casi siempre sí. La mayoría de estas puertas solo necesita rodamientos nuevos y arreglo del riel. Primero revisamos el marco y te decimos con honestidad si no vale la pena."
+          },
+          {
+            "q": "¿Cobran extra por ir a Orlando?",
+            "a": "No. Orlando está dentro de nuestra área de servicio normal, y el estimado en tu casa es gratis."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "kissimmee",
+      "name": "Kissimmee",
+      "area_label": {
+        "en": "Osceola County",
+        "es": "Osceola County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Kissimmee, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Osceola County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Kissimmee, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Kissimmee, FL — vacation homes off US-192, Remington, Shingle Creek and more. Bilingual service, free on-site estimate. (407) 561-9844.",
+        "crumb": "Kissimmee",
+        "h1": "Sliding glass door repair in Kissimmee",
+        "lead": "We&#x27;re in Kissimmee almost every day, so we can often get to you quickly. A lot of homes here are vacation rentals near US-192 and the parks, where patio doors get opened and closed by a different family every week. Those doors wear out faster, and owners need them fixed between guests. We also work in the family neighborhoods around Buenaventura Lakes, <a href=\"sliding-glass-door-repair-poinciana\">Poinciana</a> and Hunters Creek.",
+        "see_h2": "What we see in Kissimmee",
+        "see": [
+          "Vacation rental owners and property managers: we can coordinate access and send photos when the job is done",
+          "Many customers here prefer Spanish — we speak it",
+          "Pool-home doors with sand in the track and rusted rollers are the most common repair"
+        ],
+        "fix_h2": "What we fix in Kissimmee",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement-kissimmee\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement-kissimmee\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Kissimmee: what we run into",
+          "paragraphs": [
+            "Kissimmee has two kinds of homes that keep us busy: family homes in neighborhoods like Remington, Pleasant Hill and the streets around downtown, and vacation rentals along the US-192 corridor. Rental doors open and close dozens of times a week, so rollers and latches wear out much faster than in a regular home.",
+            "Most homes here have doors onto a pool cage or lanai, which means sand, pool chemicals and humidity in the track. We clean the track, replace the rollers and adjust the door so it closes and locks properly. A lot of our Kissimmee customers prefer Spanish, and we can do the whole job in Spanish."
+          ],
+          "areas_h2": "Neighborhoods we cover in Kissimmee",
+          "areas": [
+            "Downtown Kissimmee",
+            "US-192 corridor",
+            "Remington",
+            "Pleasant Hill area",
+            "Shingle Creek",
+            "Lake Toho area",
+            "Campbell City",
+            "Osceola Parkway area"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "I manage vacation rentals in Kissimmee. Can you work between guests?",
+            "a": "Yes. Send us the check-out and check-in times and we book the visit in that window when the schedule allows. Most door repairs are finished in one visit."
+          },
+          {
+            "q": "Why do the rollers on my Kissimmee pool door wear out so fast?",
+            "a": "Sand and pool chemicals get into the track and grind the rollers. Keeping the track clean helps, and we can install stainless or sealed rollers that last longer."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Kissimmee, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Kissimmee, FL — casas vacacionales en la 192, Remington, Shingle Creek y más. Servicio en español, estimado gratis. (407) 561-9844.",
+        "crumb": "Kissimmee",
+        "h1": "Reparación de puertas corredizas en Kissimmee",
+        "lead": "Estamos en Kissimmee casi todos los días, así que muchas veces podemos llegar rápido. Muchas casas aquí son rentas vacacionales cerca de la 192 y los parques, donde la puerta del patio la abre y cierra una familia distinta cada semana. Esas puertas se gastan más rápido y los dueños necesitan arreglarlas entre huéspedes. También trabajamos en los vecindarios familiares de Buenaventura Lakes, <a href=\"reparacion-puertas-corredizas-poinciana\">Poinciana</a> y Hunters Creek.",
+        "see_h2": "Lo que vemos en Kissimmee",
+        "see": [
+          "Dueños de rentas y administradores: coordinamos el acceso y te mandamos fotos cuando terminamos",
+          "Muchos clientes aquí prefieren español — lo hablamos",
+          "La reparación más común: puertas de casas con piscina, con arena en el riel y rodamientos oxidados"
+        ],
+        "fix_h2": "Lo que reparamos en Kissimmee",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos-kissimmee\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto-kissimmee\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Kissimmee: lo que encontramos",
+          "paragraphs": [
+            "En Kissimmee tenemos dos tipos de casas: casas de familia en zonas como Remington, Pleasant Hill y alrededor del downtown, y casas vacacionales en el corredor de la 192. Las puertas de las casas de alquiler se abren y cierran decenas de veces por semana, así que los rodamientos y los seguros se gastan mucho más rápido.",
+            "Casi todas las casas tienen la puerta hacia el pool cage o el lanai, con arena, químicos de piscina y humedad en el riel. Limpiamos el riel, cambiamos los rodamientos y ajustamos la puerta para que cierre y trabe bien. Muchos clientes en Kissimmee prefieren hablar en español, y hacemos todo el trabajo en español."
+          ],
+          "areas_h2": "Zonas que cubrimos en Kissimmee",
+          "areas": [
+            "Downtown Kissimmee",
+            "Corredor de la 192",
+            "Remington",
+            "Zona de Pleasant Hill",
+            "Shingle Creek",
+            "Zona del lago Toho",
+            "Campbell City",
+            "Zona de Osceola Parkway"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Administro casas vacacionales en Kissimmee. ¿Pueden trabajar entre huéspedes?",
+            "a": "Sí. Mándanos la hora de salida y entrada de los huéspedes y reservamos la visita en ese espacio cuando la agenda lo permite. La mayoría de las reparaciones se terminan en una visita."
+          },
+          {
+            "q": "¿Por qué se gastan tan rápido los rodamientos de la puerta de la piscina en Kissimmee?",
+            "a": "La arena y los químicos de la piscina entran al riel y desgastan los rodamientos. Mantener el riel limpio ayuda, y podemos poner rodamientos de acero inoxidable o sellados que duran más."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "davenport",
+      "name": "Davenport",
+      "area_label": {
+        "en": "Polk County",
+        "es": "Polk County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Davenport, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Polk County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Davenport, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Davenport, FL — ChampionsGate, Solterra, Four Corners and the US-27 area. Pool-home and vacation-rental doors. Free estimate. (407) 561-9844.",
+        "crumb": "Davenport",
+        "h1": "Sliding glass door repair in Davenport",
+        "lead": "Davenport and the ChampionsGate, Solterra and Four Corners area are full of newer vacation homes with large sliders opening onto screened pools. The doors are newer, but they get heavy use and constant sand and pool water, so rollers and tracks wear out early. We see a lot of doors here that are only a few years old and already dragging.",
+        "see_h2": "What we see in Davenport",
+        "see": [
+          "Short-term rental homes along US-27 and I-4 — we can work with your property manager",
+          "Large two- and three-panel doors onto pool decks",
+          "Tracks packed with sand from the pool area"
+        ],
+        "fix_h2": "What we fix in Davenport",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Davenport: what we run into",
+          "paragraphs": [
+            "A big share of Davenport homes are vacation rentals with a private pool, especially in resort communities like ChampionsGate and Solterra and around Four Corners. Their sliders are the main way in and out of the pool deck, so they take heavy use and a lot of sand and moisture.",
+            "The usual calls here are doors that grind or jump the track, latches that stopped catching, and fogged double-pane glass from the Florida heat. Many owners live out of state, so we can send photos and the estimate to the owner or property manager before doing any work.",
+            "The same crew covers nearby <a href=\"sliding-glass-door-repair-haines-city\">Haines City</a>, <a href=\"sliding-glass-door-repair-poinciana\">Poinciana</a> and <a href=\"sliding-glass-door-repair-kissimmee\">Kissimmee</a>, so Davenport is on our regular route."
+          ],
+          "areas_h2": "Neighborhoods we cover in Davenport",
+          "areas": [
+            "ChampionsGate",
+            "Solterra",
+            "Four Corners",
+            "US-27 corridor",
+            "Highway 192 west",
+            "Downtown Davenport",
+            "Ridgewood Lakes area",
+            "Loughman"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Can you replace a sliding door panel or the glass in Davenport?",
+            "a": "Yes. In Davenport we replace damaged sliding door panels and broken or foggy glass inside your existing frame, and repair rollers, tracks and locks. We don&#x27;t install complete new door frames. Glass is measured on site during the free estimate, then ordered to size. See <a href=\"sliding-glass-door-replacement\">panel &amp; glass replacement</a>.",
+            "a_schema": "Yes. In Davenport we replace damaged sliding door panels and broken or foggy glass inside your existing frame, and repair rollers, tracks and locks. We don't install complete new door frames. Glass is measured on site during the free estimate, then ordered to size."
+          },
+          {
+            "q": "I own a vacation home in Davenport but live out of state. Can you still help?",
+            "a": "Yes. Your property manager can let us in, and we send you photos and the exact price before starting. Nothing is done without your approval."
+          },
+          {
+            "q": "Is fogged glass in my Davenport pool home a door problem or a glass problem?",
+            "a": "Fog between the panes means the seal of the double-pane glass failed. We replace the glass unit in your existing frame; the door itself usually doesn&#x27;t need to be replaced."
+          },
+          {
+            "q": "My house is only a few years old. Why is the door already hard to open?",
+            "a": "Builder-grade rollers are often plastic and wear out fast with heavy use. Upgrading to steel or stainless rollers usually solves it for good."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Davenport, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Davenport, FL — ChampionsGate, Solterra, Four Corners y la US-27. Puertas de casas vacacionales con piscina. Estimado gratis. (407) 561-9844.",
+        "crumb": "Davenport",
+        "h1": "Reparación de puertas corredizas en Davenport",
+        "lead": "Davenport y la zona de ChampionsGate, Solterra y Four Corners están llenos de casas vacacionales nuevas con puertas corredizas grandes que dan a piscinas con malla. Las puertas son nuevas, pero se usan mucho y reciben arena y agua de piscina todo el tiempo, así que los rodamientos y rieles se gastan antes de tiempo. Aquí vemos muchas puertas de pocos años que ya arrastran.",
+        "see_h2": "Lo que vemos en Davenport",
+        "see": [
+          "Casas de renta corta sobre la 27 y la I-4 — trabajamos con tu administrador",
+          "Puertas grandes de dos y tres paneles hacia la piscina",
+          "Rieles llenos de arena de la zona de la piscina"
+        ],
+        "fix_h2": "Lo que reparamos en Davenport",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Davenport: lo que encontramos",
+          "paragraphs": [
+            "Muchas casas en Davenport son casas vacacionales con piscina propia, sobre todo en comunidades como ChampionsGate y Solterra y alrededor de Four Corners. La puerta corrediza es la entrada al deck de la piscina, así que se usa muchísimo y recibe arena y humedad.",
+            "Lo más común aquí son puertas que rechinan o se salen del riel, seguros que dejaron de enganchar y vidrio doble empañado por el calor. Muchos dueños viven fuera del estado, así que podemos mandar fotos y el estimado al dueño o al administrador antes de hacer cualquier trabajo."
+          ],
+          "areas_h2": "Zonas que cubrimos en Davenport",
+          "areas": [
+            "ChampionsGate",
+            "Solterra",
+            "Four Corners",
+            "Corredor de la US-27",
+            "192 oeste",
+            "Downtown Davenport",
+            "Zona de Ridgewood Lakes",
+            "Loughman"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Tengo una casa vacacional en Davenport pero vivo fuera del estado. ¿Me pueden ayudar?",
+            "a": "Sí. Tu administrador nos puede abrir, y te mandamos fotos y el precio exacto antes de empezar. No hacemos nada sin tu aprobación."
+          },
+          {
+            "q": "El vidrio de mi casa con piscina en Davenport está empañado. ¿Es la puerta o el vidrio?",
+            "a": "Si hay niebla entre los vidrios, falló el sello del vidrio doble. Cambiamos la unidad de vidrio en tu marco actual; normalmente no hace falta cambiar la puerta."
+          },
+          {
+            "q": "Mi casa tiene pocos años. ¿Por qué la puerta ya cuesta abrirla?",
+            "a": "Los rodamientos que pone el constructor muchas veces son de plástico y se gastan rápido con mucho uso. Cambiarlos por acero o inoxidable normalmente lo resuelve para siempre."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "lake-nona",
+      "name": "Lake Nona",
+      "area_label": {
+        "en": "Orlando",
+        "es": "Orlando"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Lake Nona, FL"
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Lake Nona, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Lake Nona, FL: rollers, tracks, locks, broken and foggy glass. Free on-site estimate, English and Spanish. Call (407) 561-9844.",
+        "crumb": "Lake Nona",
+        "h1": "Sliding glass door repair in Lake Nona",
+        "lead": "Lake Nona homes are mostly new construction, and many have big sliding and multi-slide doors — sometimes pocketing into the wall — with heavy impact glass. When a panel that size drops out of adjustment or a roller fails, it becomes almost impossible to move. We work in Laureate Park, Northlake Park and the surrounding neighborhoods.",
+        "see_h2": "What we see in Lake Nona",
+        "see": [
+          "Multi-slide and pocket doors with heavy impact glass",
+          "Newer homes where the door just needs adjustment, not new parts",
+          "Foggy double-pane glass on south- and west-facing doors"
+        ],
+        "fix_h2": "What we fix in Lake Nona",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": null,
+        "faqs": [
+          {
+            "q": "Do you work on large multi-slide doors?",
+            "a": "Yes. Big panels need two people and the right rollers; we&#x27;ll tell you on the estimate if your door needs a second technician."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Lake Nona, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas de vidrio en Lake Nona, FL: rodamientos, rieles, cerraduras, vidrio roto y empañado. Estimado gratis en tu casa. Llama al (407) 561-9844.",
+        "crumb": "Lake Nona",
+        "h1": "Reparación de puertas corredizas en Lake Nona",
+        "lead": "Las casas de Lake Nona son casi todas nuevas, y muchas tienen puertas corredizas grandes o de varios paneles — a veces que se esconden dentro de la pared — con vidrio de impacto pesado. Cuando un panel de ese tamaño se desajusta o falla un rodamiento, se vuelve casi imposible moverlo. Trabajamos en Laureate Park, Northlake Park y los vecindarios de alrededor.",
+        "see_h2": "Lo que vemos en Lake Nona",
+        "see": [
+          "Puertas de varios paneles y puertas que se esconden en la pared, con vidrio de impacto",
+          "Casas nuevas donde la puerta solo necesita ajuste, no piezas",
+          "Vidrio doble empañado en puertas que dan al sur o al oeste"
+        ],
+        "fix_h2": "Lo que reparamos en Lake Nona",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": null,
+        "faqs": [
+          {
+            "q": "¿Trabajan con puertas grandes de varios paneles?",
+            "a": "Sí. Los paneles grandes necesitan dos personas y los rodamientos correctos; en el estimado te decimos si tu puerta necesita un segundo técnico."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "windermere",
+      "name": "Windermere",
+      "area_label": {
+        "en": "Orange County",
+        "es": "Orange County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Windermere, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Orange County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Windermere, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Windermere, FL — Butler Chain of Lakes, Keene&#x27;s Pointe, Isleworth area and lakefront homes. Large multi-panel doors. Free estimate. (407) 561-9844.",
+        "crumb": "Windermere",
+        "h1": "Sliding glass door repair in Windermere",
+        "lead": "Windermere&#x27;s lakefront homes along the Butler Chain of Lakes have some of the largest and heaviest sliding doors we service — tall panels, impact glass and multi-slide systems opening onto lanais and docks. These doors are an investment, and they deserve careful work: we protect floors, handle heavy panels with the right equipment, and use rollers rated for the weight.",
+        "see_h2": "What we see in Windermere",
+        "see": [
+          "Tall, heavy impact-glass panels on lakefront homes",
+          "Multi-slide systems where one bad roller throws off the whole door",
+          "Foggy insulated glass from years of direct sun off the water"
+        ],
+        "fix_h2": "What we fix in Windermere",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Windermere: what we run into",
+          "paragraphs": [
+            "Windermere homes, especially along the Butler Chain of Lakes and in communities like Keene&#x27;s Pointe, often have large multi-panel and pocket sliding doors with heavy insulated or laminated glass. When one panel starts to drag, the extra weight wears the track quickly, so it pays to fix it early.",
+            "We replace heavy-duty rollers, repair or cap the track, adjust panels so they line up and lock, and replace fogged or cracked insulated glass in the existing frame. Gated communities are no problem: give us the gate instructions when you book."
+          ],
+          "areas_h2": "Neighborhoods we cover in Windermere",
+          "areas": [
+            "Butler Chain of Lakes",
+            "Keene&#x27;s Pointe",
+            "Isleworth area",
+            "Lake Butler area",
+            "Windermere town center",
+            "Horizon West edge",
+            "Summerport",
+            "Windermere Downs"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Can you repair large multi-panel or pocket sliding doors in Windermere?",
+            "a": "Yes. We work on large multi-panel and pocket doors, including heavy insulated and laminated glass. We check rollers, tracks and alignment on every panel."
+          },
+          {
+            "q": "I live in a gated community in Windermere. How does access work?",
+            "a": "Give us the gate instructions or add us to the guest list when you book. We confirm the day before the visit."
+          },
+          {
+            "q": "Can you get parts for high-end door brands?",
+            "a": "For most brands, yes. If a part has to be ordered, we confirm the model on the first visit so the second visit is the repair."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Windermere, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Windermere, FL — Butler Chain of Lakes, Keene&#x27;s Pointe, zona de Isleworth y casas frente al lago. Puertas grandes. Estimado gratis. (407) 561-9844.",
+        "crumb": "Windermere",
+        "h1": "Reparación de puertas corredizas en Windermere",
+        "lead": "Las casas frente a los lagos del Butler Chain en Windermere tienen algunas de las puertas corredizas más grandes y pesadas que reparamos: paneles altos, vidrio de impacto y sistemas de varios paneles que dan a lanais y muelles. Estas puertas son una inversión y merecen un trabajo cuidadoso: protegemos los pisos, manejamos los paneles pesados con el equipo correcto y usamos rodamientos para ese peso.",
+        "see_h2": "Lo que vemos en Windermere",
+        "see": [
+          "Paneles altos y pesados de vidrio de impacto en casas frente al lago",
+          "Sistemas de varios paneles donde un solo rodamiento malo desajusta toda la puerta",
+          "Vidrio doble empañado por años de sol directo reflejado del agua"
+        ],
+        "fix_h2": "Lo que reparamos en Windermere",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Windermere: lo que encontramos",
+          "paragraphs": [
+            "Las casas de Windermere, sobre todo en la cadena de lagos Butler y en comunidades como Keene&#x27;s Pointe, suelen tener puertas corredizas grandes de varios paneles o tipo pocket, con vidrio insulado o laminado pesado. Cuando un panel empieza a arrastrar, el peso gasta el riel rápido, así que conviene arreglarlo a tiempo.",
+            "Cambiamos rodamientos de alta resistencia, reparamos o tapamos el riel, ajustamos los paneles para que alineen y traben, y cambiamos vidrio insulado empañado o roto en el marco actual. Las comunidades con portón no son problema: danos las instrucciones al reservar."
+          ],
+          "areas_h2": "Zonas que cubrimos en Windermere",
+          "areas": [
+            "Cadena de lagos Butler",
+            "Keene&#x27;s Pointe",
+            "Zona de Isleworth",
+            "Zona del lago Butler",
+            "Centro de Windermere",
+            "Borde de Horizon West",
+            "Summerport",
+            "Windermere Downs"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "¿Reparan puertas corredizas grandes de varios paneles o tipo pocket en Windermere?",
+            "a": "Sí. Trabajamos puertas grandes de varios paneles y tipo pocket, incluso con vidrio insulado y laminado pesado. Revisamos rodamientos, riel y alineación de cada panel."
+          },
+          {
+            "q": "Vivo en una comunidad con portón en Windermere. ¿Cómo hacen para entrar?",
+            "a": "Danos las instrucciones del portón o agréganos a la lista de visitas al reservar. Confirmamos un día antes de la visita."
+          },
+          {
+            "q": "¿Consiguen piezas para marcas de puertas de alta gama?",
+            "a": "Para la mayoría de las marcas, sí. Si hay que pedir una pieza, confirmamos el modelo en la primera visita para que la segunda sea la reparación."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "winter-garden",
+      "name": "Winter Garden",
+      "area_label": {
+        "en": "Orange County",
+        "es": "Orange County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Winter Garden, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Orange County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Winter Garden, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Winter Garden, FL — Horizon West, Hamlin, Stoneybrook West and historic downtown. Rollers, locks, glass. Free on-site estimate. (407) 561-9844.",
+        "crumb": "Winter Garden",
+        "h1": "Sliding glass door repair in Winter Garden",
+        "lead": "Winter Garden has grown fast, from the older homes near downtown to the newer neighborhoods in Horizon West and Hamlin. In the new builds we mostly see builder-grade rollers wearing out and doors that were never adjusted properly. In older homes it&#x27;s worn tracks and locks. Either way, the fix is usually done in one visit.",
+        "see_h2": "What we see in Winter Garden",
+        "see": [
+          "Horizon West and Hamlin homes with builder-grade rollers",
+          "Older homes near downtown with original aluminum doors",
+          "Locks that don&#x27;t line up after the house settles"
+        ],
+        "fix_h2": "What we fix in Winter Garden",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement-winter-garden\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement-winter-garden\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Winter Garden: what we run into",
+          "paragraphs": [
+            "Most of the homes we visit in Winter Garden are in newer communities like Horizon West, Hamlin and Stoneybrook West, where wide multi-panel sliders are standard. These doors look great but their rollers and latches take a beating, and many are now out of the builder&#x27;s warranty.",
+            "Near historic downtown and Plant Street, the homes are older and the doors are often original aluminum with worn tracks. Either way, we fix the existing door: new rollers, a track repair, lock and handle replacement, or new glass in the same frame."
+          ],
+          "areas_h2": "Neighborhoods we cover in Winter Garden",
+          "areas": [
+            "Horizon West",
+            "Hamlin",
+            "Stoneybrook West",
+            "Historic downtown &amp; Plant Street",
+            "Lakeview Pointe area",
+            "Oakland area",
+            "Johns Lake area",
+            "Avalon Road area"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "My Horizon West home is out of builder warranty and the slider drags. Can you fix it?",
+            "a": "Yes. That&#x27;s one of our most common calls in Winter Garden. Usually it&#x27;s the rollers and the panel adjustment, and it&#x27;s fixed in one visit."
+          },
+          {
+            "q": "Do you replace just the glass in a Winter Garden sliding door?",
+            "a": "Yes. We replace broken, cracked or fogged glass in your existing frame. We measure on site to give you an exact price."
+          },
+          {
+            "q": "My builder&#x27;s warranty ran out. Is the repair expensive?",
+            "a": "Usually not. Most new-home door problems are rollers and adjustment, which we price at your door before starting."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Winter Garden, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Winter Garden, FL — Horizon West, Hamlin, Stoneybrook West y el downtown histórico. Rodamientos, cerraduras, vidrio. Estimado gratis. (407) 561-9844.",
+        "crumb": "Winter Garden",
+        "h1": "Reparación de puertas corredizas en Winter Garden",
+        "lead": "Winter Garden ha crecido rápido, desde las casas antiguas cerca del centro hasta los vecindarios nuevos de Horizon West y Hamlin. En las casas nuevas vemos sobre todo rodamientos del constructor que se gastan y puertas que nunca se ajustaron bien. En las casas antiguas son rieles gastados y cerraduras. En los dos casos, casi siempre queda lista en una visita.",
+        "see_h2": "Lo que vemos en Winter Garden",
+        "see": [
+          "Casas de Horizon West y Hamlin con rodamientos del constructor",
+          "Casas antiguas cerca del centro con puertas de aluminio originales",
+          "Seguros que ya no coinciden después de que la casa se asienta"
+        ],
+        "fix_h2": "Lo que reparamos en Winter Garden",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos-winter-garden\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto-winter-garden\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Winter Garden: lo que encontramos",
+          "paragraphs": [
+            "La mayoría de las casas que visitamos en Winter Garden están en comunidades nuevas como Horizon West, Hamlin y Stoneybrook West, donde las puertas anchas de varios paneles son lo normal. Se ven muy bien, pero los rodamientos y seguros sufren mucho, y muchas ya están fuera de la garantía del constructor.",
+            "Cerca del downtown histórico y Plant Street las casas son más viejas y las puertas suelen ser de aluminio original con rieles gastados. En los dos casos reparamos la puerta que ya tienes: rodamientos nuevos, arreglo del riel, cambio de cerradura y manija, o vidrio nuevo en el mismo marco."
+          ],
+          "areas_h2": "Zonas que cubrimos en Winter Garden",
+          "areas": [
+            "Horizon West",
+            "Hamlin",
+            "Stoneybrook West",
+            "Downtown histórico y Plant Street",
+            "Zona de Lakeview Pointe",
+            "Zona de Oakland",
+            "Zona del lago Johns",
+            "Zona de Avalon Road"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Mi casa en Horizon West ya no tiene garantía del constructor y la puerta arrastra. ¿La arreglan?",
+            "a": "Sí. Es de las llamadas más comunes en Winter Garden. Normalmente son los rodamientos y el ajuste del panel, y se arregla en una visita."
+          },
+          {
+            "q": "¿Cambian solo el vidrio de una puerta corrediza en Winter Garden?",
+            "a": "Sí. Cambiamos vidrio roto, rajado o empañado en tu marco actual. Medimos en sitio para darte el precio exacto."
+          },
+          {
+            "q": "Se venció la garantía del constructor. ¿La reparación es cara?",
+            "a": "Normalmente no. La mayoría de los problemas en casas nuevas son rodamientos y ajuste, y te damos el precio en tu casa antes de empezar."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "haines-city",
+      "name": "Haines City",
+      "area_label": {
+        "en": "Polk County",
+        "es": "Polk County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Haines City, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Polk County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Haines City, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Haines City, FL — Lake Eva area, Southern Dunes, US-27 and US-17/92 neighborhoods. Rollers, tracks, locks, glass. Free estimate. (407) 561-9844.",
+        "crumb": "Haines City",
+        "h1": "Sliding glass door repair in Haines City",
+        "lead": "Haines City and the new subdivisions along US-27 and Highway 17-92 are a big part of our Polk County work. Many homes are newer single-family houses and rentals with sliders onto small screened patios. The most common calls are doors that grind because of sand and dirt in the track, and locks that no longer catch.",
+        "see_h2": "What we see in Haines City",
+        "see": [
+          "Newer subdivisions with builder-grade doors",
+          "Rental homes where the landlord needs the door fixed fast",
+          "Sandy yards that fill the track quickly"
+        ],
+        "fix_h2": "What we fix in Haines City",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Haines City: what we run into",
+          "paragraphs": [
+            "Haines City has grown fast, with new subdivisions along US-27 next to older neighborhoods around Lake Eva and downtown. In the newer homes, the most common problem is builder-grade hardware: latches that stop lining up and rollers that start dragging after a few years. In the older homes, it&#x27;s worn aluminum tracks and original rollers.",
+            "We cover Haines City on our regular routes through Polk County, together with <a href=\"sliding-glass-door-repair-davenport\">sliding glass door repair in Davenport</a>, so there&#x27;s no travel charge. If you&#x27;re not sure what&#x27;s wrong, send a short video of the door on WhatsApp and we&#x27;ll tell you what it probably is before we drive out."
+          ],
+          "areas_h2": "Neighborhoods we cover in Haines City",
+          "areas": [
+            "Downtown &amp; Lake Eva area",
+            "Southern Dunes",
+            "US-27 subdivisions",
+            "US-17/92 corridor",
+            "Lake Hamilton area",
+            "Dundee area"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "My Haines City home is only a few years old. Why is the door already dragging?",
+            "a": "Many new homes come with basic rollers and latches. They&#x27;re easy to upgrade: we replace them with better hardware and adjust the door, usually in one visit."
+          },
+          {
+            "q": "Do you charge extra to come to Haines City from Orlando?",
+            "a": "No. Haines City is part of our regular service area and the on-site estimate is free."
+          },
+          {
+            "q": "Is Haines City too far for you?",
+            "a": "No. We schedule Polk County visits on set days, so ask for the next available window when you call."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Haines City, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Haines City, FL — zona del lago Eva, Southern Dunes, US-27 y US-17/92. Rodamientos, rieles, cerraduras, vidrio. Estimado gratis. (407) 561-9844.",
+        "crumb": "Haines City",
+        "h1": "Reparación de puertas corredizas en Haines City",
+        "lead": "Haines City y las urbanizaciones nuevas sobre la 27 y la 17-92 son una buena parte de nuestro trabajo en el condado de Polk. Muchas son casas nuevas y casas de renta con puertas corredizas que dan a patios pequeños con malla. Las llamadas más comunes son puertas que raspan por arena y tierra en el riel, y seguros que ya no enganchan.",
+        "see_h2": "Lo que vemos en Haines City",
+        "see": [
+          "Urbanizaciones nuevas con puertas del constructor",
+          "Casas de renta donde el dueño necesita la puerta arreglada rápido",
+          "Patios con arena que llenan el riel muy rápido"
+        ],
+        "fix_h2": "Lo que reparamos en Haines City",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Haines City: lo que encontramos",
+          "paragraphs": [
+            "Haines City ha crecido rápido, con urbanizaciones nuevas en la US-27 al lado de barrios más viejos alrededor del lago Eva y el downtown. En las casas nuevas, el problema más común es la ferretería de constructor: seguros que se desalinean y rodamientos que empiezan a arrastrar a los pocos años. En las viejas, rieles de aluminio gastados y rodamientos originales.",
+            "Cubrimos Haines City en nuestras rutas normales por el condado de Polk, sin cargo por traslado. Si no sabes qué tiene la puerta, mándanos un video corto por WhatsApp y te decimos qué es probablemente antes de ir."
+          ],
+          "areas_h2": "Zonas que cubrimos en Haines City",
+          "areas": [
+            "Downtown y zona del lago Eva",
+            "Southern Dunes",
+            "Urbanizaciones de la US-27",
+            "Corredor de la US-17/92",
+            "Zona de Lake Hamilton",
+            "Zona de Dundee"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Mi casa en Haines City tiene pocos años. ¿Por qué la puerta ya arrastra?",
+            "a": "Muchas casas nuevas traen rodamientos y seguros básicos. Se mejoran fácil: los cambiamos por piezas de mejor calidad y ajustamos la puerta, casi siempre en una visita."
+          },
+          {
+            "q": "¿Cobran extra por venir a Haines City desde Orlando?",
+            "a": "No. Haines City está dentro de nuestra área de servicio normal y el estimado en tu casa es gratis."
+          },
+          {
+            "q": "¿Haines City les queda muy lejos?",
+            "a": "No. Programamos las visitas en el condado de Polk en días fijos; pregunta por el próximo horario disponible cuando llames."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "saint-cloud",
+      "name": "Saint Cloud",
+      "area_label": {
+        "en": "Osceola County",
+        "es": "Osceola County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Saint Cloud, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Osceola County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Saint Cloud, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Saint Cloud, FL — Harmony, East Lake Toho, Narcoossee Road and downtown St. Cloud. Rollers, locks, glass. Free on-site estimate. (407) 561-9844.",
+        "crumb": "Saint Cloud",
+        "h1": "Sliding glass door repair in Saint Cloud",
+        "lead": "Saint Cloud is one of the cities we&#x27;re in most. We work in the older homes around downtown and East Lake Toho as well as the newer communities like Harmony and the subdivisions along Narcoossee Road. Older aluminum doors with worn tracks and newer doors with failing rollers are what we see most.",
+        "see_h2": "What we see in Saint Cloud",
+        "see": [
+          "Older homes near downtown with original aluminum sliders",
+          "Newer communities along Narcoossee Road and in Harmony",
+          "Lakeside homes with foggy double-pane glass"
+        ],
+        "fix_h2": "What we fix in Saint Cloud",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement-saint-cloud\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement-saint-cloud\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Saint Cloud: what we run into",
+          "paragraphs": [
+            "Saint Cloud mixes older homes near downtown and East Lake Toho with fast-growing communities along Narcoossee Road and in Harmony. Older homes tend to need rollers and track work on original doors; newer homes call us for latches that won&#x27;t catch and doors that came out of adjustment as the house settled.",
+            "Lakefront homes here also see a lot of humidity, which shows up as corroded rollers and fogged double-pane glass. We replace the glass in your existing frame and swap rollers for corrosion-resistant ones when it makes sense."
+          ],
+          "areas_h2": "Neighborhoods we cover in Saint Cloud",
+          "areas": [
+            "Downtown St. Cloud",
+            "East Lake Toho area",
+            "Harmony",
+            "Narcoossee Road corridor",
+            "Canoe Creek Road area",
+            "Old Melbourne Highway area",
+            "Kissimmee Park Road area"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Do you go out to Harmony and the Narcoossee Road area?",
+            "a": "Yes. Harmony, Narcoossee Road and all of Saint Cloud are in our regular service area, with no extra travel charge."
+          },
+          {
+            "q": "My Saint Cloud home is new but the slider won&#x27;t lock. Why?",
+            "a": "New homes settle in the first few years and the door can drift out of line with the latch. Usually an adjustment and sometimes a new keeper fixes it."
+          },
+          {
+            "q": "How fast can you come to Saint Cloud?",
+            "a": "Often within a day or two, sometimes the same day. Call and we&#x27;ll give you the next open window."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Saint Cloud, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Saint Cloud, FL — Harmony, East Lake Toho, Narcoossee Road y el downtown. Rodamientos, cerraduras, vidrio. Estimado gratis. (407) 561-9844.",
+        "crumb": "Saint Cloud",
+        "h1": "Reparación de puertas corredizas en Saint Cloud",
+        "lead": "Saint Cloud es una de las ciudades donde más trabajamos. Trabajamos en las casas antiguas del centro y de East Lake Toho, y en las comunidades más nuevas como Harmony y las urbanizaciones sobre Narcoossee Road. Lo que más vemos son puertas de aluminio viejas con rieles gastados y puertas nuevas con rodamientos que fallan.",
+        "see_h2": "Lo que vemos en Saint Cloud",
+        "see": [
+          "Casas antiguas cerca del centro con puertas de aluminio originales",
+          "Comunidades nuevas sobre Narcoossee Road y en Harmony",
+          "Casas junto al lago con vidrio doble empañado"
+        ],
+        "fix_h2": "Lo que reparamos en Saint Cloud",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos-saint-cloud\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto-saint-cloud\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Saint Cloud: lo que encontramos",
+          "paragraphs": [
+            "Saint Cloud combina casas viejas cerca del downtown y del lago East Toho con comunidades nuevas que crecen rápido en Narcoossee Road y en Harmony. Las casas viejas suelen necesitar rodamientos y arreglo del riel en la puerta original; las nuevas nos llaman por seguros que no enganchan y puertas desajustadas porque la casa se asentó.",
+            "Las casas cerca del lago también tienen mucha humedad, que se nota en rodamientos oxidados y vidrio doble empañado. Cambiamos el vidrio en tu marco actual y ponemos rodamientos resistentes a la corrosión cuando conviene."
+          ],
+          "areas_h2": "Zonas que cubrimos en Saint Cloud",
+          "areas": [
+            "Downtown St. Cloud",
+            "Zona de East Lake Toho",
+            "Harmony",
+            "Corredor de Narcoossee Road",
+            "Zona de Canoe Creek Road",
+            "Zona de Old Melbourne Highway",
+            "Zona de Kissimmee Park Road"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "¿Van hasta Harmony y la zona de Narcoossee Road?",
+            "a": "Sí. Harmony, Narcoossee Road y todo Saint Cloud están en nuestra área de servicio normal, sin cargo extra por traslado."
+          },
+          {
+            "q": "Mi casa en Saint Cloud es nueva pero la puerta no traba. ¿Por qué?",
+            "a": "Las casas nuevas se asientan los primeros años y la puerta se desalinea con el seguro. Normalmente se arregla con un ajuste y, a veces, una pieza de enganche nueva."
+          },
+          {
+            "q": "¿Qué tan rápido pueden venir a Saint Cloud?",
+            "a": "Muchas veces en uno o dos días, a veces el mismo día. Llama y te damos el próximo horario libre."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "winter-park",
+      "name": "Winter Park",
+      "area_label": {
+        "en": "Orange County",
+        "es": "Orange County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Winter Park, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Orange County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Winter Park, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Winter Park, FL: rollers, tracks, locks, broken and foggy glass. Free on-site estimate, English and Spanish. Call (407) 561-9844.",
+        "crumb": "Winter Park",
+        "h1": "Sliding glass door repair in Winter Park",
+        "lead": "Winter Park has some of the oldest sliding doors we work on: original aluminum sliders in mid-century homes around the Chain of Lakes and near Park Avenue, next to newer remodels with heavy impact glass. Most calls here are doors that drag after decades of use and locks that no longer line up after the house settled.",
+        "see_h2": "What we see in Winter Park",
+        "see": [
+          "Older aluminum doors: we still find rollers and locks for most original models",
+          "Lakefront homes with wide doors, where a worn roller makes the whole panel heavy",
+          "Remodels where a new impact door was set in an old frame and never slid right"
+        ],
+        "fix_h2": "What we fix in Winter Park",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": null,
+        "faqs": [
+          {
+            "q": "Do you charge extra to come to Winter Park?",
+            "a": "No. Winter Park is in our regular service area, and the on-site estimate is free."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Winter Park, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas de vidrio en Winter Park, FL: rodamientos, rieles, cerraduras, vidrio roto y empañado. Estimado gratis en tu casa. Llama al (407) 561-9844.",
+        "crumb": "Winter Park",
+        "h1": "Reparación de puertas corredizas en Winter Park",
+        "lead": "Winter Park tiene algunas de las puertas corredizas más viejas que reparamos: puertas de aluminio originales en casas de mediados de siglo alrededor del Chain of Lakes y cerca de Park Avenue, junto a remodelaciones más nuevas con vidrio de impacto pesado. La mayoría de las llamadas aquí son puertas que arrastran después de décadas de uso y seguros que ya no alinean porque la casa se asentó.",
+        "see_h2": "Lo que vemos en Winter Park",
+        "see": [
+          "Puertas de aluminio viejas: todavía conseguimos rodamientos y cerraduras para la mayoría de los modelos originales",
+          "Casas frente al lago con puertas anchas, donde un rodamiento gastado pone pesado todo el panel",
+          "Remodelaciones donde pusieron una puerta de impacto nueva en un marco viejo y nunca corrió bien"
+        ],
+        "fix_h2": "Lo que reparamos en Winter Park",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": null,
+        "faqs": [
+          {
+            "q": "¿Cobran extra por ir a Winter Park?",
+            "a": "No. Winter Park está dentro de nuestra área de servicio normal, y el estimado en tu casa es gratis."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "celebration",
+      "name": "Celebration",
+      "area_label": {
+        "en": "Osceola County",
+        "es": "Osceola County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Celebration, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Osceola County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Celebration, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Celebration, FL — homes, townhomes and condos near Market Street and the lakes. HOA-friendly repairs, free on-site estimate. (407) 561-9844.",
+        "crumb": "Celebration",
+        "h1": "Sliding glass door repair in Celebration",
+        "lead": "Most homes in Celebration were built from the late 1990s through the 2000s, so many sliding doors are still on their original rollers and locks. After 20-plus years, that&#x27;s exactly when doors start to grind, jump the track or stop locking. We work within the community&#x27;s HOA rules and keep the look of the door the same.",
+        "see_h2": "What we see in Celebration",
+        "see": [
+          "Doors on original 1990s–2000s rollers that grind or feel heavy",
+          "Townhomes and condos where we coordinate access with the HOA",
+          "Doors onto lanais and pool cages, where sand and chlorine wear rollers faster"
+        ],
+        "fix_h2": "What we fix in Celebration",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Celebration: what we run into",
+          "paragraphs": [
+            "Celebration is a planned community with strict exterior guidelines, so most owners want the door repaired, not replaced, and want the hardware to match what&#x27;s already there. That fits what we do: we work on the existing door, replacing rollers, tracks, locks and handles, and glass inside the same frame.",
+            "Many homes here are from the late 1990s and early 2000s, which is right when the original rollers and latches tend to give out. We also work in the condos and townhomes near Market Street and the lakefront, where access and quiet hours matter."
+          ],
+          "areas_h2": "Neighborhoods we cover in Celebration",
+          "areas": [
+            "Downtown &amp; Market Street",
+            "Lake Rianhard area",
+            "North Village",
+            "South Village",
+            "Artisan Park",
+            "Roseville",
+            "Island Village",
+            "Celebration condos &amp; townhomes"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Will a repair in Celebration change how my door looks from outside?",
+            "a": "No. We repair the existing door and match the hardware finish as closely as possible, so the exterior stays the same. Check your HOA if you plan to change the style."
+          },
+          {
+            "q": "My Celebration home is from the early 2000s. Is the door at the end of its life?",
+            "a": "Usually not. At that age it&#x27;s normally the rollers and the latch that are worn out, and both can be replaced."
+          },
+          {
+            "q": "Do you charge extra to come to Celebration?",
+            "a": "No. Celebration is in our regular service area, and the on-site estimate is free."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Celebration, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Celebration, FL — casas, townhomes y condominios cerca de Market Street y los lagos. Reparaciones que respetan el HOA. Estimado gratis. (407) 561-9844.",
+        "crumb": "Celebration",
+        "h1": "Reparación de puertas corredizas en Celebration",
+        "lead": "La mayoría de las casas de Celebration se construyeron desde finales de los 90 hasta los 2000, así que muchas puertas corredizas siguen con sus rodamientos y cerraduras originales. Después de más de 20 años, es justo cuando las puertas empiezan a sonar, a salirse del riel o a no cerrar con seguro. Trabajamos respetando las reglas de la HOA y mantenemos el aspecto de la puerta igual.",
+        "see_h2": "Lo que vemos en Celebration",
+        "see": [
+          "Puertas con rodamientos originales de los 90 y 2000 que suenan o se sienten pesadas",
+          "Townhomes y condominios donde coordinamos el acceso con la HOA",
+          "Puertas que dan a lanais y jaulas de piscina, donde la arena y el cloro gastan más los rodamientos"
+        ],
+        "fix_h2": "Lo que reparamos en Celebration",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Celebration: lo que encontramos",
+          "paragraphs": [
+            "Celebration es una comunidad planificada con reglas estrictas para el exterior, así que la mayoría de los dueños quiere reparar la puerta, no cambiarla, y que la ferretería combine con la que ya tiene. Eso es justo lo que hacemos: trabajamos la puerta existente, cambiando rodamientos, rieles, cerraduras y manijas, y vidrio en el mismo marco.",
+            "Muchas casas aquí son de finales de los 90 y principios de los 2000, justo la edad en que los rodamientos y seguros originales empiezan a fallar. También trabajamos en condominios y townhomes cerca de Market Street y el lago, donde importan el acceso y las horas de silencio."
+          ],
+          "areas_h2": "Zonas que cubrimos en Celebration",
+          "areas": [
+            "Downtown y Market Street",
+            "Zona del lago Rianhard",
+            "North Village",
+            "South Village",
+            "Artisan Park",
+            "Roseville",
+            "Island Village",
+            "Condominios y townhomes de Celebration"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "¿Una reparación en Celebration cambia cómo se ve mi puerta desde afuera?",
+            "a": "No. Reparamos la puerta existente y buscamos ferretería del mismo acabado, así que el exterior queda igual. Consulta con tu HOA si piensas cambiar el estilo."
+          },
+          {
+            "q": "Mi casa en Celebration es de principios de los 2000. ¿La puerta ya no sirve?",
+            "a": "Casi nunca. A esa edad lo que se gasta son los rodamientos y el seguro, y los dos se cambian."
+          },
+          {
+            "q": "¿Cobran extra por ir a Celebration?",
+            "a": "No. Celebration está dentro de nuestra área de servicio normal, y el estimado en tu casa es gratis."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "hunters-creek",
+      "name": "Hunters Creek",
+      "area_label": {
+        "en": "Orange County",
+        "es": "Orange County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Hunters Creek, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Orange County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Hunters Creek, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Hunters Creek, FL: rollers, tracks, locks, broken and foggy glass. Free on-site estimate, English and Spanish. Call (407) 561-9844.",
+        "crumb": "Hunters Creek",
+        "h1": "Sliding glass door repair in Hunters Creek",
+        "lead": "Hunters Creek is a planned community with a lot of homes and townhomes from the late 1980s and 1990s. Many of those sliding doors have never had the rollers changed, so the door sits low on a worn track and takes two hands to open. A roller replacement and a track cleanup usually fixes it in one visit.",
+        "see_h2": "What we see in Hunters Creek",
+        "see": [
+          "Original rollers from the 80s and 90s that have worn flat",
+          "Tracks worn or dented from years of a door dragging on them",
+          "Townhomes with HOA rules on how the door has to look"
+        ],
+        "fix_h2": "What we fix in Hunters Creek",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": null,
+        "faqs": [
+          {
+            "q": "Do you charge extra to come to Hunters Creek?",
+            "a": "No. Hunters Creek is in our regular service area, and the on-site estimate is free."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Hunters Creek, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas de vidrio en Hunters Creek, FL: rodamientos, rieles, cerraduras, vidrio roto y empañado. Estimado gratis en tu casa. Llama al (407) 561-9844.",
+        "crumb": "Hunters Creek",
+        "h1": "Reparación de puertas corredizas en Hunters Creek",
+        "lead": "Hunters Creek es una comunidad planificada con muchas casas y townhomes de finales de los 80 y los 90. A muchas de esas puertas corredizas nunca les cambiaron los rodamientos, así que la puerta queda baja sobre un riel gastado y hay que abrirla con las dos manos. Un cambio de rodamientos y una limpieza del riel normalmente lo resuelve en una sola visita.",
+        "see_h2": "Lo que vemos en Hunters Creek",
+        "see": [
+          "Rodamientos originales de los 80 y 90 que se gastaron por completo",
+          "Rieles gastados o golpeados por años de la puerta arrastrándose",
+          "Townhomes con reglas de la HOA sobre cómo debe verse la puerta"
+        ],
+        "fix_h2": "Lo que reparamos en Hunters Creek",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": null,
+        "faqs": [
+          {
+            "q": "¿Cobran extra por ir a Hunters Creek?",
+            "a": "No. Hunters Creek está dentro de nuestra área de servicio normal, y el estimado en tu casa es gratis."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "dr-phillips",
+      "name": "Dr. Phillips",
+      "area_label": {
+        "en": "Orange County",
+        "es": "Orange County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Dr. Phillips, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Orange County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Dr. Phillips, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Dr. Phillips, FL — Bay Hill, Sand Lake Road, Bay Lake area and lakefront homes. Rollers, tracks, locks and glass. Free estimate. (407) 561-9844.",
+        "crumb": "Dr. Phillips",
+        "h1": "Sliding glass door repair in Dr. Phillips",
+        "lead": "Dr. Phillips has a lot of large homes on the Butler Chain of Lakes and around Bay Hill, with wide multi-panel sliding doors and heavy impact glass. Those panels weigh a lot, so when a roller wears out the door gets hard to move fast. We also see foggy double-pane glass in doors that face the afternoon sun.",
+        "see_h2": "What we see in Dr. Phillips",
+        "see": [
+          "Heavy multi-panel and impact doors that need the right rollers for their weight",
+          "Foggy double-pane glass from seals that failed in the heat",
+          "Doors onto pools and lanais, where sand and chlorine wear rollers faster"
+        ],
+        "fix_h2": "What we fix in Dr. Phillips",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Dr. Phillips: what we run into",
+          "paragraphs": [
+            "Many Dr. Phillips homes were built in the 1980s and 90s around Bay Hill and the area&#x27;s lakes, and a lot of them still have their original sliding doors. After 30-plus years, the rollers are flattened, the bottom track is worn and the locks don&#x27;t line up anymore.",
+            "These doors are usually worth repairing: we replace the rollers, repair the track and adjust or replace the lock and handle. We also work in the condos and townhomes near Sand Lake Road, where HOA access rules apply."
+          ],
+          "areas_h2": "Neighborhoods we cover in Dr. Phillips",
+          "areas": [
+            "Bay Hill",
+            "Sand Lake Road area",
+            "Phillips Landing",
+            "Lake Cane &amp; Lake Marsha area",
+            "Bay Lake area",
+            "Turkey Lake area",
+            "Vineland Road area"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "My Dr. Phillips home has the original 1980s sliding door. Can it still get parts?",
+            "a": "In most cases, yes. We carry and can order rollers and locks for most older models. If a part is no longer made, we tell you the options before doing anything."
+          },
+          {
+            "q": "Do you work in Dr. Phillips condos and townhomes?",
+            "a": "Yes. Tell us about any HOA or building rules when you book and we plan the visit around them."
+          },
+          {
+            "q": "Do you charge extra to come to Dr. Phillips?",
+            "a": "No. Dr. Phillips is in our regular service area, and the on-site estimate is free."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Dr. Phillips, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Dr. Phillips, FL — Bay Hill, Sand Lake Road y casas frente al lago. Rodamientos, rieles, cerraduras y vidrio. Estimado gratis. (407) 561-9844.",
+        "crumb": "Dr. Phillips",
+        "h1": "Reparación de puertas corredizas en Dr. Phillips",
+        "lead": "En Dr. Phillips hay muchas casas grandes en el Butler Chain of Lakes y alrededor de Bay Hill, con puertas corredizas anchas de varios paneles y vidrio de impacto pesado. Esos paneles pesan mucho, así que cuando un rodamiento se gasta la puerta se pone dura de mover rápido. También vemos vidrio doble empañado en puertas que reciben el sol de la tarde.",
+        "see_h2": "Lo que vemos en Dr. Phillips",
+        "see": [
+          "Puertas pesadas de varios paneles y de impacto que necesitan rodamientos para su peso",
+          "Vidrio doble empañado porque el sello falló con el calor",
+          "Puertas que dan a piscinas y lanais, donde la arena y el cloro gastan más los rodamientos"
+        ],
+        "fix_h2": "Lo que reparamos en Dr. Phillips",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Dr. Phillips: lo que encontramos",
+          "paragraphs": [
+            "Muchas casas de Dr. Phillips se construyeron en los años 80 y 90 alrededor de Bay Hill y los lagos de la zona, y bastantes conservan sus puertas corredizas originales. Después de más de 30 años, los rodamientos están aplanados, el riel de abajo gastado y los seguros ya no alinean.",
+            "Normalmente vale la pena repararlas: cambiamos rodamientos, arreglamos el riel y ajustamos o cambiamos la cerradura y la manija. También trabajamos en condominios y townhomes cerca de Sand Lake Road, donde aplican reglas de acceso del HOA."
+          ],
+          "areas_h2": "Zonas que cubrimos en Dr. Phillips",
+          "areas": [
+            "Bay Hill",
+            "Zona de Sand Lake Road",
+            "Phillips Landing",
+            "Zona de los lagos Cane y Marsha",
+            "Zona de Bay Lake",
+            "Zona del lago Turkey",
+            "Zona de Vineland Road"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Mi casa en Dr. Phillips tiene la puerta original de los 80. ¿Todavía hay piezas?",
+            "a": "En la mayoría de los casos, sí. Tenemos y podemos pedir rodamientos y cerraduras para casi todos los modelos viejos. Si una pieza ya no se fabrica, te damos las opciones antes de hacer nada."
+          },
+          {
+            "q": "¿Trabajan en condominios y townhomes de Dr. Phillips?",
+            "a": "Sí. Cuéntanos las reglas del HOA o del edificio al reservar y planificamos la visita con eso."
+          },
+          {
+            "q": "¿Cobran extra por ir a Dr. Phillips?",
+            "a": "No. Dr. Phillips está dentro de nuestra área de servicio normal, y el estimado en tu casa es gratis."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "apopka",
+      "name": "Apopka",
+      "area_label": {
+        "en": "Orange County",
+        "es": "Orange County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Apopka, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Orange County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Apopka, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Apopka, FL — Wekiva, Errol Estate, Rock Springs Road and SR-429 neighborhoods. Rollers, tracks, locks and glass. Free estimate. (407) 561-9844.",
+        "crumb": "Apopka",
+        "h1": "Sliding glass door repair in Apopka",
+        "lead": "Apopka mixes older homes near downtown with a lot of newer subdivisions to the north and west. In the older homes it&#x27;s mostly worn rollers and tired aluminum tracks; in newer builds it&#x27;s builder-grade hardware that gave out sooner than it should have. Either way, we bring common parts on the van so most fixes happen the same visit.",
+        "see_h2": "What we see in Apopka",
+        "see": [
+          "Builder-grade rollers and latches in newer homes that wore out early",
+          "Older aluminum tracks that are bent, worn or corroded",
+          "Larger lots with pool cages, where sand and chlorine wear rollers faster"
+        ],
+        "fix_h2": "What we fix in Apopka",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement-apopka\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement-apopka\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Apopka: what we run into",
+          "paragraphs": [
+            "Apopka has established neighborhoods like Errol Estate and the Wekiva area alongside newer subdivisions near SR-429 and Rock Springs Road. In the older homes we mostly see original doors with worn rollers and tracks; in the newer ones, builder hardware that&#x27;s already loose.",
+            "Homes near the springs and wooded areas deal with more humidity and leaves and dirt in the track, which grind the rollers. We clean and repair the track, replace the rollers and, when needed, replace fogged or broken glass in the existing frame."
+          ],
+          "areas_h2": "Neighborhoods we cover in Apopka",
+          "areas": [
+            "Errol Estate",
+            "Wekiva area",
+            "Rock Springs Road",
+            "SR-429 subdivisions",
+            "Downtown Apopka",
+            "Kelly Park Road area",
+            "Plymouth area",
+            "Zellwood area"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Do you cover north Apopka, Zellwood and Plymouth?",
+            "a": "Yes. All of Apopka, including Zellwood and Plymouth, is in our regular service area with no extra travel charge."
+          },
+          {
+            "q": "Dirt keeps getting in my Apopka sliding door track. What can I do?",
+            "a": "Vacuum the track every couple of weeks and don&#x27;t lubricate it with oil, which traps dirt. If the rollers are already damaged, we replace them and repair the track."
+          },
+          {
+            "q": "Do you charge extra to come to Apopka?",
+            "a": "No. Apopka is in our regular service area, and the on-site estimate is free."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Apopka, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Apopka, FL — Wekiva, Errol Estate, Rock Springs Road y la 429. Rodamientos, rieles, cerraduras y vidrio. Estimado gratis. (407) 561-9844.",
+        "crumb": "Apopka",
+        "h1": "Reparación de puertas corredizas en Apopka",
+        "lead": "Apopka mezcla casas más viejas cerca del centro con muchas urbanizaciones nuevas hacia el norte y el oeste. En las casas viejas casi siempre son rodamientos gastados y rieles de aluminio cansados; en las nuevas, herrajes de constructor que fallaron antes de tiempo. En cualquier caso, llevamos las piezas comunes en la camioneta y casi siempre lo arreglamos en la misma visita.",
+        "see_h2": "Lo que vemos en Apopka",
+        "see": [
+          "Rodamientos y seguros de constructor en casas nuevas que se gastaron temprano",
+          "Rieles de aluminio viejos que están doblados, gastados o corroídos",
+          "Terrenos grandes con jaulas de piscina, donde la arena y el cloro gastan más los rodamientos"
+        ],
+        "fix_h2": "Lo que reparamos en Apopka",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos-apopka\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto-apopka\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Apopka: lo que encontramos",
+          "paragraphs": [
+            "Apopka tiene barrios establecidos como Errol Estate y la zona de Wekiva junto a urbanizaciones nuevas cerca de la 429 y Rock Springs Road. En las casas viejas vemos sobre todo puertas originales con rodamientos y rieles gastados; en las nuevas, ferretería de constructor que ya está floja.",
+            "Las casas cerca de los manantiales y zonas de árboles tienen más humedad, hojas y tierra en el riel, que desgastan los rodamientos. Limpiamos y reparamos el riel, cambiamos rodamientos y, si hace falta, el vidrio empañado o roto en el marco actual."
+          ],
+          "areas_h2": "Zonas que cubrimos en Apopka",
+          "areas": [
+            "Errol Estate",
+            "Zona de Wekiva",
+            "Rock Springs Road",
+            "Urbanizaciones de la 429",
+            "Downtown Apopka",
+            "Zona de Kelly Park Road",
+            "Zona de Plymouth",
+            "Zona de Zellwood"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "¿Cubren el norte de Apopka, Zellwood y Plymouth?",
+            "a": "Sí. Todo Apopka, incluidos Zellwood y Plymouth, está en nuestra área de servicio normal, sin cargo extra por traslado."
+          },
+          {
+            "q": "Le entra tierra al riel de mi puerta corrediza en Apopka. ¿Qué hago?",
+            "a": "Aspira el riel cada dos semanas y no le pongas aceite, porque atrapa la tierra. Si los rodamientos ya están dañados, los cambiamos y reparamos el riel."
+          },
+          {
+            "q": "¿Cobran extra por ir a Apopka?",
+            "a": "No. Apopka está dentro de nuestra área de servicio normal, y el estimado en tu casa es gratis."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ocoee",
+      "name": "Ocoee",
+      "area_label": {
+        "en": "Orange County",
+        "es": "Orange County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Ocoee, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Orange County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Ocoee, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Ocoee, FL — Lake Starke, West Oaks, SR-50 and SR-429 neighborhoods. Rollers, tracks, locks and glass. Free on-site estimate. (407) 561-9844.",
+        "crumb": "Ocoee",
+        "h1": "Sliding glass door repair in Ocoee",
+        "lead": "Ocoee has established neighborhoods from the 1980s and 1990s alongside newer subdivisions that went up near the 429. Older doors here usually need rollers and a track fix; newer ones tend to have locks and handles that stopped catching. We give the exact price at your door before any work starts.",
+        "see_h2": "What we see in Ocoee",
+        "see": [
+          "Older doors that drag and need new rollers and a track cleanup",
+          "Newer doors with latches and handles that no longer catch",
+          "Doors onto patios and pool cages that collect sand in the track"
+        ],
+        "fix_h2": "What we fix in Ocoee",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Ocoee: what we run into",
+          "paragraphs": [
+            "Most Ocoee homes we visit were built in the 1990s and 2000s in the neighborhoods around Lake Starke, West Oaks and along SR-50 and SR-429. At 20 to 30 years old, the original rollers are usually worn flat and the doors feel heavy and noisy.",
+            "This is one of the easiest repairs we do: new rollers, a track cleanup or repair and a lock adjustment, usually in a single visit. We also replace fogged double-pane glass, which is common in west-facing doors that get the afternoon sun."
+          ],
+          "areas_h2": "Neighborhoods we cover in Ocoee",
+          "areas": [
+            "Lake Starke area",
+            "West Oaks area",
+            "SR-50 corridor",
+            "SR-429 subdivisions",
+            "Downtown Ocoee",
+            "Lake Apopka south shore",
+            "Prairie Lake area"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "How long does a roller replacement take in Ocoee?",
+            "a": "Usually one visit of about one to two hours, depending on the number of panels. We carry common rollers in the van."
+          },
+          {
+            "q": "Why is my west-facing slider in Ocoee fogging up?",
+            "a": "Afternoon sun heats the glass every day, and over the years the double-pane seal fails. We replace the glass unit in the same frame."
+          },
+          {
+            "q": "Do you charge extra to come to Ocoee?",
+            "a": "No. Ocoee is in our regular service area, and the on-site estimate is free."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Ocoee, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Ocoee, FL — lago Starke, West Oaks, SR-50 y la 429. Rodamientos, rieles, cerraduras y vidrio. Estimado gratis en tu casa. (407) 561-9844.",
+        "crumb": "Ocoee",
+        "h1": "Reparación de puertas corredizas en Ocoee",
+        "lead": "Ocoee tiene vecindarios establecidos de los 80 y 90 junto a urbanizaciones nuevas que se construyeron cerca de la 429. Las puertas más viejas aquí suelen necesitar rodamientos y arreglo del riel; las nuevas, cerraduras y manijas que dejaron de enganchar. Te damos el precio exacto en tu puerta antes de empezar cualquier trabajo.",
+        "see_h2": "Lo que vemos en Ocoee",
+        "see": [
+          "Puertas viejas que arrastran y necesitan rodamientos nuevos y limpieza del riel",
+          "Puertas más nuevas con seguros y manijas que ya no enganchan",
+          "Puertas a patios y jaulas de piscina que acumulan arena en el riel"
+        ],
+        "fix_h2": "Lo que reparamos en Ocoee",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Ocoee: lo que encontramos",
+          "paragraphs": [
+            "La mayoría de las casas que visitamos en Ocoee se construyeron en los 90 y 2000 alrededor del lago Starke, West Oaks y a lo largo de la SR-50 y la 429. Con 20 a 30 años, los rodamientos originales suelen estar aplanados y la puerta se siente pesada y ruidosa.",
+            "Es una de las reparaciones más sencillas que hacemos: rodamientos nuevos, limpieza o arreglo del riel y ajuste del seguro, casi siempre en una sola visita. También cambiamos vidrio doble empañado, muy común en puertas que miran al oeste y reciben el sol de la tarde."
+          ],
+          "areas_h2": "Zonas que cubrimos en Ocoee",
+          "areas": [
+            "Zona del lago Starke",
+            "Zona de West Oaks",
+            "Corredor de la SR-50",
+            "Urbanizaciones de la 429",
+            "Downtown Ocoee",
+            "Orilla sur del lago Apopka",
+            "Zona de Prairie Lake"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "¿Cuánto tarda un cambio de rodamientos en Ocoee?",
+            "a": "Normalmente una visita de una a dos horas, según la cantidad de paneles. Llevamos los rodamientos más comunes en la camioneta."
+          },
+          {
+            "q": "¿Por qué se empaña mi puerta que mira al oeste en Ocoee?",
+            "a": "El sol de la tarde calienta el vidrio todos los días, y con los años falla el sello del vidrio doble. Cambiamos la unidad de vidrio en el mismo marco."
+          },
+          {
+            "q": "¿Cobran extra por ir a Ocoee?",
+            "a": "No. Ocoee está dentro de nuestra área de servicio normal, y el estimado en tu casa es gratis."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "clermont",
+      "name": "Clermont",
+      "area_label": {
+        "en": "Lake County",
+        "es": "Lake County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Clermont, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Lake County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Clermont, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Clermont, FL: rollers, tracks, locks, broken and foggy glass. Free on-site estimate, English and Spanish. Call (407) 561-9844.",
+        "crumb": "Clermont",
+        "h1": "Sliding glass door repair in Clermont",
+        "lead": "Clermont has grown fast, especially south toward US-27, so a lot of the doors we see are in newer homes with impact glass and big multi-panel sliders. Hilly lots and soil movement can throw a door out of alignment, and the afternoon sun is hard on double-pane seals. We cover Clermont as part of our regular route.",
+        "see_h2": "What we see in Clermont",
+        "see": [
+          "Doors knocked out of alignment that rub the frame or won&#x27;t lock",
+          "Foggy double-pane glass from seals worn out by the sun",
+          "Large impact sliders that need rollers rated for their weight"
+        ],
+        "fix_h2": "What we fix in Clermont",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement-clermont\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement-clermont\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": null,
+        "faqs": [
+          {
+            "q": "I live in Clermont and need my sliding glass door repaired. Who should I call?",
+            "a": "Call Handy Glass &amp; Door at <a href=\"tel:+14075619844\">(407) 561-9844</a>. We repair sliding glass doors in Clermont every week: rollers, tracks, locks and broken or foggy glass. The on-site estimate is free, there is no travel charge to Clermont, and same-day appointments are available when the schedule allows. You can also <a href=\"https://book.hgdslidingdoor-repair.com\" rel=\"noopener\">book online</a>.",
+            "a_schema": "Call Handy Glass & Door at (407) 561-9844. We repair sliding glass doors in Clermont every week: rollers, tracks, locks and broken or foggy glass. The on-site estimate is free, there is no travel charge to Clermont, and same-day appointments are available when the schedule allows. You can also book online at book.hgdslidingdoor-repair.com."
+          },
+          {
+            "q": "Do you charge extra to come to Clermont?",
+            "a": "No. Clermont is in our regular service area, and the on-site estimate is free."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Clermont, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas de vidrio en Clermont, FL: rodamientos, rieles, cerraduras, vidrio roto y empañado. Estimado gratis en tu casa. Llama al (407) 561-9844.",
+        "crumb": "Clermont",
+        "h1": "Reparación de puertas corredizas en Clermont",
+        "lead": "Clermont ha crecido rápido, sobre todo hacia el sur por la US-27, así que muchas de las puertas que vemos están en casas nuevas con vidrio de impacto y puertas grandes de varios paneles. Los terrenos con desnivel y el movimiento del suelo pueden desalinear una puerta, y el sol de la tarde castiga los sellos del vidrio doble. Clermont es parte de nuestra ruta normal.",
+        "see_h2": "Lo que vemos en Clermont",
+        "see": [
+          "Puertas desalineadas que rozan el marco o no cierran con seguro",
+          "Vidrio doble empañado porque el sol gastó los sellos",
+          "Puertas de impacto grandes que necesitan rodamientos para su peso"
+        ],
+        "fix_h2": "Lo que reparamos en Clermont",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos-clermont\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto-clermont\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": null,
+        "faqs": [
+          {
+            "q": "¿Cobran extra por ir a Clermont?",
+            "a": "No. Clermont está dentro de nuestra área de servicio normal, y el estimado en tu casa es gratis."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "maitland",
+      "name": "Maitland",
+      "area_label": {
+        "en": "Orange County",
+        "es": "Orange County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Maitland, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Orange County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Maitland, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Maitland, FL: rollers, tracks, locks, broken and foggy glass. Free on-site estimate, English and Spanish. Call (407) 561-9844.",
+        "crumb": "Maitland",
+        "h1": "Sliding glass door repair in Maitland",
+        "lead": "Maitland has older homes around Lake Maitland and Lake Lily, plus condos and townhomes closer to Maitland Center. Original aluminum doors here often need rollers and new locks, and condo doors need work that fits the building&#x27;s rules. We handle both, in English or Spanish.",
+        "see_h2": "What we see in Maitland",
+        "see": [
+          "Original aluminum doors with worn rollers and locks that won&#x27;t latch",
+          "Condos and townhomes where we work around HOA rules and building access",
+          "Lakefront homes with wide doors, where a worn roller makes the panel heavy"
+        ],
+        "fix_h2": "What we fix in Maitland",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": null,
+        "faqs": [
+          {
+            "q": "Do you charge extra to come to Maitland?",
+            "a": "No. Maitland is in our regular service area, and the on-site estimate is free."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Maitland, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas de vidrio en Maitland, FL: rodamientos, rieles, cerraduras, vidrio roto y empañado. Estimado gratis en tu casa. Llama al (407) 561-9844.",
+        "crumb": "Maitland",
+        "h1": "Reparación de puertas corredizas en Maitland",
+        "lead": "Maitland tiene casas viejas alrededor de Lake Maitland y Lake Lily, además de condominios y townhomes cerca de Maitland Center. Las puertas de aluminio originales aquí suelen necesitar rodamientos y cerraduras nuevas, y las de condominios necesitan un trabajo que cumpla las reglas del edificio. Hacemos las dos cosas, en inglés o en español.",
+        "see_h2": "Lo que vemos en Maitland",
+        "see": [
+          "Puertas de aluminio originales con rodamientos gastados y seguros que no cierran",
+          "Condominios y townhomes donde trabajamos respetando la HOA y el acceso al edificio",
+          "Casas frente al lago con puertas anchas, donde un rodamiento gastado pone pesado el panel"
+        ],
+        "fix_h2": "Lo que reparamos en Maitland",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": null,
+        "faqs": [
+          {
+            "q": "¿Cobran extra por ir a Maitland?",
+            "a": "No. Maitland está dentro de nuestra área de servicio normal, y el estimado en tu casa es gratis."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "poinciana",
+      "name": "Poinciana",
+      "area_label": {
+        "en": "Osceola County",
+        "es": "Osceola County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Poinciana, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Osceola County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Poinciana, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Poinciana, FL — all villages, Cypress Parkway and Poinciana Parkway areas. Service in Spanish and English, free on-site estimate. (407) 561-9844.",
+        "crumb": "Poinciana",
+        "h1": "Sliding glass door repair in Poinciana",
+        "lead": "Poinciana is one of the biggest communities in Osceola County, with homes from the 1970s and 80s next to newer subdivisions off Cypress Parkway and Poinciana Parkway. Many families here speak Spanish at home, and we can handle the whole job in Spanish, from the first call to the invoice. Older doors usually need rollers and a track fix; newer ones often have latches that stopped catching. We give you the exact price at your door before any work starts.",
+        "see_h2": "What we see in Poinciana",
+        "see": [
+          "Older doors that drag and need new rollers and a track cleanup",
+          "Doors onto lanais and pool cages with sand in the track and rusted rollers",
+          "Many customers here prefer Spanish — we speak it"
+        ],
+        "fix_h2": "What we fix in Poinciana",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Poinciana: what we run into",
+          "paragraphs": [
+            "Poinciana is made up of numbered villages spread across Osceola and Polk counties, and we cover all of them. Many homes date from the 1970s and 80s and still have their original doors, while the newer sections off Cypress Parkway and Poinciana Parkway have builder-grade sliders that are starting to wear.",
+            "The most common job here is a door that&#x27;s hard to push: worn rollers and a track full of sand. We also replace cracked and fogged glass in the existing frame. Many families in Poinciana speak Spanish at home, and we handle the whole job in Spanish, from the first call to the invoice."
+          ],
+          "areas_h2": "Neighborhoods we cover in Poinciana",
+          "areas": [
+            "Villages 1 through 10",
+            "Cypress Parkway area",
+            "Poinciana Parkway area",
+            "Marigold Avenue area",
+            "Solivita area",
+            "Osceola and Polk sides"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Do you cover the Polk County side of Poinciana?",
+            "a": "Yes. We cover every Poinciana village, on both the Osceola and Polk sides, with no extra travel charge."
+          },
+          {
+            "q": "Can I get the whole service in Spanish in Poinciana?",
+            "a": "Yes. The phone line, the technician&#x27;s explanation, the estimate and the invoice can all be in Spanish."
+          },
+          {
+            "q": "Do you charge extra to come to Poinciana?",
+            "a": "No. Poinciana is in our regular service area, and the on-site estimate is free."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Poinciana, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Poinciana, FL — todas las villas, Cypress Parkway y Poinciana Parkway. Atención en español, estimado gratis en tu casa. (407) 561-9844.",
+        "crumb": "Poinciana",
+        "h1": "Reparación de puertas corredizas en Poinciana",
+        "lead": "Poinciana es una de las comunidades más grandes del condado de Osceola, con casas de los 70 y 80 junto a urbanizaciones nuevas cerca de Cypress Parkway y Poinciana Parkway. Muchas familias aquí hablan español en casa, y podemos hacer todo el trabajo en español, desde la primera llamada hasta la factura. Las puertas más viejas suelen necesitar rodamientos y arreglo del riel; las nuevas, seguros que dejaron de enganchar. Te damos el precio exacto en tu puerta antes de empezar cualquier trabajo.",
+        "see_h2": "Lo que vemos en Poinciana",
+        "see": [
+          "Puertas viejas que arrastran y necesitan rodamientos nuevos y limpieza del riel",
+          "Puertas a lanais y jaulas de piscina con arena en el riel y rodamientos oxidados",
+          "Muchos clientes aquí prefieren español — lo hablamos"
+        ],
+        "fix_h2": "Lo que reparamos en Poinciana",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Poinciana: lo que encontramos",
+          "paragraphs": [
+            "Poinciana está formada por villas numeradas repartidas entre los condados de Osceola y Polk, y las cubrimos todas. Muchas casas son de los años 70 y 80 y conservan la puerta original, mientras que las zonas nuevas cerca de Cypress Parkway y Poinciana Parkway tienen puertas de constructor que ya empiezan a gastarse.",
+            "El trabajo más común aquí es una puerta pesada de empujar: rodamientos gastados y riel lleno de arena. También cambiamos vidrio roto y empañado en el marco actual. Muchas familias en Poinciana hablan español en casa, y hacemos todo el trabajo en español, desde la llamada hasta la factura."
+          ],
+          "areas_h2": "Zonas que cubrimos en Poinciana",
+          "areas": [
+            "Villas 1 a 10",
+            "Zona de Cypress Parkway",
+            "Zona de Poinciana Parkway",
+            "Zona de Marigold Avenue",
+            "Zona de Solivita",
+            "Lado de Osceola y lado de Polk"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "¿Cubren el lado de Polk de Poinciana?",
+            "a": "Sí. Cubrimos todas las villas de Poinciana, del lado de Osceola y del lado de Polk, sin cargo extra por traslado."
+          },
+          {
+            "q": "¿Puedo recibir todo el servicio en español en Poinciana?",
+            "a": "Sí. La línea telefónica, la explicación del técnico, el estimado y la factura pueden ser en español."
+          },
+          {
+            "q": "¿Cobran extra por ir a Poinciana?",
+            "a": "No. Poinciana está dentro de nuestra área de servicio normal, y el estimado en tu casa es gratis."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "buenaventura-lakes",
+      "name": "Buenaventura Lakes",
+      "area_label": {
+        "en": "Osceola County",
+        "es": "Osceola County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Buenaventura Lakes, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Osceola County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Buenaventura Lakes, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Buenaventura Lakes (BVL), Kissimmee, FL — rollers, tracks, locks, broken and foggy glass. Service in Spanish, free estimate. (407) 561-9844.",
+        "crumb": "Buenaventura Lakes",
+        "h1": "Sliding glass door repair in Buenaventura Lakes",
+        "lead": "Buenaventura Lakes, or BVL, is one of the largest communities in Osceola County, with many homes from the 1970s and 80s that still have their original sliding doors. Many families here speak Spanish at home, and we do the whole job in Spanish. Most doors can be repaired instead of replaced, and we give you the exact price at your door before starting.",
+        "see_h2": "What we see in Buenaventura Lakes",
+        "see": [
+          "Original 1970s–80s doors that drag and need new rollers and a track repair",
+          "Locks and handles that no longer catch or have broken",
+          "Many customers here prefer Spanish — we speak it"
+        ],
+        "fix_h2": "What we fix in Buenaventura Lakes",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Buenaventura Lakes: what we run into",
+          "paragraphs": [
+            "BVL sits between Kissimmee and Orlando, around Buenaventura Boulevard, Osceola Parkway and Boggy Creek Road. Many of its homes were built when the community was developed in the 1970s and 80s, and the original aluminum sliders are now 40 years old or more: flattened rollers, worn tracks and locks that don&#x27;t close.",
+            "The good news is that most of these doors can be saved. We replace the rollers, repair or cap the track and change the lock and handle, usually in the same visit. If the glass is cracked or fogged, we replace it in your existing frame. Call or WhatsApp us in Spanish or English."
+          ],
+          "areas_h2": "Neighborhoods we cover in Buenaventura Lakes",
+          "areas": [
+            "Buenaventura Boulevard",
+            "Osceola Parkway area",
+            "Boggy Creek Road area",
+            "Ventura Country Club area",
+            "Simpson Road area",
+            "Lake Fish area"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "My BVL home still has the original 1970s sliding door. Can it be repaired?",
+            "a": "In most cases, yes. New rollers, a track repair and a new lock usually bring these doors back. We check the frame first and tell you honestly if it&#x27;s not worth it."
+          },
+          {
+            "q": "Can I get the whole service in Spanish in BVL?",
+            "a": "Yes. The phone line, the technician, the estimate and the invoice can all be in Spanish."
+          },
+          {
+            "q": "Do you charge extra to come to Buenaventura Lakes?",
+            "a": "No. Buenaventura Lakes is in our regular service area, and the on-site estimate is free."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Buenaventura Lakes, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Buenaventura Lakes (BVL), Kissimmee — rodamientos, rieles, cerraduras, vidrio roto y empañado. Todo en español, estimado gratis. (407) 561-9844.",
+        "crumb": "Buenaventura Lakes",
+        "h1": "Reparación de puertas corredizas en Buenaventura Lakes",
+        "lead": "Buenaventura Lakes, o BVL, es una de las comunidades más grandes del condado de Osceola, con muchas casas de los años 70 y 80 que todavía tienen su puerta corrediza original. Aquí muchas familias hablan español en casa, y hacemos todo el trabajo en español. La mayoría de las puertas se pueden reparar sin cambiarlas, y te damos el precio exacto en tu puerta antes de empezar.",
+        "see_h2": "Lo que vemos en Buenaventura Lakes",
+        "see": [
+          "Puertas originales de los 70 y 80 que arrastran y necesitan rodamientos y arreglo del riel",
+          "Cerraduras y manijas que ya no enganchan o están rotas",
+          "Muchos clientes aquí prefieren el español — lo hablamos"
+        ],
+        "fix_h2": "Lo que reparamos en Buenaventura Lakes",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Buenaventura Lakes: lo que encontramos",
+          "paragraphs": [
+            "BVL está entre Kissimmee y Orlando, alrededor de Buenaventura Boulevard, Osceola Parkway y Boggy Creek Road. Muchas de sus casas se construyeron cuando se desarrolló la comunidad en los 70 y 80, y las puertas de aluminio originales ya tienen 40 años o más: rodamientos aplanados, rieles gastados y seguros que no cierran.",
+            "Lo bueno es que la mayoría de estas puertas se pueden salvar. Cambiamos los rodamientos, reparamos o tapamos el riel y cambiamos la cerradura y la manija, casi siempre en la misma visita. Si el vidrio está rajado o empañado, lo cambiamos en tu marco actual. Llámanos o escríbenos por WhatsApp en español o inglés."
+          ],
+          "areas_h2": "Zonas que cubrimos en Buenaventura Lakes",
+          "areas": [
+            "Buenaventura Boulevard",
+            "Zona de Osceola Parkway",
+            "Zona de Boggy Creek Road",
+            "Zona del Ventura Country Club",
+            "Zona de Simpson Road",
+            "Zona del lago Fish"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Mi casa en BVL todavía tiene la puerta corrediza original de los 70. ¿Se puede reparar?",
+            "a": "En la mayoría de los casos, sí. Rodamientos nuevos, arreglo del riel y una cerradura nueva normalmente la dejan funcionando. Primero revisamos el marco y te decimos con honestidad si no vale la pena."
+          },
+          {
+            "q": "¿Puedo recibir todo el servicio en español en BVL?",
+            "a": "Sí. La línea telefónica, el técnico, el estimado y la factura pueden ser en español."
+          },
+          {
+            "q": "¿Cobran extra por ir a Buenaventura Lakes?",
+            "a": "No. Buenaventura Lakes está dentro de nuestra área de servicio normal, y el estimado en tu casa es gratis."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "lake-buena-vista",
+      "name": "Lake Buena Vista",
+      "area_label": {
+        "en": "Orange County",
+        "es": "Orange County"
+      },
+      "area_served": {
+        "@type": "City",
+        "name": "Lake Buena Vista, FL",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Orange County, FL"
+        }
+      },
+      "en": {
+        "title": "Sliding Glass Door Repair in Lake Buena Vista, FL | Handy Glass &amp; Door",
+        "description": "Sliding glass door repair in Lake Buena Vista, FL — vacation homes, condos, resorts and offices near Disney Springs and I-4. Free on-site estimate. (407) 561-9844.",
+        "crumb": "Lake Buena Vista",
+        "h1": "Sliding glass door repair in Lake Buena Vista",
+        "lead": "Lake Buena Vista is mostly vacation homes, condos, resorts and offices, and their sliding doors get used far more than a typical home&#x27;s. We repair rollers, tracks, locks and glass on the existing door, and we work with owners and property managers to schedule around guests. The on-site estimate is free and we give you the exact price before any work starts.",
+        "see_h2": "What we see in Lake Buena Vista",
+        "see": [
+          "Vacation-rental doors with worn rollers and latches from heavy use",
+          "Condo and resort balcony doors where access needs to be planned",
+          "Offices and commercial spaces that need glass partitions or tempered glass"
+        ],
+        "fix_h2": "What we fix in Lake Buena Vista",
+        "fix": [
+          "<a href=\"sliding-door-repair\">Sliding door repair</a> — Doors that stick, drag, jump the track or are hard to push.",
+          "<a href=\"sliding-door-roller-replacement\">Roller replacement</a> — Worn rollers swapped so the door glides again.",
+          "<a href=\"sliding-door-track-repair\">Track repair</a> — Dented, worn or corroded tracks resurfaced or capped.",
+          "<a href=\"sliding-door-locks-handles\">Locks &amp; handles</a> — Latches that won&#x27;t catch, broken handles, extra security locks.",
+          "<a href=\"broken-glass-replacement\">Broken glass replacement</a> — Cracked or shattered panels replaced with safety glass cut to size.",
+          "<a href=\"foggy-glass-replacement\">Foggy glass replacement</a> — Double-pane glass fogged between the panes, replaced.",
+          "<a href=\"sliding-glass-door-replacement\">Sliding door panel &amp; glass replacement</a> — Damaged panels or glass replaced in your existing frame.",
+          "<a href=\"sliding-patio-glass-repair\">Patio door glass repair</a> — Loose glass, worn glazing and seals on patio doors.",
+          "<a href=\"office-glass-partitions\">Office glass partitions</a> — Tempered panels for office partitions and interior glass walls.",
+          "<a href=\"tempered-glass\">Tempered glass</a> — Tempered safety glass made to size for doors and partitions.",
+          "<a href=\"laminated-glass\">Laminated glass</a> — Laminated glass for impact doors, security and less noise."
+        ],
+        "local_area": {
+          "h2": "Sliding doors in Lake Buena Vista: what we run into",
+          "paragraphs": [
+            "Around Disney Springs, the hotel district and the I-4 / SR-535 area, most of our calls come from owners and managers of short-term rentals and condos. Guests open and close the doors constantly, so the most common problems are rollers that drag, latches that won&#x27;t lock and handles that break.",
+            "We can coordinate access with the property manager, send photos and the exact price to an owner who lives out of state, and plan the visit between check-out and check-in when possible. For offices and commercial spaces nearby, we also install glass partitions and replace tempered and laminated glass."
+          ],
+          "areas_h2": "Neighborhoods we cover in Lake Buena Vista",
+          "areas": [
+            "Disney Springs area",
+            "Hotel Plaza Boulevard",
+            "SR-535 corridor",
+            "Vineland Avenue area",
+            "I-4 &amp; Palm Parkway area",
+            "Orange Lake area"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Can you repair sliding doors in a Lake Buena Vista vacation rental between guests?",
+            "a": "Yes. Send us the check-out and check-in times and we schedule the visit in that window when possible. The owner gets photos and the price before we start."
+          },
+          {
+            "q": "Do you install glass partitions for offices in Lake Buena Vista?",
+            "a": "Yes. We install tempered glass partitions for offices and interiors, measured on site."
+          },
+          {
+            "q": "Do you charge extra to come to Lake Buena Vista?",
+            "a": "No. Lake Buena Vista is in our regular service area, and the on-site estimate is free."
+          },
+          {
+            "q": "Is the estimate really free?",
+            "a": "Yes. The technician comes out, checks the door and gives you the exact price. If you decide not to go ahead, you don&#x27;t pay anything."
+          },
+          {
+            "q": "Can you quote glass over the phone?",
+            "a": "No — glass depends on the exact size and whether it&#x27;s single or double pane, so we measure first. Rollers run $65–$89 each depending on the model."
+          },
+          {
+            "q": "Can I call to book at night or on weekends?",
+            "a": "Yes. Our phone lines take bookings 24/7 in English and Spanish at (407) 561-9844 and (407) 379-5085. Appointments are Monday to Saturday, 9 AM to 6 PM."
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación de Puertas Corredizas en Lake Buena Vista, FL | Handy Glass &amp; Door",
+        "description": "Reparación de puertas corredizas en Lake Buena Vista, FL — casas vacacionales, condominios, resorts y oficinas cerca de Disney Springs y la I-4. Estimado gratis. (407) 561-9844.",
+        "crumb": "Lake Buena Vista",
+        "h1": "Reparación de puertas corredizas en Lake Buena Vista",
+        "lead": "Lake Buena Vista es sobre todo casas vacacionales, condominios, resorts y oficinas, y sus puertas corredizas se usan mucho más que en una casa normal. Reparamos rodamientos, rieles, cerraduras y vidrio en la puerta existente, y coordinamos con dueños y administradores para trabajar entre huéspedes. El estimado en sitio es gratis y te damos el precio exacto antes de empezar.",
+        "see_h2": "Lo que vemos en Lake Buena Vista",
+        "see": [
+          "Puertas de casas vacacionales con rodamientos y seguros gastados por el uso",
+          "Puertas de balcón en condominios y resorts donde hay que planificar el acceso",
+          "Oficinas y locales que necesitan divisiones de vidrio o vidrio templado"
+        ],
+        "fix_h2": "Lo que reparamos en Lake Buena Vista",
+        "fix": [
+          "<a href=\"reparacion-puertas-corredizas\">Reparación de puertas corredizas</a> — Puertas que se traban, arrastran, se salen del riel o cuesta empujar.",
+          "<a href=\"cambio-de-rodamientos\">Cambio de rodamientos</a> — Rodamientos gastados cambiados para que la puerta vuelva a deslizar.",
+          "<a href=\"reparacion-de-rieles\">Reparación de rieles</a> — Rieles golpeados, gastados o corroídos alisados o cubiertos.",
+          "<a href=\"cerraduras-y-manijas\">Cerraduras y manijas</a> — Seguros que no enganchan, manijas rotas, seguros extra.",
+          "<a href=\"reemplazo-de-vidrio-roto\">Reemplazo de vidrio roto</a> — Paneles rajados o rotos con vidrio de seguridad a la medida.",
+          "<a href=\"vidrio-empanado\">Vidrio empañado</a> — Vidrio doble empañado entre los vidrios, reemplazado.",
+          "<a href=\"reemplazo-de-puerta-corrediza\">Reemplazo de paneles y vidrio</a> — Paneles o vidrio dañados reemplazados en tu marco actual.",
+          "<a href=\"reparacion-vidrio-puerta-patio\">Reparación de vidrio de patio</a> — Vidrio flojo, empaques y sellos de puertas de patio.",
+          "<a href=\"divisiones-de-vidrio-para-oficinas\">Divisiones de vidrio para oficinas</a> — Paneles templados para divisiones de oficina y paredes de vidrio.",
+          "<a href=\"vidrio-templado\">Vidrio templado</a> — Vidrio templado de seguridad a la medida para puertas y divisiones.",
+          "<a href=\"vidrio-laminado\">Vidrio laminado</a> — Vidrio laminado para puertas de impacto, seguridad y menos ruido."
+        ],
+        "local_area": {
+          "h2": "Puertas corredizas en Lake Buena Vista: lo que encontramos",
+          "paragraphs": [
+            "Alrededor de Disney Springs, la zona hotelera y el área de la I-4 y la SR-535, la mayoría de las llamadas vienen de dueños y administradores de alquileres vacacionales y condominios. Los huéspedes abren y cierran las puertas todo el tiempo, así que lo más común son rodamientos que arrastran, seguros que no traban y manijas rotas.",
+            "Podemos coordinar el acceso con el administrador, mandar fotos y el precio exacto al dueño que vive fuera del estado, y hacer la visita entre la salida y la entrada de huéspedes cuando sea posible. Para oficinas y locales de la zona también instalamos divisiones de vidrio y cambiamos vidrio templado y laminado."
+          ],
+          "areas_h2": "Zonas que cubrimos en Lake Buena Vista",
+          "areas": [
+            "Zona de Disney Springs",
+            "Hotel Plaza Boulevard",
+            "Corredor de la SR-535",
+            "Zona de Vineland Avenue",
+            "Zona de la I-4 y Palm Parkway",
+            "Zona de Orange Lake"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "¿Pueden reparar puertas corredizas de una casa vacacional en Lake Buena Vista entre huéspedes?",
+            "a": "Sí. Mándanos la hora de salida y entrada y hacemos la visita en ese espacio cuando sea posible. El dueño recibe fotos y el precio antes de empezar."
+          },
+          {
+            "q": "¿Instalan divisiones de vidrio para oficinas en Lake Buena Vista?",
+            "a": "Sí. Instalamos divisiones de vidrio templado para oficinas e interiores, medidas en sitio."
+          },
+          {
+            "q": "¿Cobran extra por ir a Lake Buena Vista?",
+            "a": "No. Lake Buena Vista está dentro de nuestra área de servicio normal, y el estimado en tu casa es gratis."
+          },
+          {
+            "q": "¿El estimado de verdad es gratis?",
+            "a": "Sí. El técnico va, revisa la puerta y te da el precio exacto. Si decides no hacerlo, no pagas nada."
+          },
+          {
+            "q": "¿Pueden cotizar el vidrio por teléfono?",
+            "a": "No: el vidrio depende de la medida exacta y de si es sencillo o doble, así que primero medimos. Los rodamientos cuestan $65–$89 cada uno según el modelo."
+          },
+          {
+            "q": "¿Puedo llamar para reservar de noche o el fin de semana?",
+            "a": "Sí. Nuestras líneas toman reservas 24/7 en español e inglés al (407) 561-9844 y al (407) 379-5085. Las citas son de lunes a sábado, de 9 AM a 6 PM."
+          }
+        ]
+      }
+    }
+  ]
+}
